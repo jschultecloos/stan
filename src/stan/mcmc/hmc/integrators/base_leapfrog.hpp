@@ -61,7 +61,8 @@ namespace stan {
                   << std::endl;
         
         update_q(z, hamiltonian, epsilon);
-        hamiltonian.update(z, error_stream);
+        //hamiltonian.update(z, error_stream);
+        hamiltonian.update(z);
         
         double H2 = hamiltonian.H(z);
         

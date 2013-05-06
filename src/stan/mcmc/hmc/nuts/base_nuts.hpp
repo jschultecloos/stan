@@ -178,8 +178,11 @@ namespace stan {
         if (depth == 0) 
         {
           
-          this->_integrator.evolve(this->_z, this->_hamiltonian, 
-                                   util.sign * this->_epsilon);
+          this->_integrator.verbose_evolve(this->_z, this->_hamiltonian, 
+                                           util.sign * this->_epsilon);
+          
+          //this->_integrator.evolve(this->_z, this->_hamiltonian, 
+          //util.sign * this->_epsilon);
           
           rho += this->_z.p;
           z_propose = static_cast<ps_point>(this->_z);
