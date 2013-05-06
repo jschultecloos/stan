@@ -116,6 +116,11 @@ namespace stan {
           z = static_cast<ps_point>(this->_z);
 
           // Metropolis-Hastings sample the fresh subtree
+          std::cout << "n_valid_subtree + n_valid: " << n_valid_subtree + n_valid << std::endl;
+          if (n_valid_subtree + n_valid == 0) {
+            std::cout << "********************************************************************************" << std::endl;
+            exit(-1);
+          }
           double subtree_prob = static_cast<double>(n_valid_subtree) /
                                 static_cast<double>(n_valid_subtree + n_valid);
           
