@@ -123,7 +123,7 @@ namespace stan {
           std::cout << "n_valid_subtree + n_valid: " << n_valid_subtree + n_valid << std::endl;
           if (n_valid_subtree + n_valid == 0) {
             std::cout << "********************************************************************************" << std::endl;
-            exit(-1);
+            // exit(-1);
           }
 
           
