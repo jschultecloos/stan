@@ -18,6 +18,10 @@ epsilon = -1
 epsilon_pm = 0
 delta = 0.5
 gamma = 0.05
+before warmup s:
+  cont: 1.99874
+  lp:   0
+  acc_s:0
 Iteration:   1 / 1000 [  0%]  (Warmup)
 transition's init_sample:
   cont: 1.9987371246756
@@ -14221,8 +14225,8 @@ transition's s:
   lp:   -0.00125888885877142
   acc_s:0.250490469361811
 
-Elapsed Time: 0.073312 seconds (Warm Up)
-              0.0419 seconds (Sampling)
-              0.115212 seconds (Total)
+Elapsed Time: 0.068027 seconds (Warm Up)
+              0.041464 seconds (Sampling)
+              0.109491 seconds (Total)
 
 
