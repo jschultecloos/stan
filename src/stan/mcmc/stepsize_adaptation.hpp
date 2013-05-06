@@ -34,7 +34,20 @@ namespace stan {
       }
       
       void learn_stepsize(double& epsilon, double adapt_stat) {
-        
+        std::cout.precision(15);
+
+        std::cout << "learn_stepsize: " << std::endl
+                  << "  epsilon:  " << epsilon << std::endl
+                  << "  adapt_stat:" << adapt_stat << std::endl
+                  << "  _counter: " << _counter << std::endl
+                  << "  _s_bar:   " << _s_bar << std::endl
+                  << "  _x_bar:   " << _x_bar << std::endl
+                  << "  _mu:      " << _mu << std::endl
+                  << "  _delta    " << _delta << std::endl
+                  << "  _gamma    " << _gamma << std::endl
+                  << "  _kappa    " << _kappa << std::endl
+                  << "  _t0:      " << _t0 << std::endl << std::endl;
+
         ++_counter;
         
         adapt_stat = adapt_stat > 1 ? 1 : adapt_stat;
