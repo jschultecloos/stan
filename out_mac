@@ -15999,8 +15999,8 @@ transition's s:
   lp:   -0.00125888885877142
   acc_s:0.250490469361811
 
-Elapsed Time: 0.081275 seconds (Warm Up)
-              0.045781 seconds (Sampling)
-              0.127056 seconds (Total)
+Elapsed Time: 0.081201 seconds (Warm Up)
+              0.0465 seconds (Sampling)
+              0.127701 seconds (Total)
 
 
