@@ -27,8 +27,8 @@ namespace stan {
       
       void verbose_evolve(P& z, H& hamiltonian, const double epsilon, std::ostream* error_stream = 0) {
         
-        std::cout.precision(6);
-        int width = 14;
+        std::cout.precision(15);
+        int width = 20;
         int nColumn = 4;
         
         std::cout << "Verbose Hamiltonian Evolution, Step Size = " << epsilon << ":" << std::endl;
