@@ -533,6 +533,7 @@ namespace stan {
       }
       
       if (command.has_flag("test_grad")) {
+        std::cout.precision(15);
         std::cout << std::endl << "TEST GRADIENT MODE" << std::endl;
         return model.test_gradients(cont_params, disc_params);
       }
