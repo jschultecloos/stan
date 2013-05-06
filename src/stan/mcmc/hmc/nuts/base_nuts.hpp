@@ -189,6 +189,8 @@ namespace stan {
           
           util.criterion = util.log_u + (h - util.H0) < this->_max_delta;
 
+          std::cout << depth << "\t" << this->_z.q.at(0) << "\t" << util.H0 << "\t"
+                    << h << "\t" << stan::math::min(1, std::exp(util.H0 - h)) << std::endl;
           util.sum_prob += stan::math::min(1, std::exp(util.H0 - h));
           util.n_tree += 1;
           

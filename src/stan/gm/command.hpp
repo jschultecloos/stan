@@ -947,6 +947,7 @@ namespace stan {
         sampler.engage_adaptation();
         
         clock_t start = clock();
+        std::cout.precision(15);
         std::cout << "before warmup s:" << std::endl
                   << "  cont: " << s.cont_params(0) << std::endl
                   << "  lp:   " << s.log_prob() << std::endl
