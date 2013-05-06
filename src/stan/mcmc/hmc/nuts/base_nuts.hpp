@@ -116,11 +116,11 @@ namespace stan {
           z = static_cast<ps_point>(this->_z);
 
           // Metropolis-Hastings sample the fresh subtree
-          std::cout << "n_valid_subtree + n_valid: " << n_valid_subtree + n_valid << std::endl;
-          if (n_valid_subtree + n_valid == 0) {
-            std::cout << "********************************************************************************" << std::endl;
-            exit(-1);
-          }
+          // std::cout << "n_valid_subtree + n_valid: " << n_valid_subtree + n_valid << std::endl;
+          // if (n_valid_subtree + n_valid == 0) {
+          //   std::cout << "********************************************************************************" << std::endl;
+          //   exit(-1);
+          // }
           double subtree_prob = static_cast<double>(n_valid_subtree) /
                                 static_cast<double>(n_valid_subtree + n_valid);
           
@@ -143,6 +143,11 @@ namespace stan {
                           
         this->_z.copy_base(z_sample);
         
+        std::cout << "util.n_tree: " << util.n_tree << std::endl;
+          if (util.n_tree == 0) {
+            std::cout << "********************************************************************************" << std::endl;
+            exit(-1);
+          }
         double accept_prob = util.sum_prob / static_cast<double>(util.n_tree);
         
         return sample(this->_z.q, this->_z.r, - this->_hamiltonian.V(this->_z), accept_prob);
