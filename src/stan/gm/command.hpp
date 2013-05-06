@@ -947,7 +947,11 @@ namespace stan {
         sampler.engage_adaptation();
         
         clock_t start = clock();
-        
+        std::cout << "before warmup s:" << std::endl
+                  << "  cont: " << s.cont_params(0) << std::endl
+                  << "  lp:   " << s.log_prob() << std::endl
+                  << "  acc_s:" << s.accept_stat() << std::endl;
+
         warmup<a_dm_nuts, Model, rng_t>(sampler, num_warmup, num_iterations - num_warmup, num_thin, 
                                         refresh, save_warmup, 
                                         sample_stream, diagnostic_stream,
