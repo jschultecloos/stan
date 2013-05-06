@@ -1,0 +1,6228 @@
+STAN SAMPLING COMMAND
+data = src/test/models/command1.data.R
+init = random initialization
+init tries = 1
+samples = samples.csv
+append_samples = 0
+save_warmup = 0
+seed = 1000 (user specified)
+chain_id = 1 (default)
+iter = 1000
+warmup = 500
+thin = 1
+equal_step_sizes = 0
+nondiag_mass = 0
+leapfrog_steps = -1
+max_treedepth = 10
+epsilon = -1
+epsilon_pm = 0
+delta = 0.5
+gamma = 0.05
+Iteration:   1 / 1000 [  0%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.2
+  adapt_stat:1.36676048908102e-105
+  _counter: 0
+  _s_bar:   0
+  _x_bar:   0
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  12.8924902889323
+  adapt_stat:0
+  _counter: 1
+  _s_bar:   0.0454545454545455
+  _x_bar:   2.55664499370882
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.03045659274825
+  adapt_stat:0.0769230769230765
+  _counter: 2
+  _s_bar:   0.0833333333333333
+  _x_bar:   1.69569965692356
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.721568477452354
+  adapt_stat:0.967990510009945
+  _counter: 3
+  _s_bar:   0.109467455621302
+  _x_bar:   0.808653641346488
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:   5 / 1000 [  0%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.08948490727294
+  adapt_stat:0.140141107147133
+  _counter: 4
+  _s_bar:   0.0682204580762128
+  _x_bar:   0.783291113541672
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.634655116340217
+  adapt_stat:0.994257712051374
+  _counter: 5
+  _s_bar:   0.0876630203946564
+  _x_bar:   0.413053322926185
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.59322843321491
+  adapt_stat:0.000220179169289561
+  _counter: 6
+  _s_bar:   0.0512929746167795
+  _x_bar:   0.553871879975848
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.524969481496436
+  adapt_stat:0.996442503401484
+  _counter: 7
+  _s_bar:   0.0776745538058342
+  _x_bar:   0.275428223574706
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.40145654399203
+  adapt_stat:1
+  _counter: 8
+  _s_bar:   0.045779161738761
+  _x_bar:   0.401698747742936
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  10 / 1000 [  1%]  (Warmup)
+learn_stepsize: 
+  epsilon:  11.5017516459238
+  adapt_stat:0
+  _counter: 9
+  _s_bar:   0.0170539426998789
+  _x_bar:   0.794451004998896
+  _mu:      3.46573590279973
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.590754924616506
+  adapt_stat:0.879297761314613
+  _counter: 0
+  _s_bar:   0
+  _x_bar:   0
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  11.7736426521387
+  adapt_stat:0
+  _counter: 1
+  _s_bar:   -0.0344816146649648
+  _x_bar:   2.46586335955423
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.44479238938706
+  adapt_stat:0
+  _counter: 2
+  _s_bar:   0.0100585198904489
+  _x_bar:   1.88664207821792
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.13003636575858
+  adapt_stat:1
+  _counter: 3
+  _s_bar:   0.0477463260527221
+  _x_bar:   1.11261847581621
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  15 / 1000 [  1%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.18441758567409
+  adapt_stat:6.84256812951965e-257
+  _counter: 4
+  _s_bar:   0.00862158847752766
+  _x_bar:   1.22531328366501
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.928350924390579
+  adapt_stat:1
+  _counter: 5
+  _s_bar:   0.0413801492456925
+  _x_bar:   0.836624658084116
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.08228731098078
+  adapt_stat:2.69001192978975e-194
+  _counter: 6
+  _s_bar:   0.00754388991783671
+  _x_bar:   0.985316246034589
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.855732981687932
+  adapt_stat:1
+  _counter: 7
+  _s_bar:   0.0365118963932581
+  _x_bar:   0.720157977557384
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.04265043990863
+  adapt_stat:6.37267912186128e-202
+  _counter: 8
+  _s_bar:   0.00670567992696597
+  _x_bar:   0.862425573389519
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  20 / 1000 [  2%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.832034588394286
+  adapt_stat:0.979854146554139
+  _counter: 9
+  _s_bar:   0.0326685388781783
+  _x_bar:   0.661063728180162
+  _mu:      1.77623106625494
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.946046014408951
+  adapt_stat:0.99236656456848
+  _counter: 0
+  _s_bar:   0
+  _x_bar:   0
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  23.1578301435034
+  adapt_stat:0
+  _counter: 1
+  _s_bar:   -0.0447605967789528
+  _x_bar:   3.14233295848417
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  9.29176796436501
+  adapt_stat:0.333333333333101
+  _counter: 2
+  _s_bar:   0.000636119619293295
+  _x_bar:   2.59933854272046
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.94567857081048
+  adapt_stat:0
+  _counter: 3
+  _s_bar:   0.0134077001614168
+  _x_bar:   2.24107078690538
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  25 / 1000 [  2%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.37788443203112
+  adapt_stat:0.300102511133054
+  _counter: 4
+  _s_bar:   0.0481642930070299
+  _x_bar:   1.56206390443044
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.698211907899866
+  adapt_stat:1
+  _counter: 5
+  _s_bar:   0.058279839397691
+  _x_bar:   0.987462218410271
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.008313346934
+  adapt_stat:0
+  _counter: 6
+  _s_bar:   0.0233873494353353
+  _x_bar:   1.0171772672889
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.6225390723215
+  adapt_stat:1
+  _counter: 7
+  _s_bar:   0.051423387703845
+  _x_bar:   0.670687145688867
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.91867997069384
+  adapt_stat:2.79318320541346e-289
+  _counter: 8
+  _s_bar:   0.0207887550536314
+  _x_bar:   0.754870190529509
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  30 / 1000 [  3%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.598395753623499
+  adapt_stat:1
+  _counter: 9
+  _s_bar:   0.0460103995244929
+  _x_bar:   0.510771666099911
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.89737264108517
+  adapt_stat:1.26569065204804e-129
+  _counter: 10
+  _s_bar:   0.0187098795482682
+  _x_bar:   0.609116327897513
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.597979738661646
+  adapt_stat:0.876588381630901
+  _counter: 11
+  _s_bar:   0.0416284567126364
+  _x_bar:   0.42314031102292
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.9739930449288
+  adapt_stat:1.2990456347293e-24
+  _counter: 12
+  _s_bar:   0.0226186004242938
+  _x_bar:   0.462988517428493
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.414515379777329
+  adapt_stat:0.966463598528977
+  _counter: 13
+  _s_bar:   0.0433743134493245
+  _x_bar:   0.266732320144864
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  35 / 1000 [  3%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.80576370543064
+  adapt_stat:0.150515907965251
+  _counter: 14
+  _s_bar:   0.0221310671168953
+  _x_bar:   0.311533111218809
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.617911326952086
+  adapt_stat:0.888937940905369
+  _counter: 15
+  _s_bar:   0.0352251881136095
+  _x_bar:   0.207499479611834
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.08386281476139
+  adapt_stat:0.666666666670153
+  _counter: 16
+  _s_bar:   0.0189112216128795
+  _x_bar:   0.273339956394698
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.50589162834608
+  adapt_stat:7.52593670979861e-219
+  _counter: 17
+  _s_bar:   0.0120379664912857
+  _x_bar:   0.3905267744828
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.776403767636999
+  adapt_stat:1
+  _counter: 18
+  _s_bar:   0.0294651819737398
+  _x_bar:   0.316877586062119
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  40 / 1000 [  4%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.56103414305665
+  adapt_stat:1.28415541332058e-59
+  _counter: 19
+  _s_bar:   0.0112077619056798
+  _x_bar:   0.421616174402179
+  _mu:      2.24712102290511
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.61691272962555
+  adapt_stat:0.310396208939329
+  _counter: 0
+  _s_bar:   0
+  _x_bar:   0
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  11.4543496048852
+  adapt_stat:0
+  _counter: 1
+  _s_bar:   0.0172367082782428
+  _x_bar:   2.43836953602073
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.18257933063471
+  adapt_stat:1.53784769349597e-21
+  _counter: 2
+  _s_bar:   0.0574669825883892
+  _x_bar:   1.67687410417737
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.679209370545294
+  adapt_stat:0.996961937379352
+  _counter: 3
+  _s_bar:   0.0915079839277439
+  _x_bar:   0.771546811806675
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  45 / 1000 [  4%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.23474466296746
+  adapt_stat:1.14657785839257e-06
+  _counter: 4
+  _s_bar:   0.0494744181200942
+  _x_bar:   0.783065639599724
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.461781293734446
+  adapt_stat:0.982801701946008
+  _counter: 5
+  _s_bar:   0.079509380473564
+  _x_bar:   0.317793988349494
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.83983243379613
+  adapt_stat:0.413643215609968
+  _counter: 6
+  _s_bar:   0.0443649378223408
+  _x_bar:   0.393930269393292
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.35638895848527
+  adapt_stat:0.917592172362701
+  _counter: 7
+  _s_bar:   0.0468350464439696
+  _x_bar:   0.373225279264802
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.91979726519461
+  adapt_stat:0.00425364454584255
+  _counter: 8
+  _s_bar:   0.0210335342880435
+  _x_bar:   0.629707524606557
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  50 / 1000 [  5%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.02224227648924
+  adapt_stat:1
+  _counter: 9
+  _s_bar:   0.0460184196125758
+  _x_bar:   0.512753873070105
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.94959198556554
+  adapt_stat:0.00497584256283061
+  _counter: 10
+  _s_bar:   0.018717498631947
+  _x_bar:   0.7059730487348
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.03771386855808
+  adapt_stat:0.996475015620472
+  _counter: 11
+  _s_bar:   0.0413987680988624
+  _x_bar:   0.595221179484054
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.99669174674342
+  adapt_stat:8.18281118947501e-09
+  _counter: 12
+  _s_bar:   0.0169499597479835
+  _x_bar:   0.752424359611403
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.04742662484321
+  adapt_stat:0.992097485447837
+  _counter: 13
+  _s_bar:   0.0379521350553403
+  _x_bar:   0.649290483729219
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  55 / 1000 [  5%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.93200715997402
+  adapt_stat:1.19956766731928e-271
+  _counter: 14
+  _s_bar:   0.0158667342010412
+  _x_bar:   0.780059301367265
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.05552649999557
+  adapt_stat:0.99106068504646
+  _counter: 15
+  _s_bar:   0.0352320648329996
+  _x_bar:   0.684806028879906
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.87393111655679
+  adapt_stat:7.79160389420106e-43
+  _counter: 16
+  _s_bar:   0.0149900359914819
+  _x_bar:   0.797192878053297
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.06790561651698
+  adapt_stat:1
+  _counter: 17
+  _s_bar:   0.0329533679917974
+  _x_bar:   0.709820573782124
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.96299955830174
+  adapt_stat:1
+  _counter: 18
+  _s_bar:   0.0139193191349475
+  _x_bar:   0.811915190441226
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  60 / 1000 [  6%]  (Warmup)
+learn_stepsize: 
+  epsilon:  22.5234632382086
+  adapt_stat:2.43203958516951e-152
+  _counter: 19
+  _s_bar:   -0.00380203669729211
+  _x_bar:   1.06493894391919
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.05875665912747
+  adapt_stat:2.78776122557289e-57
+  _counter: 20
+  _s_bar:   0.012991364525951
+  _x_bar:   1.12374800808127
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.16484056786355
+  adapt_stat:0.884938034226509
+  _counter: 21
+  _s_bar:   0.0287013205089848
+  _x_bar:   1.02474964659472
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.6813113117853
+  adapt_stat:2.08905932549471e-84
+  _counter: 22
+  _s_bar:   0.0157750906735006
+  _x_bar:   1.05216781276572
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.871603377002892
+  adapt_stat:1
+  _counter: 23
+  _s_bar:   0.0304485727743036
+  _x_bar:   0.93890145854864
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  65 / 1000 [  6%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.77494800116784
+  adapt_stat:1.62699698737787e-27
+  _counter: 24
+  _s_bar:   0.0148471441632947
+  _x_bar:   0.974821139630247
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.915979099763685
+  adapt_stat:0.816147796624263
+  _counter: 25
+  _s_bar:   0.0287086543300577
+  _x_bar:   0.879780838374421
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.29857498265593
+  adapt_stat:1
+  _counter: 26
+  _s_bar:   0.0191293084702155
+  _x_bar:   0.875656201739174
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  9.51835702643347
+  adapt_stat:0
+  _counter: 27
+  _s_bar:   0.00509878661966911
+  _x_bar:   0.991958851164288
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.37547705830637
+  adapt_stat:0.0388718955533774
+  _counter: 28
+  _s_bar:   0.0181225027612568
+  _x_bar:   0.981544897277524
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  70 / 1000 [  7%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.675593287870905
+  adapt_stat:0.987532160671558
+  _counter: 29
+  _s_bar:   0.0294816207531892
+  _x_bar:   0.871619961160119
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.63650588221538
+  adapt_stat:0.0543568297632826
+  _counter: 30
+  _s_bar:   0.0165562762175705
+  _x_bar:   0.879252188712951
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.797783726700212
+  adapt_stat:0.997496162909983
+  _counter: 31
+  _s_bar:   0.0270218102180375
+  _x_bar:   0.795130537652294
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.12317455346001
+  adapt_stat:1
+  _counter: 32
+  _s_bar:   0.0145332870483228
+  _x_bar:   0.820677637280912
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  12.0387700998096
+  adapt_stat:4.81416013245004e-155
+  _counter: 33
+  _s_bar:   0.00256739665185015
+  _x_bar:   0.941784450205219
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  75 / 1000 [  7%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.20683588817334
+  adapt_stat:1.30272350659881e-07
+  _counter: 34
+  _s_bar:   0.0138726830915808
+  _x_bar:   0.957657812006477
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.872369722147393
+  adapt_stat:0.997414006210078
+  _counter: 35
+  _s_bar:   0.0246755094612712
+  _x_bar:   0.881617203540262
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.26746748623065
+  adapt_stat:2.59673111795388e-07
+  _counter: 36
+  _s_bar:   0.0133257373814593
+  _x_bar:   0.902192782131759
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.906872080896767
+  adapt_stat:0.979889899410469
+  _counter: 37
+  _s_bar:   0.0236805034015748
+  _x_bar:   0.835538886139335
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.18037363128459
+  adapt_stat:2.97187159083804e-09
+  _counter: 38
+  _s_bar:   0.0131894533429906
+  _x_bar:   0.856542255498851
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  80 / 1000 [  8%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.900209075808338
+  adapt_stat:0.969817428242883
+  _counter: 39
+  _s_bar:   0.0231243623977893
+  _x_bar:   0.794921384186756
+  _mu:      2.78310370158558
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.01962474421569
+  adapt_stat:0.849093074300354
+  _counter: 0
+  _s_bar:   0
+  _x_bar:   0
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  56.9647320471875
+  adapt_stat:0
+  _counter: 1
+  _s_bar:   -0.0317357340273049
+  _x_bar:   4.04243234032417
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  21.1581806952974
+  adapt_stat:0
+  _counter: 2
+  _s_bar:   0.0125755771416372
+  _x_bar:   3.45353357851014
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.32946135060546
+  adapt_stat:5.11033052858239e-69
+  _counter: 3
+  _s_bar:   0.0500697635153574
+  _x_bar:   2.67253867001378
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  85 / 1000 [  8%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.12683425609595
+  adapt_stat:1
+  _counter: 4
+  _s_bar:   0.0822076375499747
+  _x_bar:   1.76987213499962
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.33658923791799
+  adapt_stat:1.2146217203031e-15
+  _counter: 5
+  _s_bar:   0.0433937950466431
+  _x_bar:   1.67931860218931
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.890296498841004
+  adapt_stat:0.981157820955335
+  _counter: 6
+  _s_bar:   0.0719316828562278
+  _x_bar:   1.21096199964054
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.75475878838587
+  adapt_stat:1
+  _counter: 7
+  _s_bar:   0.03939700616143
+  _x_bar:   1.23700164215273
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  17.7120941330441
+  adapt_stat:0
+  _counter: 8
+  _s_bar:   0.00943050581912833
+  _x_bar:   1.58119022540966
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  90 / 1000 [  9%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.64268295940759
+  adapt_stat:0.280640861057047
+  _counter: 9
+  _s_bar:   0.0352499528812795
+  _x_bar:   1.52567419834937
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.81504547644285
+  adapt_stat:0.660464873614121
+  _counter: 10
+  _s_bar:   0.0444554121843632
+  _x_bar:   1.36037180398232
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.02272557204243
+  adapt_stat:1
+  _counter: 11
+  _s_bar:   0.0346973033368163
+  _x_bar:   1.31828431421352
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  14.6975054216585
+  adapt_stat:7.60368663712657e-127
+  _counter: 12
+  _s_bar:   0.0103928804578701
+  _x_bar:   1.53067834978827
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.07476908946482
+  adapt_stat:0.893406817250843
+  _counter: 13
+  _s_bar:   0.0316801465249192
+  _x_bar:   1.47116488209495
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration:  95 / 1000 [  9%]  (Warmup)
+learn_stepsize: 
+  epsilon:  10.6167618236521
+  adapt_stat:0
+  _counter: 14
+  _s_bar:   0.0139681897009291
+  _x_bar:   1.59430876951708
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.27011809052636
+  adapt_stat:0.00878892811641691
+  _counter: 15
+  _s_bar:   0.033409462112892
+  _x_bar:   1.49269793128223
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.50983932750458
+  adapt_stat:0.976749829955037
+  _counter: 16
+  _s_bar:   0.0510172163348416
+  _x_bar:   1.22190323399579
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.25378533259199
+  adapt_stat:0.469256133352098
+  _counter: 17
+  _s_bar:   0.0314702886944757
+  _x_bar:   1.17301586895047
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.09504808630922
+  adapt_stat:0.673402202939169
+  _counter: 18
+  _s_bar:   0.0314443450499552
+  _x_bar:   1.12341674902406
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 100 / 1000 [ 10%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.60477746795282
+  adapt_stat:0.0769232278098765
+  _counter: 19
+  _s_bar:   0.0243806709813648
+  _x_bar:   1.14087109884807
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.03910736408297
+  adapt_stat:1
+  _counter: 20
+  _s_bar:   0.0376705410216567
+  _x_bar:   1.0242949592853
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.68693448746366
+  adapt_stat:2.94479619664608e-37
+  _counter: 21
+  _s_bar:   0.0203263300209581
+  _x_bar:   1.07735196424845
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.09940684011857
+  adapt_stat:1
+  _counter: 22
+  _s_bar:   0.0353161322078032
+  _x_bar:   0.980624138717748
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.83675555151297
+  adapt_stat:2.27248102177926e-106
+  _counter: 23
+  _s_bar:   0.0190944312318091
+  _x_bar:   1.03733593553376
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 105 / 1000 [ 10%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.16299925181646
+  adapt_stat:1
+  _counter: 24
+  _s_bar:   0.0332387126661677
+  _x_bar:   0.955595144992254
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.98974882191782
+  adapt_stat:2.31151226514048e-68
+  _counter: 25
+  _s_bar:   0.0180033208757058
+  _x_bar:   1.01389305308573
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.22916768789542
+  adapt_stat:0.982585966091212
+  _counter: 26
+  _s_bar:   0.0313921175180473
+  _x_bar:   0.943756805941996
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.89874625879779
+  adapt_stat:2.77624743900694e-148
+  _counter: 27
+  _s_bar:   0.0175008179610403
+  _x_bar:   0.998230481648327
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.23595541862689
+  adapt_stat:1
+  _counter: 28
+  _s_bar:   0.0301981648568024
+  _x_bar:   0.93362529940994
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 110 / 1000 [ 11%]  (Warmup)
+learn_stepsize: 
+  epsilon:  5.05047956533639
+  adapt_stat:0.142857142857106
+  _counter: 29
+  _s_bar:   0.0166033401168843
+  _x_bar:   0.98850802216148
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.92766032637941
+  adapt_stat:1
+  _counter: 30
+  _s_bar:   0.0251168280425346
+  _x_bar:   0.962592496547903
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  7.66783444417602
+  adapt_stat:0
+  _counter: 31
+  _s_bar:   0.012309100529302
+  _x_bar:   1.04437522590347
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.01655249064966
+  adapt_stat:1
+  _counter: 32
+  _s_bar:   0.0239207886119377
+  _x_bar:   1.01888264931224
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  7.84037600449998
+  adapt_stat:7.99638659691881e-92
+  _counter: 33
+  _s_bar:   0.0117365842256136
+  _x_bar:   1.09444694143767
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 115 / 1000 [ 11%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.10622908654076
+  adapt_stat:0.650075447457171
+  _counter: 34
+  _s_bar:   0.0228334800386678
+  _x_bar:   1.06962147996796
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.19205594156491
+  adapt_stat:0.0341422522787921
+  _counter: 35
+  _s_bar:   0.0189910594276491
+  _x_bar:   1.07594849673168
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.963725613301
+  adapt_stat:0.990911238249652
+  _counter: 36
+  _s_bar:   0.0287055526514222
+  _x_bar:   1.00022543655808
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.52724651154282
+  adapt_stat:0.666794305023003
+  _counter: 37
+  _s_bar:   0.0176498762492716
+  _x_bar:   1.01757584498339
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.50381082451768
+  adapt_stat:4.03295622835075e-81
+  _counter: 38
+  _s_bar:   0.0138072891394326
+  _x_bar:   1.0625191950843
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 120 / 1000 [ 12%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.55876353080549
+  adapt_stat:1
+  _counter: 39
+  _s_bar:   0.0237295893610768
+  _x_bar:   1.02287953499241
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.64673979535128
+  adapt_stat:1.50445597414137e-15
+  _counter: 40
+  _s_bar:   0.0132549975738553
+  _x_bar:   1.06740517831315
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.62908558005316
+  adapt_stat:0.548976711801967
+  _counter: 41
+  _s_bar:   0.0227990172292699
+  _x_bar:   1.03164659205618
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.88049479734773
+  adapt_stat:0.642167538903292
+  _counter: 42
+  _s_bar:   0.0214187147478999
+  _x_bar:   1.00739477744645
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.72774312927204
+  adapt_stat:1
+  _counter: 43
+  _s_bar:   0.0183321816601416
+  _x_bar:   1.00716132029385
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 125 / 1000 [ 12%]  (Warmup)
+learn_stepsize: 
+  epsilon:  9.47916507127243
+  adapt_stat:0
+  _counter: 44
+  _s_bar:   0.00873343755532414
+  _x_bar:   1.07985712208739
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.82253240558646
+  adapt_stat:1
+  _counter: 45
+  _s_bar:   0.0176655568725001
+  _x_bar:   1.07742695668333
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  9.63464905579248
+  adapt_stat:0
+  _counter: 46
+  _s_bar:   0.00842152907120542
+  _x_bar:   1.14468213641985
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.91691711544704
+  adapt_stat:0.748518254521142
+  _counter: 47
+  _s_bar:   0.0170457127717106
+  _x_bar:   1.14055103147893
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.36682338506068
+  adapt_stat:7.31408946906514e-24
+  _counter: 48
+  _s_bar:   0.0124670236804545
+  _x_bar:   1.17014543172193
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 130 / 1000 [ 13%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.65777515378994
+  adapt_stat:0.991275189133095
+  _counter: 49
+  _s_bar:   0.0207302944655316
+  _x_bar:   1.13425667926174
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.38070711447752
+  adapt_stat:3.29590223198055e-78
+  _counter: 50
+  _s_bar:   0.0121968697388878
+  _x_bar:   1.16343088917511
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.68790586323587
+  adapt_stat:1
+  _counter: 51
+  _s_bar:   0.0201936423661191
+  _x_bar:   1.12989860326123
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.50360802992605
+  adapt_stat:0.00190803753154249
+  _counter: 52
+  _s_bar:   0.0118034223279559
+  _x_bar:   1.15961846633614
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.75985182418042
+  adapt_stat:0.91378312512714
+  _counter: 53
+  _s_bar:   0.0195222880444718
+  _x_bar:   1.12935882660818
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 135 / 1000 [ 13%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.63473995489586
+  adapt_stat:0.0588236708752461
+  _counter: 54
+  _s_bar:   0.0127518909636654
+  _x_bar:   1.14965077916469
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.71374622437275
+  adapt_stat:1
+  _counter: 55
+  _s_bar:   0.0193430361661437
+  _x_bar:   1.11939926064434
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.42173736059001
+  adapt_stat:1.4162309331832e-41
+  _counter: 56
+  _s_bar:   0.0114742022848385
+  _x_bar:   1.14729308459338
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.77565496812206
+  adapt_stat:0.763744699839505
+  _counter: 57
+  _s_bar:   0.0187656321014827
+  _x_bar:   1.11966554235043
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.26162659004136
+  adapt_stat:0.102718812692353
+  _counter: 58
+  _s_bar:   0.0146110683964681
+  _x_bar:   1.12264220141515
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 140 / 1000 [ 14%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.36497852600354
+  adapt_stat:1
+  _counter: 59
+  _s_bar:   0.020157012148804
+  _x_bar:   1.08452233315362
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.20461861483397
+  adapt_stat:0.607551073861833
+  _counter: 60
+  _s_bar:   0.0127261976895354
+  _x_bar:   1.10083447869789
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.3894346397578
+  adapt_stat:8.33683877809273e-06
+  _counter: 61
+  _s_bar:   0.0110321516113471
+  _x_bar:   1.12757207608792
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.82377496170742
+  adapt_stat:0.482362564312201
+  _counter: 62
+  _s_bar:   0.0178232559384287
+  _x_bar:   1.10373573945686
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.78383863113446
+  adapt_stat:1
+  _counter: 63
+  _s_bar:   0.0178207104555434
+  _x_bar:   1.08025955279941
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 145 / 1000 [ 14%]  (Warmup)
+learn_stepsize: 
+  epsilon:  5.34422390539915
+  adapt_stat:0.333333333333333
+  _counter: 64
+  _s_bar:   0.0108231332872252
+  _x_bar:   1.10658853153685
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.77155101421107
+  adapt_stat:2.44816249229574e-12
+  _counter: 65
+  _s_bar:   0.0129010470656178
+  _x_bar:   1.11623806603555
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.31019294510126
+  adapt_stat:1
+  _counter: 66
+  _s_bar:   0.0193102438147222
+  _x_bar:   1.07970003952043
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.85967189578267
+  adapt_stat:0.640012615268024
+  _counter: 67
+  _s_bar:   0.0125659549340115
+  _x_bar:   1.09126713361731
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.24828530410438
+  adapt_stat:3.07006996906727e-102
+  _counter: 68
+  _s_bar:   0.0106098194186008
+  _x_bar:   1.11519594690014
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 150 / 1000 [ 15%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.85136377701805
+  adapt_stat:0.99186910463704
+  _counter: 69
+  _s_bar:   0.0168046318310236
+  _x_bar:   1.09434135897703
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.2579034922352
+  adapt_stat:3.04898686400027e-08
+  _counter: 70
+  _s_bar:   0.0104462101251728
+  _x_bar:   1.11770418477734
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.87528258408036
+  adapt_stat:0.999128737472206
+  _counter: 71
+  _s_bar:   0.0164900836978266
+  _x_bar:   1.09771403295439
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.34612758439474
+  adapt_stat:0.663741998046956
+  _counter: 72
+  _s_bar:   0.010202049293314
+  _x_bar:   1.12112519262451
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  7.55723993600008
+  adapt_stat:1.75634928063046e-110
+  _counter: 73
+  _s_bar:   0.00810633787957579
+  _x_bar:   1.15721762726954
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 155 / 1000 [ 15%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.73345778310912
+  adapt_stat:0.0489817488255777
+  _counter: 74
+  _s_bar:   0.0139622148095808
+  _x_bar:   1.15120700702063
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.10384445385636
+  adapt_stat:0.996109415090976
+  _counter: 75
+  _s_bar:   0.0191040505315202
+  _x_bar:   1.10991289061647
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.06900610016663
+  adapt_stat:0.273730320622503
+  _counter: 76
+  _s_bar:   0.0131131962800958
+  _x_bar:   1.11035736727464
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.96673482735897
+  adapt_stat:1
+  _counter: 77
+  _s_bar:   0.0155632707984567
+  _x_bar:   1.09366167924036
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.43872148722563
+  adapt_stat:0.350325506200832
+  _counter: 78
+  _s_bar:   0.00970459726665608
+  _x_bar:   1.11651741045149
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 160 / 1000 [ 16%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.06747434787802
+  adapt_stat:7.76088922254334e-15
+  _counter: 79
+  _s_bar:   0.0112772927333135
+  _x_bar:   1.12732955016914
+  _mu:      3.40771765977808
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.52041168672848
+  adapt_stat:0.398871866113406
+  _counter: 0
+  _s_bar:   0
+  _x_bar:   0
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  12.6505020656808
+  adapt_stat:0
+  _counter: 1
+  _s_bar:   0.00919346671696313
+  _x_bar:   2.53769690337256
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.68655949992722
+  adapt_stat:8.16653413347716e-25
+  _counter: 2
+  _s_bar:   0.0500940111572162
+  _x_bar:   1.80454877553044
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.808477201809106
+  adapt_stat:1
+  _counter: 3
+  _s_bar:   0.0847021641451227
+  _x_bar:   0.919641853276303
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 165 / 1000 [ 16%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.72933307300733
+  adapt_stat:0.0106196880968097
+  _counter: 4
+  _s_bar:   0.0429377238490425
+  _x_bar:   0.949487214938714
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.588780528420102
+  adapt_stat:0.98314794724569
+  _counter: 5
+  _s_bar:   0.0727005630526523
+  _x_bar:   0.50710652216924
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.36768361252006
+  adapt_stat:7.05665443126419e-25
+  _counter: 6
+  _s_bar:   0.037960031159006
+  _x_bar:   0.599656644913694
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.484199692685378
+  adapt_stat:0.989643704814119
+  _counter: 7
+  _s_bar:   0.065138852855535
+  _x_bar:   0.291788802792056
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.18206056461129
+  adapt_stat:0.231134348192265
+  _counter: 8
+  _s_bar:   0.0343175996516653
+  _x_bar:   0.394479249758402
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 170 / 1000 [ 17%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.924809229768041
+  adapt_stat:0.99020467962466
+  _counter: 9
+  _s_bar:   0.046662233975669
+  _x_bar:   0.303518282462428
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.34102147610911
+  adapt_stat:3.74546562499428e-84
+  _counter: 10
+  _s_bar:   0.0198188882956526
+  _x_bar:   0.510615173433564
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.896001227908569
+  adapt_stat:0.974889095513826
+  _counter: 11
+  _s_bar:   0.0426846555196691
+  _x_bar:   0.40789698681419
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.03183320234025
+  adapt_stat:4.3751169986985e-29
+  _counter: 12
+  _s_bar:   0.0191585759272375
+  _x_bar:   0.560876665074588
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.845740964867603
+  adapt_stat:0.982523875443974
+  _counter: 13
+  _s_bar:   0.0400647247999663
+  _x_bar:   0.454481071093241
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 175 / 1000 [ 17%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.86844653662695
+  adapt_stat:2.33104039178027e-63
+  _counter: 14
+  _s_bar:   0.0182901997898022
+  _x_bar:   0.578606326059206
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.828855228397057
+  adapt_stat:0.996362238762883
+  _counter: 15
+  _s_bar:   0.0375585917982101
+  _x_bar:   0.478066181518918
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.89507221138182
+  adapt_stat:5.71527005052104e-19
+  _counter: 16
+  _s_bar:   0.017023175238168
+  _x_bar:   0.588271936161351
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.854460040038307
+  adapt_stat:1
+  _counter: 17
+  _s_bar:   0.0349112057849025
+  _x_bar:   0.499219779953833
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.97600657562714
+  adapt_stat:9.60952779117182e-40
+  _counter: 18
+  _s_bar:   0.0158072341497274
+  _x_bar:   0.600040594139197
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 180 / 1000 [ 18%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.894020678668159
+  adapt_stat:1
+  _counter: 19
+  _s_bar:   0.0325035364204265
+  _x_bar:   0.521795766373688
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.06323871025769
+  adapt_stat:0.785355243421964
+  _counter: 20
+  _s_bar:   0.0147534185397456
+  _x_bar:   0.61486395674873
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  9.55117789810842
+  adapt_stat:0.2
+  _counter: 21
+  _s_bar:   0.00507249396033565
+  _x_bar:   0.782225595833107
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.97944051975757
+  adapt_stat:2.68427839127936e-50
+  _counter: 22
+  _s_bar:   0.0142889785240752
+  _x_bar:   0.841184396992125
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.941072707342211
+  adapt_stat:0.87719448680671
+  _counter: 23
+  _s_bar:   0.0290074943263759
+  _x_bar:   0.7553084003076
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 185 / 1000 [ 18%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.85764390530902
+  adapt_stat:0.333333363021471
+  _counter: 24
+  _s_bar:   0.0170603772342263
+  _x_bar:   0.782485656306092
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.80053178589365
+  adapt_stat:0.118616834658618
+  _counter: 25
+  _s_bar:   0.0213348417983493
+  _x_bar:   0.765097669859763
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.622438750426453
+  adapt_stat:0.999371837248122
+  _counter: 26
+  _s_bar:   0.0313361841189891
+  _x_bar:   0.657472438334551
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.60030969024334
+  adapt_stat:0.333333333337258
+  _counter: 27
+  _s_bar:   0.0169927240820401
+  _x_bar:   0.68264479087681
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.65927908238723
+  adapt_stat:0.0788172465761912
+  _counter: 28
+  _s_bar:   0.0209315120446902
+  _x_bar:   0.668164105688724
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 190 / 1000 [ 19%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.528258449194717
+  adapt_stat:0.947565785629613
+  _counter: 29
+  _s_bar:   0.0311943643877445
+  _x_bar:   0.563630569179166
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.85064365141953
+  adapt_stat:0.052814578381282
+  _counter: 30
+  _s_bar:   0.0192253606373106
+  _x_bar:   0.56767959854431
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.558996870271365
+  adapt_stat:1
+  _counter: 31
+  _s_bar:   0.0296634109051498
+  _x_bar:   0.480199606147177
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.20849210332681
+  adapt_stat:7.43828330048095e-15
+  _counter: 32
+  _s_bar:   0.01705237731217
+  _x_bar:   0.50339734821275
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.589791916018656
+  adapt_stat:0.932648172832903
+  _counter: 33
+  _s_bar:   0.0282837173746775
+  _x_bar:   0.428488271312457
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 195 / 1000 [ 19%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.9056349767104
+  adapt_stat:3.03074146571967e-06
+  _counter: 34
+  _s_bar:   0.0178079925972325
+  _x_bar:   0.443852173919715
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.52029646272173
+  adapt_stat:0.997525684023609
+  _counter: 35
+  _s_bar:   0.0285233031897059
+  _x_bar:   0.367602462803107
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.95633252695813
+  adapt_stat:0.0350098881003456
+  _counter: 36
+  _s_bar:   0.0170874556415903
+  _x_bar:   0.388250919542037
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.596564453635093
+  adapt_stat:0.986818620228052
+  _counter: 37
+  _s_bar:   0.0266172993917619
+  _x_bar:   0.327937996724945
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.13555876933742
+  adapt_stat:1.71169566289832e-12
+  _counter: 38
+  _s_bar:   0.0159207177330158
+  _x_bar:   0.356084746550006
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 200 / 1000 [ 20%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.606022245012511
+  adapt_stat:0.992616644813488
+  _counter: 39
+  _s_bar:   0.0257998867588377
+  _x_bar:   0.301175749305873
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.15892762731828
+  adapt_stat:0.507780612251514
+  _counter: 40
+  _s_bar:   0.0154315561273912
+  _x_bar:   0.330627096081886
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.23367731401277
+  adapt_stat:0.429960130638631
+  _counter: 41
+  _s_bar:   0.014976415570942
+  _x_bar:   0.35982109489945
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.90246452379802
+  adapt_stat:2.70061605403775e-12
+  _counter: 42
+  _s_bar:   0.0160353281438349
+  _x_bar:   0.376994411087253
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.560447121201432
+  adapt_stat:0.987836961179817
+  _counter: 43
+  _s_bar:   0.0251667370467304
+  _x_bar:   0.320061515650454
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 205 / 1000 [ 20%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.90245999785292
+  adapt_stat:1
+  _counter: 44
+  _s_bar:   0.0156666685610536
+  _x_bar:   0.338973147001021
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  6.53748128140259
+  adapt_stat:0.561667387329294
+  _counter: 45
+  _s_bar:   0.00629091095085264
+  _x_bar:   0.427527591706331
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  7.63572792126013
+  adapt_stat:0.25
+  _counter: 46
+  _s_bar:   0.00507736991013575
+  _x_bar:   0.518412279974051
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.20482517257854
+  adapt_stat:2.91242574675813e-123
+  _counter: 47
+  _s_bar:   0.00937425815732635
+  _x_bar:   0.569543285106569
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.28467859042492
+  adapt_stat:0.215270024592281
+  _counter: 48
+  _s_bar:   0.0178333226718552
+  _x_bar:   0.552048563975128
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 210 / 1000 [ 21%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.664704280913803
+  adapt_stat:0.986781444804304
+  _counter: 49
+  _s_bar:   0.0223569947521241
+  _x_bar:   0.500188512646581
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.13797801388343
+  adapt_stat:0.0256799697780526
+  _counter: 50
+  _s_bar:   0.0138713540928503
+  _x_bar:   0.513998638840637
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.713353735236174
+  adapt_stat:0.862977729950484
+  _counter: 51
+  _s_bar:   0.0214196930457863
+  _x_bar:   0.469366466956283
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.69307245026201
+  adapt_stat:1
+  _counter: 52
+  _s_bar:   0.0152197346103626
+  _x_bar:   0.472319237591698
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.45366279679519
+  adapt_stat:0
+  _counter: 53
+  _s_bar:   0.00704164358480126
+  _x_bar:   0.534630024911643
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 215 / 1000 [ 21%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.74130059675344
+  adapt_stat:0.0468142737193501
+  _counter: 54
+  _s_bar:   0.0147441179037887
+  _x_bar:   0.53563414151869
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.62761840358416
+  adapt_stat:1
+  _counter: 55
+  _s_bar:   0.0214893734172789
+  _x_bar:   0.486047999204084
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.98952860764535
+  adapt_stat:0.132344926359854
+  _counter: 56
+  _s_bar:   0.0135880192745929
+  _x_bar:   0.495908231680202
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.879735312455651
+  adapt_stat:1
+  _counter: 57
+  _s_bar:   0.0188726021755713
+  _x_bar:   0.465826143680662
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.74345237632523
+  adapt_stat:1
+  _counter: 58
+  _s_bar:   0.0112421227318129
+  _x_bar:   0.491680958161971
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 220 / 1000 [ 22%]  (Warmup)
+learn_stepsize: 
+  epsilon:  8.43810517705045
+  adapt_stat:0.00768787796560875
+  _counter: 59
+  _s_bar:   0.00383281660526487
+  _x_bar:   0.568769512707614
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.84829054450966
+  adapt_stat:0.0255087223437086
+  _counter: 60
+  _s_bar:   0.0108110923971095
+  _x_bar:   0.590939659423549
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.01277146852587
+  adapt_stat:0.99543502311647
+  _counter: 61
+  _s_bar:   0.0173417992317459
+  _x_bar:   0.5644474879185
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.04084350641127
+  adapt_stat:5.69925886537421e-28
+  _counter: 62
+  _s_bar:   0.010219898921354
+  _x_bar:   0.589235347585594
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.0347259524045
+  adapt_stat:0.881147781877727
+  _counter: 63
+  _s_bar:   0.0169292153744861
+  _x_bar:   0.56441174404473
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 225 / 1000 [ 22%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.3955163410521
+  adapt_stat:1.57909043997154e-15
+  _counter: 64
+  _s_bar:   0.0115497964926995
+  _x_bar:   0.578076010490296
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.826199614168504
+  adapt_stat:0.946454894759752
+  _counter: 65
+  _s_bar:   0.0180624658727968
+  _x_bar:   0.544483811704353
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.18115995372428
+  adapt_stat:1.04293314368379e-06
+  _counter: 66
+  _s_bar:   0.011950395338158
+  _x_bar:   0.554648608804489
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.761533527417672
+  adapt_stat:0.863544862220096
+  _counter: 67
+  _s_bar:   0.0182886883476216
+  _x_bar:   0.519331430139123
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.6697474081562
+  adapt_stat:1
+  _counter: 68
+  _s_bar:   0.0133933864172663
+  _x_bar:   0.519050219498976
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 230 / 1000 [ 23%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.83618735268135
+  adapt_stat:2.18807285114051e-96
+  _counter: 69
+  _s_bar:   0.00689473595628821
+  _x_bar:   0.563204171482657
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.709930259625
+  adapt_stat:1
+  _counter: 70
+  _s_bar:   0.0130585517568346
+  _x_bar:   0.56209875483955
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.89558658629376
+  adapt_stat:1.1280098801747e-90
+  _counter: 71
+  _s_bar:   0.00672449556230578
+  _x_bar:   0.604055636986295
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.74981133641283
+  adapt_stat:0.499317698169922
+  _counter: 72
+  _s_bar:   0.0127400504944728
+  _x_bar:   0.60225334334846
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.76715321842505
+  adapt_stat:1
+  _counter: 73
+  _s_bar:   0.0125947764141789
+  _x_bar:   0.600936648505872
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 235 / 1000 [ 23%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.97567772972504
+  adapt_stat:7.55284073781598e-123
+  _counter: 74
+  _s_bar:   0.00649245764734341
+  _x_bar:   0.640715080063106
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.80654448394418
+  adapt_stat:0.00018053924085376
+  _counter: 75
+  _s_bar:   0.0122984287338453
+  _x_bar:   0.63878069118421
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.662896959687594
+  adapt_stat:0.964766597741736
+  _counter: 76
+  _s_bar:   0.0179672779434418
+  _x_bar:   0.597991553094172
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.71962897104769
+  adapt_stat:0.0982149337436317
+  _counter: 77
+  _s_bar:   0.0124186127056811
+  _x_bar:   0.595841685719912
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.776047446655379
+  adapt_stat:0.993987375536606
+  _counter: 78
+  _s_bar:   0.0168432314960298
+  _x_bar:   0.563479878395665
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 240 / 1000 [ 24%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.11225041349528
+  adapt_stat:0.00175681417505752
+  _counter: 79
+  _s_bar:   0.0111035617540901
+  _x_bar:   0.57043402522928
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.79219653037031
+  adapt_stat:0.970241634350004
+  _counter: 80
+  _s_bar:   0.0165162242437662
+  _x_bar:   0.540400700155465
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.03697042065793
+  adapt_stat:0.545678540722847
+  _counter: 81
+  _s_bar:   0.0111672367866918
+  _x_bar:   0.546736363709236
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.25015268467084
+  adapt_stat:2.37763292860594e-11
+  _counter: 82
+  _s_bar:   0.0105493479007186
+  _x_bar:   0.556434177741733
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.85251513837699
+  adapt_stat:0.943015542913879
+  _counter: 83
+  _s_bar:   0.0158122581380896
+  _x_bar:   0.530396422684407
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 245 / 1000 [ 24%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.05004231797481
+  adapt_stat:1.88086728004714e-07
+  _counter: 84
+  _s_bar:   0.0109311113183878
+  _x_bar:   0.537152715219714
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.7840423184771
+  adapt_stat:1
+  _counter: 85
+  _s_bar:   0.0160792029035971
+  _x_bar:   0.509273656472668
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.08837317456101
+  adapt_stat:0.292389108921769
+  _counter: 86
+  _s_bar:   0.0107033778733513
+  _x_bar:   0.517315686862315
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.41367144119303
+  adapt_stat:0.915824727422475
+  _counter: 87
+  _s_bar:   0.0127333522362882
+  _x_bar:   0.511308442341095
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.16778603611491
+  adapt_stat:7.04975685448033e-55
+  _counter: 88
+  _s_bar:   0.00836031060711719
+  _x_bar:   0.533643475909898
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 250 / 1000 [ 25%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.23016971311175
+  adapt_stat:0.558324433574383
+  _counter: 89
+  _s_bar:   0.0133263680757322
+  _x_bar:   0.522375934610753
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.38959663158273
+  adapt_stat:0.346117237396575
+  _counter: 90
+  _s_bar:   0.012609860059231
+  _x_bar:   0.515758491799815
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.05011048240617
+  adapt_stat:0.644711881286462
+  _counter: 91
+  _s_bar:   0.0140086016685795
+  _x_bar:   0.499912898088545
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.39481111766535
+  adapt_stat:1
+  _counter: 92
+  _s_bar:   0.0124525185023536
+  _x_bar:   0.494285914852059
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.59450477431863
+  adapt_stat:4.90496486691004e-20
+  _counter: 93
+  _s_bar:   0.00747725133242782
+  _x_bar:   0.52050237205032
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 255 / 1000 [ 25%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.4238558252425
+  adapt_stat:0.0215468787049522
+  _counter: 94
+  _s_bar:   0.0122130469926929
+  _x_bar:   0.514966087232022
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.591682771563349
+  adapt_stat:0.996431268421156
+  _counter: 95
+  _s_bar:   0.0166534286527154
+  _x_bar:   0.480796751847733
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.50185210477474
+  adapt_stat:0.873349824718218
+  _counter: 96
+  _s_bar:   0.0118130069822071
+  _x_bar:   0.47838072853547
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.01537155004859
+  adapt_stat:1.08287043840424e-26
+  _counter: 97
+  _s_bar:   0.00821335434949289
+  _x_bar:   0.498612738270738
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.21390469956747
+  adapt_stat:0.50442319321457
+  _counter: 98
+  _s_bar:   0.0127669344018124
+  _x_bar:   0.488827904729654
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 260 / 1000 [ 26%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.23659518500132
+  adapt_stat:1
+  _counter: 99
+  _s_bar:   0.0126092268090015
+  _x_bar:   0.480019129626795
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.10104034988399
+  adapt_stat:0.233219487673423
+  _counter: 100
+  _s_bar:   0.00794914292891972
+  _x_bar:   0.500628278864702
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.92537247358727
+  adapt_stat:1
+  _counter: 101
+  _s_bar:   0.0102809570676373
+  _x_bar:   0.505477395295855
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.78362079429919
+  adapt_stat:0
+  _counter: 102
+  _s_bar:   0.00572487709381916
+  _x_bar:   0.538494664183825
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.95755157206969
+  adapt_stat:1
+  _counter: 103
+  _s_bar:   0.0100989932257323
+  _x_bar:   0.54261446057464
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 265 / 1000 [ 26%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.82784854150398
+  adapt_stat:2.3844300872874e-204
+  _counter: 104
+  _s_bar:   0.00562444065357671
+  _x_bar:   0.574296623622258
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.98949911405455
+  adapt_stat:1
+  _counter: 105
+  _s_bar:   0.00992335856093692
+  _x_bar:   0.577759475455747
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.8714469589111
+  adapt_stat:2.05981813318026e-13
+  _counter: 106
+  _s_bar:   0.00552746753885988
+  _x_bar:   0.608200515362531
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.02121576702073
+  adapt_stat:0.856670248682989
+  _counter: 107
+  _s_bar:   0.00975372850006444
+  _x_bar:   0.611071028473595
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.81795071732827
+  adapt_stat:1.30188489819189e-37
+  _counter: 108
+  _s_bar:   0.00664844055783517
+  _x_bar:   0.632820407136027
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 270 / 1000 [ 27%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.59625498809111
+  adapt_stat:1
+  _counter: 109
+  _s_bar:   0.0107942519817189
+  _x_bar:   0.627924474818199
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.85827705597071
+  adapt_stat:2.75647024125128e-15
+  _counter: 110
+  _s_bar:   0.00653763321520459
+  _x_bar:   0.649189742139504
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.62364088311429
+  adapt_stat:1
+  _counter: 111
+  _s_bar:   0.0106158345935913
+  _x_bar:   0.644378879924354
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.89812096207953
+  adapt_stat:4.354655395361e-28
+  _counter: 112
+  _s_bar:   0.00643045890020121
+  _x_bar:   0.66517918525466
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.6508781176001
+  adapt_stat:0.10249320925404
+  _counter: 113
+  _s_bar:   0.0104432193969475
+  _x_bar:   0.660450988783476
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 275 / 1000 [ 27%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.839405824479178
+  adapt_stat:0.971786057677472
+  _counter: 114
+  _s_bar:   0.0135646998110525
+  _x_bar:   0.636502724517388
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.90604681773422
+  adapt_stat:0.995122827823043
+  _counter: 115
+  _s_bar:   0.00968189375114429
+  _x_bar:   0.636745584854755
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.47731976137917
+  adapt_stat:0.417662095844893
+  _counter: 116
+  _s_bar:   0.00567550707198407
+  _x_bar:   0.661140781600598
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.90859836075043
+  adapt_stat:2.09592557144815e-86
+  _counter: 117
+  _s_bar:   0.00627914799389842
+  _x_bar:   0.680875060266998
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.68100031612845
+  adapt_stat:0.00019980867109955
+  _counter: 118
+  _s_bar:   0.0101363421501961
+  _x_bar:   0.676364573432036
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 280 / 1000 [ 28%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.727546129480479
+  adapt_stat:0.932300111572691
+  _counter: 119
+  _s_bar:   0.0139321859422791
+  _x_bar:   0.648763915635341
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.52380820756832
+  adapt_stat:1
+  _counter: 120
+  _s_bar:   0.0104996298075485
+  _x_bar:   0.642487764202736
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.55720563491291
+  adapt_stat:1.01415396331586e-29
+  _counter: 121
+  _s_bar:   0.00660268606855961
+  _x_bar:   0.659659864209284
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.5484668211146
+  adapt_stat:0.236297415191122
+  _counter: 122
+  _s_bar:   0.0103405445074342
+  _x_bar:   0.653601514939802
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.00539249316983
+  adapt_stat:0.999678823559409
+  _counter: 123
+  _s_bar:   0.0122455222540616
+  _x_bar:   0.636050754270378
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 285 / 1000 [ 28%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.32841327916983
+  adapt_stat:0.209258834858991
+  _counter: 124
+  _s_bar:   0.00842519131515506
+  _x_bar:   0.64167887138227
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.44776801401277
+  adapt_stat:0.275675721624847
+  _counter: 125
+  _s_bar:   0.0105164207509021
+  _x_bar:   0.634412184038619
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.00772602611313
+  adapt_stat:1
+  _counter: 126
+  _s_bar:   0.0120885373510804
+  _x_bar:   0.617747665525824
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.31502844576183
+  adapt_stat:4.12797151956207e-15
+  _counter: 127
+  _s_bar:   0.0083506648156711
+  _x_bar:   0.623607192713287
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.02622277785805
+  adapt_stat:0.948002281279633
+  _counter: 128
+  _s_bar:   0.0119133411575865
+  _x_bar:   0.607900237382016
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 290 / 1000 [ 29%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.153248927616
+  adapt_stat:0.132136126029466
+  _counter: 129
+  _s_bar:   0.00860459567242664
+  _x_bar:   0.612056153077127
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.19034966835038
+  adapt_stat:0.861660942174236
+  _counter: 130
+  _s_bar:   0.011170733374556
+  _x_bar:   0.600684405246574
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.15923217732984
+  adapt_stat:0.00437061440768973
+  _counter: 131
+  _s_bar:   0.00852653709406809
+  _x_bar:   0.605050655885122
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.974426531294027
+  adapt_stat:0.596331331405843
+  _counter: 132
+  _s_bar:   0.0119568388440557
+  _x_bar:   0.588848635148975
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.14839962293464
+  adapt_stat:1
+  _counter: 133
+  _s_bar:   0.0111995789122382
+  _x_bar:   0.577346297735533
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 295 / 1000 [ 29%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.58715807115008
+  adapt_stat:9.92940231443977e-37
+  _counter: 134
+  _s_bar:   0.00764958183645881
+  _x_bar:   0.586822383558861
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.16756044287093
+  adapt_stat:0.980450895242817
+  _counter: 135
+  _s_bar:   0.0110451019617246
+  _x_bar:   0.575917053522372
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.53603824965537
+  adapt_stat:0.343675719932665
+  _counter: 136
+  _s_bar:   0.00767869102196747
+  _x_bar:   0.584823202296621
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.98837196479093
+  adapt_stat:1
+  _counter: 137
+  _s_bar:   0.00868988550526929
+  _x_bar:   0.587382694153537
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.42574943227449
+  adapt_stat:0.172108590549305
+  _counter: 138
+  _s_bar:   0.00525279168428774
+  _x_bar:   0.609736973146484
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 300 / 1000 [ 30%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.64426171802446
+  adapt_stat:0.167004700181936
+  _counter: 139
+  _s_bar:   0.007418151535069
+  _x_bar:   0.618695415120956
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.57219659839961
+  adapt_stat:0.42797793531806
+  _counter: 140
+  _s_bar:   0.00958866585695564
+  _x_bar:   0.614611359906077
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.41367328105688
+  adapt_stat:0.605282034267712
+  _counter: 141
+  _s_bar:   0.0100021320743396
+  _x_bar:   0.608051412732228
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.67957734023273
+  adapt_stat:0.000237871865113453
+  _counter: 142
+  _s_bar:   0.00924368361156299
+  _x_bar:   0.605875449347944
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.774168512192574
+  adapt_stat:0.968778372952968
+  _counter: 143
+  _s_bar:   0.0124496865169442
+  _x_bar:   0.585034130180515
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 305 / 1000 [ 30%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.62191456326736
+  adapt_stat:0.69655480720118
+  _counter: 144
+  _s_bar:   0.00932482898791879
+  _x_bar:   0.582594179392939
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.21607224710027
+  adapt_stat:0.275842177680036
+  _counter: 145
+  _s_bar:   0.00799657327056976
+  _x_bar:   0.587695039641171
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.57499133282503
+  adapt_stat:0.303627326315683
+  _counter: 146
+  _s_bar:   0.00938222230293768
+  _x_bar:   0.584517883607667
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.17080407348609
+  adapt_stat:1
+  _counter: 147
+  _s_bar:   0.0105732442862586
+  _x_bar:   0.574407584276918
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.54781714773393
+  adapt_stat:2.80197653035719e-05
+  _counter: 148
+  _s_bar:   0.0073417680565987
+  _x_bar:   0.582911238938944
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 310 / 1000 [ 31%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.18865215697974
+  adapt_stat:0.596495449438699
+  _counter: 149
+  _s_bar:   0.0104400712778446
+  _x_bar:   0.573295320644346
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.3881784221214
+  adapt_stat:0.231521481288433
+  _counter: 150
+  _s_bar:   0.0097717242733662
+  _x_bar:   0.567572181896942
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.927850169476011
+  adapt_stat:0.893172371403928
+  _counter: 151
+  _s_bar:   0.0113785987729824
+  _x_bar:   0.552657586108303
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.70170116395504
+  adapt_stat:0.834491657550288
+  _counter: 152
+  _s_bar:   0.00888137056201377
+  _x_bar:   0.552171806765847
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.84503779956991
+  adapt_stat:6.42417779090589e-05
+  _counter: 153
+  _s_bar:   0.00677478756745978
+  _x_bar:   0.563513674395785
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 315 / 1000 [ 31%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.34147637590235
+  adapt_stat:1
+  _counter: 154
+  _s_bar:   0.00978186665681728
+  _x_bar:   0.557343329046893
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.87255552131201
+  adapt_stat:0.278356201597415
+  _counter: 155
+  _s_bar:   0.0066922795861699
+  _x_bar:   0.568676654317653
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.06756636677593
+  adapt_stat:2.76525207251794e-06
+  _counter: 156
+  _s_bar:   0.00798716825373867
+  _x_bar:   0.572249186157552
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.981846800871906
+  adapt_stat:1
+  _counter: 157
+  _s_bar:   0.0109333363165781
+  _x_bar:   0.558934036974904
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.09076806804939
+  adapt_stat:1.67161925898907e-06
+  _counter: 158
+  _s_bar:   0.00789206645755088
+  _x_bar:   0.562941619354221
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 320 / 1000 [ 32%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.996921537027182
+  adapt_stat:0.960702340141833
+  _counter: 159
+  _s_bar:   0.0108039378298774
+  _x_bar:   0.550300438633692
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.99376555368908
+  adapt_stat:1
+  _counter: 160
+  _s_bar:   0.00803037148886738
+  _x_bar:   0.553406306988267
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.21068741434866
+  adapt_stat:6.08602459570245e-126
+  _counter: 161
+  _s_bar:   0.00505943364390324
+  _x_bar:   0.572969544818925
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.01604393491685
+  adapt_stat:1
+  _counter: 162
+  _s_bar:   0.00793699507620613
+  _x_bar:   0.575792097036907
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.2402019382193
+  adapt_stat:1.48415282674487e-22
+  _counter: 163
+  _s_bar:   0.00500094308154598
+  _x_bar:   0.594837427187954
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 325 / 1000 [ 32%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.03820568156757
+  adapt_stat:3.86932774088582e-05
+  _counter: 164
+  _s_bar:   0.00784576524774399
+  _x_bar:   0.597395511565434
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.983649106011865
+  adapt_stat:0.987560364386583
+  _counter: 165
+  _s_bar:   0.0106578540561717
+  _x_bar:   0.58406116840417
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.02318239356735
+  adapt_stat:0.529197694045289
+  _counter: 166
+  _s_bar:   0.00782706872411058
+  _x_bar:   0.586669148162088
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.12265940111011
+  adapt_stat:0.308743803192072
+  _counter: 167
+  _s_bar:   0.00761788927343601
+  _x_bar:   0.59024247116645
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.61501247301356
+  adapt_stat:0.646753895157007
+  _counter: 168
+  _s_bar:   0.00864956515846125
+  _x_bar:   0.587865911252239
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 330 / 1000 [ 33%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.01054331810519
+  adapt_stat:0.02843194379231
+  _counter: 169
+  _s_bar:   0.00778138940250891
+  _x_bar:   0.590224220881818
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.02074728569988
+  adapt_stat:0.987136948001689
+  _counter: 170
+  _s_bar:   0.010357981995871
+  _x_bar:   0.578123776572447
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.07809622072478
+  adapt_stat:0.905458107890704
+  _counter: 171
+  _s_bar:   0.00760939122240384
+  _x_bar:   0.581366243658344
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.74698891653971
+  adapt_stat:0.158562268959759
+  _counter: 172
+  _s_bar:   0.00533978957892523
+  _x_bar:   0.596938176902193
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.30194099836138
+  adapt_stat:0.0607242845138227
+  _counter: 173
+  _s_bar:   0.00717639035193788
+  _x_bar:   0.601902656355705
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 335 / 1000 [ 33%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.23215289252133
+  adapt_stat:0.836786769906998
+  _counter: 174
+  _s_bar:   0.00952475624940658
+  _x_bar:   0.593696591153867
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.00736944470242
+  adapt_stat:0.00595691751713875
+  _counter: 175
+  _s_bar:   0.00765280205396655
+  _x_bar:   0.595839976869526
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.997213979086365
+  adapt_stat:1
+  _counter: 176
+  _s_bar:   0.0102678035616488
+  _x_bar:   0.583451329428279
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.04529603215663
+  adapt_stat:1
+  _counter: 177
+  _s_bar:   0.00753909872976831
+  _x_bar:   0.586173366051636
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.17973232098194
+  adapt_stat:0
+  _counter: 178
+  _s_bar:   0.00483942267269507
+  _x_bar:   0.603494066028149
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 340 / 1000 [ 34%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.0659460655549
+  adapt_stat:0.256668405861122
+  _counter: 179
+  _s_bar:   0.00745931990723108
+  _x_bar:   0.60598897816291
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.47242284371703
+  adapt_stat:0.700733335315527
+  _counter: 180
+  _s_bar:   0.0087007529295029
+  _x_bar:   0.601530898340645
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.96496548930211
+  adapt_stat:0.115522555162872
+  _counter: 181
+  _s_bar:   0.0076042393784818
+  _x_bar:   0.603029350013849
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.1505222357615
+  adapt_stat:0.743968042379579
+  _counter: 182
+  _s_bar:   0.00956712065691225
+  _x_bar:   0.593689231715495
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.62995043453835
+  adapt_stat:1
+  _counter: 183
+  _s_bar:   0.00825346696242266
+  _x_bar:   0.591576092503673
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 345 / 1000 [ 34%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.29764262748791
+  adapt_stat:1
+  _counter: 184
+  _s_bar:   0.0056336037306576
+  _x_bar:   0.603618612916008
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  6.64876185728706
+  adapt_stat:0
+  _counter: 185
+  _s_bar:   0.0030406108910132
+  _x_bar:   0.629351244989744
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.32212299428386
+  adapt_stat:0.65085455001934
+  _counter: 186
+  _s_bar:   0.00557611797830395
+  _x_bar:   0.640693349005339
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.11111478242086
+  adapt_stat:1.89814795059055e-23
+  _counter: 187
+  _s_bar:   0.00478205367374738
+  _x_bar:   0.655979522451548
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.0633576755905
+  adapt_stat:1.26591435569314e-06
+  _counter: 188
+  _s_bar:   0.00728315441276886
+  _x_bar:   0.657325855060542
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 350 / 1000 [ 35%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.03899514880101
+  adapt_stat:0.739941334254492
+  _counter: 189
+  _s_bar:   0.00975911209956723
+  _x_bar:   0.645180934546574
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.45550513349005
+  adapt_stat:1
+  _counter: 190
+  _s_bar:   0.00851060986779693
+  _x_bar:   0.639908372607243
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.91091107734025
+  adapt_stat:3.2684556547423e-41
+  _counter: 191
+  _s_bar:   0.00598070633611635
+  _x_bar:   0.648249683769535
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.47165647889249
+  adapt_stat:0.836697289204206
+  _counter: 192
+  _s_bar:   0.00842634640375934
+  _x_bar:   0.643172825940562
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.3459507920014
+  adapt_stat:0.385527505012198
+  _counter: 193
+  _s_bar:   0.006726229972193
+  _x_bar:   0.647219080966781
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 355 / 1000 [ 35%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.01521283225916
+  adapt_stat:4.64092011905789e-05
+  _counter: 194
+  _s_bar:   0.00725439793795579
+  _x_bar:   0.648248397666823
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.02458440951363
+  adapt_stat:0.987596884105653
+  _counter: 195
+  _s_bar:   0.009657808634838
+  _x_bar:   0.636291136622368
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.00022562129974
+  adapt_stat:1
+  _counter: 196
+  _s_bar:   0.00724395090308805
+  _x_bar:   0.637378676988574
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.9589051029773
+  adapt_stat:0.000180517773341988
+  _counter: 197
+  _s_bar:   0.004793497033991
+  _x_bar:   0.651424689805381
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.01936718450188
+  adapt_stat:0.125665043031955
+  _counter: 198
+  _s_bar:   0.00717342965510959
+  _x_bar:   0.652397710043769
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 360 / 1000 [ 36%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.22391098342303
+  adapt_stat:1
+  _counter: 199
+  _s_bar:   0.00893018337431024
+  _x_bar:   0.643897948385325
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.41377467053113
+  adapt_stat:2.00934245276323e-21
+  _counter: 200
+  _s_bar:   0.00650670631062305
+  _x_bar:   0.648359787887156
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.23790891170542
+  adapt_stat:0.837897498332152
+  _counter: 201
+  _s_bar:   0.00884553708640209
+  _x_bar:   0.640212210277764
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.95836798363893
+  adapt_stat:0.989707177644392
+  _counter: 202
+  _s_bar:   0.00720995673065419
+  _x_bar:   0.640807552945445
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.78797514370725
+  adapt_stat:0.000263022228283214
+  _counter: 203
+  _s_bar:   0.0048770124378136
+  _x_bar:   0.653656606544044
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 365 / 1000 [ 36%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.95004171811452
+  adapt_stat:0.40343941848585
+  _counter: 204
+  _s_bar:   0.00718944218236455
+  _x_bar:   0.653919564952103
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.7225241550979
+  adapt_stat:0.889759591252127
+  _counter: 205
+  _s_bar:   0.00760512190018681
+  _x_bar:   0.65188680740719
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.90538197988716
+  adapt_stat:1.37660244684679e-57
+  _counter: 206
+  _s_bar:   0.00576547045040757
+  _x_bar:   0.659513050555082
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.50257421760156
+  adapt_stat:0.572019011691601
+  _counter: 207
+  _s_bar:   0.00804304892759464
+  _x_bar:   0.654889274903264
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.661181960736
+  adapt_stat:1
+  _counter: 208
+  _s_bar:   0.00767579176879099
+  _x_bar:   0.652198782185277
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 370 / 1000 [ 37%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.22998311655963
+  adapt_stat:0.333333333333333
+  _counter: 209
+  _s_bar:   0.00535763746847688
+  _x_bar:   0.661663896300009
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.6019657138185
+  adapt_stat:8.0314467274944e-17
+  _counter: 210
+  _s_bar:   0.00609086032846865
+  _x_bar:   0.667004288418991
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.35364112517063
+  adapt_stat:1
+  _counter: 211
+  _s_bar:   0.0083257433134077
+  _x_bar:   0.660425657989529
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.62179732398466
+  adapt_stat:0.00196746886267171
+  _counter: 212
+  _s_bar:   0.00603598771289686
+  _x_bar:   0.66588717079629
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.37126352750827
+  adapt_stat:0.00380622522977382
+  _counter: 213
+  _s_bar:   0.00824225023946382
+  _x_bar:   0.659606947288461
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 375 / 1000 [ 37%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.720910689337254
+  adapt_stat:0.979916159271394
+  _counter: 214
+  _s_bar:   0.0104206052596904
+  _x_bar:   0.641969347626775
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.35626370238903
+  adapt_stat:0.483627697625921
+  _counter: 215
+  _s_bar:   0.00824133075066339
+  _x_bar:   0.635963079631765
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.334483552738
+  adapt_stat:0.307799710072754
+  _counter: 216
+  _s_bar:   0.00827730850120948
+  _x_bar:   0.629796946522854
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.04520099673237
+  adapt_stat:0.891282003669799
+  _counter: 217
+  _s_bar:   0.00908754189956206
+  _x_bar:   0.619439631780732
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.74471263211543
+  adapt_stat:1
+  _counter: 218
+  _s_bar:   0.00733153512074908
+  _x_bar:   0.618331831870953
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 380 / 1000 [ 38%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.34455918167681
+  adapt_stat:2.12623106235994e-19
+  _counter: 219
+  _s_bar:   0.00511611357000345
+  _x_bar:   0.628678117681444
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.76049231173704
+  adapt_stat:0.898507950271044
+  _counter: 220
+  _s_bar:   0.00726778264143822
+  _x_bar:   0.627573768238796
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.95345388911175
+  adapt_stat:0.0142059968012924
+  _counter: 221
+  _s_bar:   0.00551117773705517
+  _x_bar:   0.635518884879023
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.58783451183165
+  adapt_stat:0.000118583386153301
+  _counter: 222
+  _s_bar:   0.0075813623295623
+  _x_bar:   0.632508291553825
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.840506418906222
+  adapt_stat:0.876990190371108
+  _counter: 223
+  _s_bar:   0.00969423809902275
+  _x_bar:   0.618536698812548
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 385 / 1000 [ 38%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.36945274763313
+  adapt_stat:1
+  _counter: 224
+  _s_bar:   0.00804174054145809
+  _x_bar:   0.613284189727245
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.60545675948796
+  adapt_stat:3.668518842389e-28
+  _counter: 225
+  _s_bar:   0.00587986079447316
+  _x_bar:   0.619211124751461
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.38289529999145
+  adapt_stat:1
+  _counter: 226
+  _s_bar:   0.00797359019788641
+  _x_bar:   0.614149528847261
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.62409812535504
+  adapt_stat:2.60673413592102e-08
+  _counter: 227
+  _s_bar:   0.00583024171603879
+  _x_bar:   0.620144365142406
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.39630559908952
+  adapt_stat:0.634495430257296
+  _counter: 228
+  _s_bar:   0.00790658512871366
+  _x_bar:   0.615264675864391
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 390 / 1000 [ 39%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.66350782589457
+  adapt_stat:1
+  _counter: 229
+  _s_bar:   0.00731076079655462
+  _x_bar:   0.613458315727551
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.14322208424199
+  adapt_stat:1.49733268232767e-20
+  _counter: 230
+  _s_bar:   0.00519696595990231
+  _x_bar:   0.622462499924508
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.67821293947803
+  adapt_stat:0.347985231347438
+  _counter: 231
+  _s_bar:   0.00725009058247533
+  _x_bar:   0.620694938335165
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.39198929829311
+  adapt_stat:0.575661949941461
+  _counter: 232
+  _s_bar:   0.00784829173152528
+  _x_bar:   0.615817141621864
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.53803047505141
+  adapt_stat:1
+  _counter: 233
+  _s_bar:   0.00750462818554591
+  _x_bar:   0.612709775988067
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 395 / 1000 [ 39%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.89194667498794
+  adapt_stat:0.333345944623338
+  _counter: 234
+  _s_bar:   0.00542469118478547
+  _x_bar:   0.620218173840777
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.35519659091328
+  adapt_stat:0.234705623797903
+  _counter: 235
+  _s_bar:   0.00608277022230334
+  _x_bar:   0.624156916891534
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.69708787178815
+  adapt_stat:1
+  _counter: 236
+  _s_bar:   0.00713647593766835
+  _x_bar:   0.622575123509222
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.17859914428503
+  adapt_stat:4.99266548802834e-05
+  _counter: 237
+  _s_bar:   0.00508329182456038
+  _x_bar:   0.631413460586135
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.71165721292858
+  adapt_stat:0.853327837942933
+  _counter: 238
+  _s_bar:   0.0070787223952078
+  _x_bar:   0.629862964506986
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 400 / 1000 [ 40%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.66554495983211
+  adapt_stat:4.03760682619788e-25
+  _counter: 239
+  _s_bar:   0.00563130649023535
+  _x_bar:   0.635629912633236
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.43917723828221
+  adapt_stat:0.387684487586556
+  _counter: 240
+  _s_bar:   0.0076087812642744
+  _x_bar:   0.631176379482938
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.25815263503427
+  adapt_stat:0.443026983887697
+  _counter: 241
+  _s_bar:   0.00802593955570536
+  _x_bar:   0.624611794593879
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.17827122377767
+  adapt_stat:0.945883486305389
+  _counter: 242
+  _s_bar:   0.00822017398648551
+  _x_bar:   0.617105458816517
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.05105975976889
+  adapt_stat:4.71167555837903e-05
+  _counter: 243
+  _s_bar:   0.00642529785884964
+  _x_bar:   0.618750570127267
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 405 / 1000 [ 40%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.11317861745827
+  adapt_stat:1
+  _counter: 244
+  _s_bar:   0.0083683198485566
+  _x_bar:   0.610464862357955
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.06672176131375
+  adapt_stat:0.106786186418325
+  _counter: 245
+  _s_bar:   0.00637471859424853
+  _x_bar:   0.612329965726276
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.28131215255149
+  adapt_stat:0.842253758133812
+  _counter: 246
+  _s_bar:   0.00788580880904317
+  _x_bar:   0.606462764059983
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.95639067187994
+  adapt_stat:1.81670605278538e-05
+  _counter: 247
+  _s_bar:   0.00652339804272855
+  _x_bar:   0.607500217638428
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.06668138199875
+  adapt_stat:1
+  _counter: 248
+  _s_bar:   0.00843602763535159
+  _x_bar:   0.598812225927895
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 410 / 1000 [ 41%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.97138503441943
+  adapt_stat:2.97054484242901e-06
+  _counter: 249
+  _s_bar:   0.00647295416957804
+  _x_bar:   0.600087279473386
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.07722091107494
+  adapt_stat:0.820017628153615
+  _counter: 250
+  _s_bar:   0.00837112368990719
+  _x_bar:   0.591725758730231
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.59642442321564
+  adapt_stat:1
+  _counter: 251
+  _s_bar:   0.00711292923839944
+  _x_bar:   0.589760027876786
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.9382021187083
+  adapt_stat:1.45242813940483e-26
+  _counter: 252
+  _s_bar:   0.00517738370695517
+  _x_bar:   0.59747622106929
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.6096427133786
+  adapt_stat:0.0713048987226196
+  _counter: 253
+  _s_bar:   0.00705883852175762
+  _x_bar:   0.595561492883304
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 415 / 1000 [ 41%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.963199041518116
+  adapt_stat:0.932818281713397
+  _counter: 254
+  _s_bar:   0.00865594557765013
+  _x_bar:   0.585611624937104
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.63090917349985
+  adapt_stat:0.103108779581205
+  _counter: 255
+  _s_bar:   0.00699000509730656
+  _x_bar:   0.584099787458514
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.01583457188757
+  adapt_stat:0.244517684173368
+  _counter: 256
+  _s_bar:   0.00845579913986855
+  _x_bar:   0.575218705044379
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.751105892321479
+  adapt_stat:0.904175736796012
+  _counter: 257
+  _s_bar:   0.00938099208626092
+  _x_bar:   0.561798201564248
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.22589301832009
+  adapt_stat:1
+  _counter: 258
+  _s_bar:   0.00783786996356587
+  _x_bar:   0.556235006856552
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 420 / 1000 [ 42%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.23992749871363
+  adapt_stat:0.0020789034225722
+  _counter: 259
+  _s_bar:   0.00594999684102474
+  _x_bar:   0.560110502223992
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.24002981275026
+  adapt_stat:0.805741563335534
+  _counter: 260
+  _s_bar:   0.00777211202523364
+  _x_bar:   0.554782581999169
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.79340921310639
+  adapt_stat:0.0952948667173976
+  _counter: 261
+  _s_bar:   0.00661523499438209
+  _x_bar:   0.555234352400697
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.11207756064547
+  adapt_stat:1
+  _counter: 262
+  _s_bar:   0.00807880079691231
+  _x_bar:   0.548339505323549
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.02360629661074
+  adapt_stat:0.297784134348227
+  _counter: 263
+  _s_bar:   0.00621770628849872
+  _x_bar:   0.550736478981896
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 425 / 1000 [ 42%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.59775384501951
+  adapt_stat:1
+  _counter: 264
+  _s_bar:   0.00693302803799972
+  _x_bar:   0.549482357802536
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.89939202496127
+  adapt_stat:9.05534346152667e-29
+  _counter: 265
+  _s_bar:   0.00508963520877063
+  _x_bar:   0.557323667407527
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.61037730916512
+  adapt_stat:0.400829571744195
+  _counter: 266
+  _s_bar:   0.00688278870439102
+  _x_bar:   0.556096096673677
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.43817080766755
+  adapt_stat:0.818612187165458
+  _counter: 267
+  _s_bar:   0.00721595707822284
+  _x_bar:   0.553178316984046
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.10160997895903
+  adapt_stat:0.106859914311812
+  _counter: 268
+  _s_bar:   0.00604391339389306
+  _x_bar:   0.556039636157141
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 430 / 1000 [ 43%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.32830088310042
+  adapt_stat:0.83019262137782
+  _counter: 269
+  _s_bar:   0.00743135487165038
+  _x_bar:   0.551942535423564
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.96529057188653
+  adapt_stat:0.317099025617697
+  _counter: 270
+  _s_bar:   0.0062255549564737
+  _x_bar:   0.553799648527789
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.59177243406298
+  adapt_stat:4.45092547670785e-05
+  _counter: 271
+  _s_bar:   0.00685429310389658
+  _x_bar:   0.552467887260163
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.890403955104902
+  adapt_stat:0.986810947150658
+  _counter: 272
+  _s_bar:   0.00860287891113536
+  _x_bar:   0.542486156145859
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.57963639574759
+  adapt_stat:0.492900881746081
+  _counter: 273
+  _s_bar:   0.00685230002045765
+  _x_bar:   0.541216215018613
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 435 / 1000 [ 43%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.57265231313663
+  adapt_stat:0.88955994964246
+  _counter: 274
+  _s_bar:   0.00685316909874448
+  _x_bar:   0.539902812258255
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.48418398577926
+  adapt_stat:3.21770835812487e-22
+  _counter: 275
+  _s_bar:   0.00546224587509114
+  _x_bar:   0.545382436968563
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.39391512155011
+  adapt_stat:0.891878821858152
+  _counter: 276
+  _s_bar:   0.00719139886154186
+  _x_bar:   0.542232949807925
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.20480366532559
+  adapt_stat:1.98318151738792e-06
+  _counter: 277
+  _s_bar:   0.00580091028760565
+  _x_bar:   0.545891435879095
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.23978754971919
+  adapt_stat:1
+  _counter: 278
+  _s_bar:   0.00751687246306008
+  _x_bar:   0.541030379836557
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 440 / 1000 [ 44%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.21908159046293
+  adapt_stat:0.033310932896659
+  _counter: 279
+  _s_bar:   0.00576075871751316
+  _x_bar:   0.544781351056214
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.29917569002277
+  adapt_stat:1
+  _counter: 280
+  _s_bar:   0.00735016667746429
+  _x_bar:   0.5406461489412
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.32067813498068
+  adapt_stat:0.00146138478947287
+  _counter: 281
+  _s_bar:   0.00560669531431149
+  _x_bar:   0.545034934840726
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.31199596906279
+  adapt_stat:0.7462746182004
+  _counter: 282
+  _s_bar:   0.0072948183276547
+  _x_bar:   0.541060758047938
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.74784464653515
+  adapt_stat:0.735413999735596
+  _counter: 283
+  _s_bar:   0.00642939362960673
+  _x_bar:   0.541311816160625
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 445 / 1000 [ 44%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.29749125487849
+  adapt_stat:1
+  _counter: 284
+  _s_bar:   0.00560679705353461
+  _x_bar:   0.545511013463821
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.08442157273003
+  adapt_stat:2.27691034405336e-27
+  _counter: 285
+  _s_bar:   0.00389287570759043
+  _x_bar:   0.557933452601617
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.31171309761672
+  adapt_stat:2.55611603297474e-14
+  _counter: 286
+  _s_bar:   0.00556891328965938
+  _x_bar:   0.561960339415662
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.31081004607611
+  adapt_stat:0.9957581267252
+  _counter: 287
+  _s_bar:   0.00723366442336414
+  _x_bar:   0.557782502522454
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.31467347810992
+  adapt_stat:6.46781365315168e-05
+  _counter: 288
+  _s_bar:   0.00554577250675822
+  _x_bar:   0.561808862798589
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 450 / 1000 [ 45%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.31498004308791
+  adapt_stat:0.604434463123547
+  _counter: 289
+  _s_bar:   0.00719924926045959
+  _x_bar:   0.557700204112173
+  _mu:      2.72156623771183
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.97271115203981
+  adapt_stat:0.784426300064136
+  _counter: 0
+  _s_bar:   0
+  _x_bar:   0
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  49.8589591592757
+  adapt_stat:0
+  _counter: 1
+  _s_bar:   -0.0258569363694669
+  _x_bar:   3.90919820261229
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  17.8847320658364
+  adapt_stat:0
+  _counter: 2
+  _s_bar:   0.0179644749946553
+  _x_bar:   3.29958042308645
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.41617904329979
+  adapt_stat:0.333494792422386
+  _counter: 3
+  _s_bar:   0.0550441307642972
+  _x_bar:   2.50366028536518
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 455 / 1000 [ 45%]  (Warmup)
+learn_stepsize: 
+  epsilon:  2.39129252496235
+  adapt_stat:0.999540891146331
+  _counter: 4
+  _s_bar:   0.0630056362509627
+  _x_bar:   1.92672257821914
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  9.50246713954265
+  adapt_stat:0
+  _counter: 5
+  _s_bar:   0.0255025344244764
+  _x_bar:   2.02386907384785
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.99341590398137
+  adapt_stat:0.842379530390551
+  _counter: 6
+  _s_bar:   0.0551586260229466
+  _x_bar:   1.67589354907271
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.53303184514746
+  adapt_stat:0.00917196102398367
+  _counter: 7
+  _s_bar:   0.0317740285868586
+  _x_bar:   1.68398980377519
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.16413860301354
+  adapt_stat:1
+  _counter: 8
+  _s_bar:   0.057277029164034
+  _x_bar:   1.36192471362532
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 460 / 1000 [ 46%]  (Warmup)
+learn_stepsize: 
+  epsilon:  5.55812000641186
+  adapt_stat:3.67951647555534e-63
+  _counter: 9
+  _s_bar:   0.0279466592080322
+  _x_bar:   1.42992410632436
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.14087306915715
+  adapt_stat:0.996168041462211
+  _counter: 10
+  _s_bar:   0.0515493262476306
+  _x_bar:   1.19908027025127
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.48893107037282
+  adapt_stat:0.096954134292399
+  _counter: 11
+  _s_bar:   0.0254675468328762
+  _x_bar:   1.28246511735236
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.55046167548829
+  adapt_stat:0.70902586106945
+  _counter: 12
+  _s_bar:   0.0426301976908183
+  _x_bar:   1.15157362445135
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.02514757315312
+  adapt_stat:0.00368552298660131
+  _counter: 13
+  _s_bar:   0.0316886299186327
+  _x_bar:   1.14505717228597
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 465 / 1000 [ 46%]  (Warmup)
+learn_stepsize: 
+  epsilon:  0.651794428986322
+  adapt_stat:0.998930729153821
+  _counter: 14
+  _s_bar:   0.0510480402142479
+  _x_bar:   0.927709158870716
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.13284699663464
+  adapt_stat:1
+  _counter: 15
+  _s_bar:   0.0290488894395252
+  _x_bar:   0.9558163830332
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  14.8201991366405
+  adapt_stat:0
+  _counter: 16
+  _s_bar:   0.00870085523031264
+  _x_bar:   1.17333821725379
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.23512042131413
+  adapt_stat:0.00131272509652853
+  _counter: 17
+  _s_bar:   0.0268971198514122
+  _x_bar:   1.17342516445887
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.726165809424258
+  adapt_stat:0.979123511230314
+  _counter: 18
+  _s_bar:   0.0437467682461286
+  _x_bar:   1.00253291388304
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 470 / 1000 [ 47%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.15858592886968
+  adapt_stat:0.474636628491294
+  _counter: 19
+  _s_bar:   0.0257167586090099
+  _x_bar:   1.01875087342442
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.98302013541913
+  adapt_stat:0.00352412430751537
+  _counter: 20
+  _s_bar:   0.0257049790389997
+  _x_bar:   1.02659502254887
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.700700215906024
+  adapt_stat:0.999998737086828
+  _counter: 21
+  _s_bar:   0.0408911369955638
+  _x_bar:   0.885689355239359
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.13226003773627
+  adapt_stat:0.000478994522089192
+  _counter: 22
+  _s_bar:   0.023988328430489
+  _x_bar:   0.910897098471322
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  0.747525706473663
+  adapt_stat:0.998502333238844
+  _counter: 23
+  _s_bar:   0.0383984095531382
+  _x_bar:   0.796460072658785
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 475 / 1000 [ 47%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.24467176432095
+  adapt_stat:0.155219355112909
+  _counter: 24
+  _s_bar:   0.022607211235727
+  _x_bar:   0.831556103106006
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.23471827535038
+  adapt_stat:0.872729750544359
+  _counter: 25
+  _s_bar:   0.0318121664829088
+  _x_bar:   0.776037819903546
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.64670514614541
+  adapt_stat:0.666844123765102
+  _counter: 26
+  _s_bar:   0.0205748910099291
+  _x_bar:   0.821007572089324
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.93142023309795
+  adapt_stat:5.28621486187329e-279
+  _counter: 27
+  _s_bar:   0.0155095122322256
+  _x_bar:   0.901993908258137
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.49388529292333
+  adapt_stat:1
+  _counter: 28
+  _s_bar:   0.0282592619103249
+  _x_bar:   0.860866236679413
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 480 / 1000 [ 48%]  (Warmup)
+learn_stepsize: 
+  epsilon:  6.09395159189444
+  adapt_stat:0.213789815675692
+  _counter: 29
+  _s_bar:   0.014714152630573
+  _x_bar:   0.936600120532799
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.81984610000992
+  adapt_stat:0.71912871710076
+  _counter: 30
+  _s_bar:   0.0215015534229163
+  _x_bar:   0.944407689915536
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.21372957491972
+  adapt_stat:0.00109264887084422
+  _counter: 31
+  _s_bar:   0.015632522434534
+  _x_bar:   0.998213502035508
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.37936694923064
+  adapt_stat:1
+  _counter: 32
+  _s_bar:   0.0271390659748821
+  _x_bar:   0.947925735590329
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  5.3788552446777
+  adapt_stat:0.33348395095009
+  _counter: 33
+  _s_bar:   0.0148800179289546
+  _x_bar:   1.00127590603837
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 485 / 1000 [ 48%]  (Warmup)
+learn_stepsize: 
+  epsilon:  3.50736487685343
+  adapt_stat:0.0403377454168833
+  _counter: 34
+  _s_bar:   0.0183262913635218
+  _x_bar:   1.01928622475343
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.06527015092194
+  adapt_stat:0.999014733688365
+  _counter: 35
+  _s_bar:   0.0281337572128461
+  _x_bar:   0.952845690885905
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.01958468837904
+  adapt_stat:0.74278452069721
+  _counter: 36
+  _s_bar:   0.0166740074106459
+  _x_bar:   0.982670466729594
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  7.65350617792629
+  adapt_stat:1.66019453878452e-181
+  _counter: 37
+  _s_bar:   0.0111536131955851
+  _x_bar:   1.05282699475337
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  2.14115390396913
+  adapt_stat:0.834533949130776
+  _counter: 38
+  _s_bar:   0.0213379129206771
+  _x_bar:   1.03378229204473
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 490 / 1000 [ 49%]  (Warmup)
+learn_stepsize: 
+  epsilon:  5.12466331672122
+  adapt_stat:0.00278927330793051
+  _counter: 39
+  _s_bar:   0.0140752218584025
+  _x_bar:   1.07224654071822
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.47612763854377
+  adapt_stat:0.965605512092382
+  _counter: 40
+  _s_bar:   0.0237379319550759
+  _x_bar:   1.02931623298772
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.85921333887838
+  adapt_stat:3.84114267414915e-10
+  _counter: 41
+  _s_bar:   0.0141429624639493
+  _x_bar:   1.06335745391616
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.41606002165315
+  adapt_stat:0.935308807687555
+  _counter: 42
+  _s_bar:   0.0234863670245634
+  _x_bar:   1.019990395315
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.25094928026942
+  adapt_stat:5.53315533229254e-06
+  _counter: 43
+  _s_bar:   0.0148298542941461
+  _x_bar:   1.04542828173762
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 495 / 1000 [ 49%]  (Warmup)
+learn_stepsize: 
+  epsilon:  1.26203361599453
+  adapt_stat:0.953840339072572
+  _counter: 44
+  _s_bar:   0.0238143841561928
+  _x_bar:   0.997857222000647
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  3.90473581223846
+  adapt_stat:1
+  _counter: 45
+  _s_bar:   0.0151297528247607
+  _x_bar:   1.01882676721637
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  13.297000862417
+  adapt_stat:0
+  _counter: 46
+  _s_bar:   0.00593100723860426
+  _x_bar:   1.10763940600869
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  4.0163009139417
+  adapt_stat:0.0334200034672551
+  _counter: 47
+  _s_bar:   0.0145988843045937
+  _x_bar:   1.12338960557373
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+learn_stepsize: 
+  epsilon:  1.33559884078047
+  adapt_stat:0.990494690096751
+  _counter: 48
+  _s_bar:   0.0223916621016307
+  _x_bar:   1.07765549379058
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 500 / 1000 [ 50%]  (Warmup)
+learn_stepsize: 
+  epsilon:  4.36773795142908
+  adapt_stat:0.114447843588648
+  _counter: 49
+  _s_bar:   0.0136986730813192
+  _x_bar:   1.09906932748739
+  _mu:      3.39205947522295
+  _delta    0.5
+  _gamma    0.05
+  _kappa    0.75
+  _t0:      10
+
+Iteration: 501 / 1000 [ 50%]  (Sampling)
+Iteration: 505 / 1000 [ 50%]  (Sampling)
+Iteration: 510 / 1000 [ 51%]  (Sampling)
+Iteration: 515 / 1000 [ 51%]  (Sampling)
+Iteration: 520 / 1000 [ 52%]  (Sampling)
+Iteration: 525 / 1000 [ 52%]  (Sampling)
+Iteration: 530 / 1000 [ 53%]  (Sampling)
+Iteration: 535 / 1000 [ 53%]  (Sampling)
+Iteration: 540 / 1000 [ 54%]  (Sampling)
+Iteration: 545 / 1000 [ 54%]  (Sampling)
+Iteration: 550 / 1000 [ 55%]  (Sampling)
+Iteration: 555 / 1000 [ 55%]  (Sampling)
+Iteration: 560 / 1000 [ 56%]  (Sampling)
+Iteration: 565 / 1000 [ 56%]  (Sampling)
+Iteration: 570 / 1000 [ 57%]  (Sampling)
+Iteration: 575 / 1000 [ 57%]  (Sampling)
+Iteration: 580 / 1000 [ 58%]  (Sampling)
+Iteration: 585 / 1000 [ 58%]  (Sampling)
+Iteration: 590 / 1000 [ 59%]  (Sampling)
+Iteration: 595 / 1000 [ 59%]  (Sampling)
+Iteration: 600 / 1000 [ 60%]  (Sampling)
+Iteration: 605 / 1000 [ 60%]  (Sampling)
+Iteration: 610 / 1000 [ 61%]  (Sampling)
+Iteration: 615 / 1000 [ 61%]  (Sampling)
+Iteration: 620 / 1000 [ 62%]  (Sampling)
+Iteration: 625 / 1000 [ 62%]  (Sampling)
+Iteration: 630 / 1000 [ 63%]  (Sampling)
+Iteration: 635 / 1000 [ 63%]  (Sampling)
+Iteration: 640 / 1000 [ 64%]  (Sampling)
+Iteration: 645 / 1000 [ 64%]  (Sampling)
+Iteration: 650 / 1000 [ 65%]  (Sampling)
+Iteration: 655 / 1000 [ 65%]  (Sampling)
+Iteration: 660 / 1000 [ 66%]  (Sampling)
+Iteration: 665 / 1000 [ 66%]  (Sampling)
+Iteration: 670 / 1000 [ 67%]  (Sampling)
+Iteration: 675 / 1000 [ 67%]  (Sampling)
+Iteration: 680 / 1000 [ 68%]  (Sampling)
+Iteration: 685 / 1000 [ 68%]  (Sampling)
+Iteration: 690 / 1000 [ 69%]  (Sampling)
+Iteration: 695 / 1000 [ 69%]  (Sampling)
+Iteration: 700 / 1000 [ 70%]  (Sampling)
+Iteration: 705 / 1000 [ 70%]  (Sampling)
+Iteration: 710 / 1000 [ 71%]  (Sampling)
+Iteration: 715 / 1000 [ 71%]  (Sampling)
+Iteration: 720 / 1000 [ 72%]  (Sampling)
+Iteration: 725 / 1000 [ 72%]  (Sampling)
+Iteration: 730 / 1000 [ 73%]  (Sampling)
+Iteration: 735 / 1000 [ 73%]  (Sampling)
+Iteration: 740 / 1000 [ 74%]  (Sampling)
+Iteration: 745 / 1000 [ 74%]  (Sampling)
+Iteration: 750 / 1000 [ 75%]  (Sampling)
+Iteration: 755 / 1000 [ 75%]  (Sampling)
+Iteration: 760 / 1000 [ 76%]  (Sampling)
+Iteration: 765 / 1000 [ 76%]  (Sampling)
+Iteration: 770 / 1000 [ 77%]  (Sampling)
+Iteration: 775 / 1000 [ 77%]  (Sampling)
+Iteration: 780 / 1000 [ 78%]  (Sampling)
+Iteration: 785 / 1000 [ 78%]  (Sampling)
+Iteration: 790 / 1000 [ 79%]  (Sampling)
+Iteration: 795 / 1000 [ 79%]  (Sampling)
+Iteration: 800 / 1000 [ 80%]  (Sampling)
+Iteration: 805 / 1000 [ 80%]  (Sampling)
+Iteration: 810 / 1000 [ 81%]  (Sampling)
+Iteration: 815 / 1000 [ 81%]  (Sampling)
+Iteration: 820 / 1000 [ 82%]  (Sampling)
+Iteration: 825 / 1000 [ 82%]  (Sampling)
+Iteration: 830 / 1000 [ 83%]  (Sampling)
+Iteration: 835 / 1000 [ 83%]  (Sampling)
+Iteration: 840 / 1000 [ 84%]  (Sampling)
+Iteration: 845 / 1000 [ 84%]  (Sampling)
+Iteration: 850 / 1000 [ 85%]  (Sampling)
+Iteration: 855 / 1000 [ 85%]  (Sampling)
+Iteration: 860 / 1000 [ 86%]  (Sampling)
+Iteration: 865 / 1000 [ 86%]  (Sampling)
+Iteration: 870 / 1000 [ 87%]  (Sampling)
+Iteration: 875 / 1000 [ 87%]  (Sampling)
+Iteration: 880 / 1000 [ 88%]  (Sampling)
+Iteration: 885 / 1000 [ 88%]  (Sampling)
+Iteration: 890 / 1000 [ 89%]  (Sampling)
+Iteration: 895 / 1000 [ 89%]  (Sampling)
+Iteration: 900 / 1000 [ 90%]  (Sampling)
+Iteration: 905 / 1000 [ 90%]  (Sampling)
+Iteration: 910 / 1000 [ 91%]  (Sampling)
+Iteration: 915 / 1000 [ 91%]  (Sampling)
+Iteration: 920 / 1000 [ 92%]  (Sampling)
+Iteration: 925 / 1000 [ 92%]  (Sampling)
+Iteration: 930 / 1000 [ 93%]  (Sampling)
+Iteration: 935 / 1000 [ 93%]  (Sampling)
+Iteration: 940 / 1000 [ 94%]  (Sampling)
+Iteration: 945 / 1000 [ 94%]  (Sampling)
+Iteration: 950 / 1000 [ 95%]  (Sampling)
+Iteration: 955 / 1000 [ 95%]  (Sampling)
+Iteration: 960 / 1000 [ 96%]  (Sampling)
+Iteration: 965 / 1000 [ 96%]  (Sampling)
+Iteration: 970 / 1000 [ 97%]  (Sampling)
+Iteration: 975 / 1000 [ 97%]  (Sampling)
+Iteration: 980 / 1000 [ 98%]  (Sampling)
+Iteration: 985 / 1000 [ 98%]  (Sampling)
+Iteration: 990 / 1000 [ 99%]  (Sampling)
+Iteration: 995 / 1000 [ 99%]  (Sampling)
+Iteration: 1000 / 1000 [100%]  (Sampling)
+
+Elapsed Time: 0.056047 seconds (Warm Up)
+              0.02924 seconds (Sampling)
+              0.085287 seconds (Total)
+
+
