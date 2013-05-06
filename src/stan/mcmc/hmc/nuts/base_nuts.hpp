@@ -188,9 +188,14 @@ namespace stan {
           if (h != h) h = std::numeric_limits<double>::infinity();
           
           util.criterion = util.log_u + (h - util.H0) < this->_max_delta;
-
-          std::cout << depth << "\t" << this->_z.q.at(0) << "\t" << util.H0 << "\t"
-                    << h << "\t" << stan::math::min(1, std::exp(util.H0 - h)) << std::endl;
+          
+          std::cout << "inside build_tree" << std::endl
+                    << "  depth:      " << depth << std::endl
+                    << "  _z.q.at(0): " << this->_z.q.at(0) << std::endl
+                    << "  util.H0:    " << util.H0 << std::endl
+                    << "  h:          " << h << std::endl
+                    << "  util.H0 - h:" << util.H0 - h << std::endl
+                    << "  exp(__):    " << std::exp(util.H0 - h) << std::endl;
           util.sum_prob += stan::math::min(1, std::exp(util.H0 - h));
           util.n_tree += 1;
           
