@@ -26,8 +26,17 @@ namespace stan {
       ~adapt_diag_e_nuts() {};
       
       sample transition(sample& init_sample) {
-        
+        std::cout.precision(15);
+        std::cout << "transition's init_sample:" << std::endl
+                  << "  cont: " << init_sample.cont_params(0) << std::endl
+                  << "  lp:   " << init_sample.log_prob() << std::endl
+                  << "  acc_s:" << init_sample.accept_stat() << std::endl;
+
         sample s = diag_e_nuts<M, BaseRNG>::transition(init_sample);
+        std::cout << "transition's s:" << std::endl
+                  << "  cont: " << s.cont_params(0) << std::endl
+                  << "  lp:   " << s.log_prob() << std::endl
+                  << "  acc_s:" << s.accept_stat() << std::endl;
         
         if (this->_adapt_flag) {
         
