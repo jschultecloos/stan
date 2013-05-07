@@ -215,6 +215,9 @@ namespace stan {
           util.sum_prob += stan::math::min(1, std::exp(util.H0 - h));
           util.n_tree += 1;
           
+          std::cout << "util.log_u: " << util.log_u << std::endl
+                    << "h:          " << h << std::endl
+                    << "util.H0:    " << util.H0 << std::endl;
           std::cout << "bt (base): returning int: " << int((util.log_u + (h - util.H0) < 0)) << std::endl;
           return (util.log_u + (h - util.H0) < 0);
           
