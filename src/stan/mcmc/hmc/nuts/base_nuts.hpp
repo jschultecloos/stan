@@ -186,7 +186,7 @@ namespace stan {
       int build_tree(int depth, Eigen::VectorXd& rho, 
                       ps_point& z_propose, nuts_util& util)
       {
-        
+        std::cout << "inside build_tree" << std::endl;
         // Base case
         if (depth == 0) 
         {
@@ -215,6 +215,7 @@ namespace stan {
           util.sum_prob += stan::math::min(1, std::exp(util.H0 - h));
           util.n_tree += 1;
           
+          std::cout << "bt (base): returning int: " << int((util.log_u + (h - util.H0) < 0)) << std::endl;
           return (util.log_u + (h - util.H0) < 0);
           
         } 
@@ -240,6 +241,8 @@ namespace stan {
           
           util.criterion &= _compute_criterion(z_init, this->_z, rho);
             
+          std::cout << "bt (rec): returning int: " << int(n1+n2) << std::endl;
+
           return n1 + n2;
           
         }
