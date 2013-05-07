@@ -219,7 +219,8 @@ namespace stan {
                     << "h:          " << h << std::endl
                     << "util.H0:    " << util.H0 << std::endl;
           std::cout << "bt (base): returning int: " << int((util.log_u + (h - util.H0) < 0)) << std::endl;
-          return (util.log_u + (h - util.H0) < 0);
+          //return (util.log_u + (h - util.H0) < 0);
+          return util.n_tree;
           
         } 
         // General recursion
