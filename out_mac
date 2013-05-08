@@ -67,6 +67,7 @@ exiting evolve
 ---------- _nom_epsilon: 3.2
 exiting init_stepsize()
 ************************************************************
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 before warmup s:
   cont: 1.9987371246756
   lp:   0
@@ -4774,6 +4775,8 @@ inside evolve: epsilon(-1.02365861984923)
 exiting evolve
   z: 
 0.0737887824273641,-0.384158254961062,-0.784162555009416,-0.384158254961062
+after warmup
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 Iteration: 501 / 1000 [ 50%]  (Sampling)
 inside evolve: epsilon(-1.96834123337544)
   z: 
@@ -8656,8 +8659,8 @@ exiting evolve
   z: 
 1.33989821540582,1.63700837835719,-0.466411453480458,1.63700837835719
 
-Elapsed Time: 0.055871 seconds (Warm Up)
-              0.047527 seconds (Sampling)
-              0.103398 seconds (Total)
+Elapsed Time: 0.054335 seconds (Warm Up)
+              0.046802 seconds (Sampling)
+              0.101137 seconds (Total)
 
 

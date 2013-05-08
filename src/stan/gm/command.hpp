@@ -949,6 +949,7 @@ namespace stan {
         
         clock_t start = clock();
         std::cout.precision(15);
+        std::cout << "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&" << std::endl;
         std::cout << "before warmup s:" << std::endl
                   << "  cont: " << s.cont_params(0) << std::endl
                   << "  lp:   " << s.log_prob() << std::endl
@@ -959,6 +960,8 @@ namespace stan {
                                         sample_stream, diagnostic_stream,
                                         s, model, base_rng); 
         
+        std::cout << "after warmup" << std::endl;
+        std::cout << "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&" << std::endl;
         clock_t end = clock();
         warmDeltaT = (double)(end - start) / CLOCKS_PER_SEC;
         
