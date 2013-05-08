@@ -35,6 +35,18 @@ namespace stan {
       }
       
       void learn_stepsize(double& epsilon, double adapt_stat) {
+        std::cout << "inside learn_stepsize:" << std::endl
+                  << "  (pre) epsilon:    " << epsilon << std::endl
+                  << "  (pre) adapt_stat: " << adapt_stat << std::endl
+                  << "  (pre) _counter:   " << _counter << std::endl
+                  << "  (pre) _s_bar:     " << _s_bar << std::endl
+                  << "  (pre) _x_bar:     " << _x_bar << std::endl
+                  << "  (pre) _mu:        " << _mu << std::endl
+                  << "  (pre) _delta:     " << _delta << std::endl
+                  << "  (pre) _gamma:     " << _gamma << std::endl
+                  << "  (pre) _kappa:     " << _kappa << std::endl
+                  << "  (pre) _t0:        " << _t0 << std::endl;
+
         ++_counter;
         
         adapt_stat = adapt_stat > 1 ? 1 : adapt_stat;
@@ -50,7 +62,17 @@ namespace stan {
         _x_bar = (1.0 - x_eta) * _x_bar + x_eta * x;
         
         epsilon = std::exp(x);
-        
+
+        std::cout << " (post) epsilon:    " << epsilon << std::endl
+                  << " (post) adapt_stat: " << adapt_stat << std::endl
+                  << " (post) _counter:   " << _counter << std::endl
+                  << " (post) _s_bar:     " << _s_bar << std::endl
+                  << " (post) _x_bar:     " << _x_bar << std::endl
+                  << " (post) _mu:        " << _mu << std::endl
+                  << " (post) _delta:     " << _delta << std::endl
+                  << " (post) _gamma:     " << _gamma << std::endl
+                  << " (post) _kappa:     " << _kappa << std::endl
+                  << " (post) _t0:        " << _t0 << std::endl;
       }
       
       void complete_adaptation(double& epsilon) {

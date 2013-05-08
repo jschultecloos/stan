@@ -129,6 +129,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.2
+  (pre) adapt_stat: 1.36676048908102e-105
+  (pre) _counter:   0
+  (pre) _s_bar:     0
+  (pre) _x_bar:     0
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    12.8924902889323
+ (post) adapt_stat: 1.36676048908102e-105
+ (post) _counter:   1
+ (post) _s_bar:     0.0454545454545455
+ (post) _x_bar:     2.55664499370882
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -174,6 +195,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    12.8924902889323
+  (pre) adapt_stat: 0
+  (pre) _counter:   1
+  (pre) _s_bar:     0.0454545454545455
+  (pre) _x_bar:     2.55664499370882
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.03045659274825
+ (post) adapt_stat: 0
+ (post) _counter:   2
+ (post) _s_bar:     0.0833333333333333
+ (post) _x_bar:     1.69569965692356
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -219,6 +261,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.03045659274825
+  (pre) adapt_stat: 7.60462605370246e-16
+  (pre) _counter:   2
+  (pre) _s_bar:     0.0833333333333333
+  (pre) _x_bar:     1.69569965692356
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.58783768073838
+ (post) adapt_stat: 7.60462605370246e-16
+ (post) _counter:   3
+ (post) _s_bar:     0.115384615384615
+ (post) _x_bar:     0.718732258429141
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -264,6 +327,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.58783768073838
+  (pre) adapt_stat: 1
+  (pre) _counter:   3
+  (pre) _s_bar:     0.115384615384615
+  (pre) _x_bar:     0.718732258429141
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.83784381656376
+ (post) adapt_stat: 1
+ (post) _counter:   4
+ (post) _s_bar:     0.0714285714285714
+ (post) _x_bar:     0.679792166316231
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -362,6 +446,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.83784381656376
+  (pre) adapt_stat: 0.998340649184154
+  (pre) _counter:   4
+  (pre) _s_bar:     0.0714285714285714
+  (pre) _x_bar:     0.679792166316231
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    7.17122642504863
+ (post) adapt_stat: 0.998340649184154
+ (post) _counter:   5
+ (post) _s_bar:     0.0334439567210564
+ (post) _x_bar:     1.06567724415138
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -407,6 +512,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    7.17122642504863
+  (pre) adapt_stat: 6.78872916167414e-71
+  (pre) _counter:   5
+  (pre) _s_bar:     0.0334439567210564
+  (pre) _x_bar:     1.06567724415138
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.49002518249349
+ (post) adapt_stat: 6.78872916167414e-71
+ (post) _counter:   6
+ (post) _s_bar:     0.0626037094259904
+ (post) _x_bar:     0.891722208378885
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -452,6 +578,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.49002518249349
+  (pre) adapt_stat: 0.999329579396438
+  (pre) _counter:   6
+  (pre) _s_bar:     0.0626037094259904
+  (pre) _x_bar:     0.891722208378885
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    6.70035052654802
+ (post) adapt_stat: 0.999329579396438
+ (post) _counter:   7
+ (post) _s_bar:     0.0295488100834946
+ (post) _x_bar:     1.12651566160668
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -497,6 +644,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    6.70035052654802
+  (pre) adapt_stat: 0.000100487814812681
+  (pre) _counter:   7
+  (pre) _s_bar:     0.0295488100834946
+  (pre) _x_bar:     1.12651566160668
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.3716757054353
+ (post) adapt_stat: 0.000100487814812681
+ (post) _counter:   8
+ (post) _s_bar:     0.0556794046446997
+ (post) _x_bar:     0.956132698807796
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -542,6 +710,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.3716757054353
+  (pre) adapt_stat: 0.809042030430657
+  (pre) _counter:   8
+  (pre) _s_bar:     0.0556794046446997
+  (pre) _x_bar:     0.956132698807796
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.58487470752978
+ (post) adapt_stat: 0.809042030430657
+ (post) _counter:   9
+ (post) _s_bar:     0.0364835396407336
+ (post) _x_bar:     1.01783043195107
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -588,6 +777,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.58487470752978
+  (pre) adapt_stat: 7.18705769350032e-13
+  (pre) _counter:   9
+  (pre) _s_bar:     0.0364835396407336
+  (pre) _x_bar:     1.01783043195107
+  (pre) _mu:        3.46573590279973
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.735317064652427
+ (post) adapt_stat: 7.18705769350032e-13
+ (post) _counter:   10
+ (post) _s_bar:     0.059659362658661
+ (post) _x_bar:     0.782157920454587
+ (post) _mu:        3.46573590279973
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -687,6 +897,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.47063412930485
+  (pre) adapt_stat: 0.519902260315967
+  (pre) _counter:   0
+  (pre) _s_bar:     0
+  (pre) _x_bar:     0
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    15.2482494925883
+ (post) adapt_stat: 0.519902260315967
+ (post) _counter:   1
+ (post) _s_bar:     -0.00180929639236066
+ (post) _x_bar:     2.72446470909359
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -732,6 +963,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    15.2482494925883
+  (pre) adapt_stat: 0
+  (pre) _counter:   1
+  (pre) _s_bar:     -0.00180929639236066
+  (pre) _x_bar:     2.72446470909359
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    4.74303656775976
+ (post) adapt_stat: 0
+ (post) _counter:   2
+ (post) _s_bar:     0.0400081449736694
+ (post) _x_bar:     2.03009431387796
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -777,6 +1029,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    4.74303656775976
+  (pre) adapt_stat: 1.02829382805957e-46
+  (pre) _counter:   2
+  (pre) _s_bar:     0.0400081449736694
+  (pre) _x_bar:     2.03009431387796
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.07963028717256
+ (post) adapt_stat: 1.02829382805957e-46
+ (post) _counter:   3
+ (post) _s_bar:     0.0753921338218487
+ (post) _x_bar:     1.17312146438359
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -848,6 +1121,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.07963028717256
+  (pre) adapt_stat: 0.982747587649919
+  (pre) _counter:   3
+  (pre) _s_bar:     0.0753921338218487
+  (pre) _x_bar:     1.17312146438359
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.55117433317508
+ (post) adapt_stat: 0.982747587649919
+ (post) _counter:   4
+ (post) _s_bar:     0.0355250108595795
+ (post) _x_bar:     1.20641094943194
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -894,6 +1188,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.55117433317508
+  (pre) adapt_stat: 0.00753578776066153
+  (pre) _counter:   4
+  (pre) _s_bar:     0.0355250108595795
+  (pre) _x_bar:     1.20641094943194
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.768912968911519
+ (post) adapt_stat: 0.00753578776066153
+ (post) _counter:   5
+ (post) _s_bar:     0.0659876242848968
+ (post) _x_bar:     0.767021120899843
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -939,6 +1254,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.768912968911519
+  (pre) adapt_stat: 1
+  (pre) _counter:   5
+  (pre) _s_bar:     0.0659876242848968
+  (pre) _x_bar:     0.767021120899843
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.28226819018041
+ (post) adapt_stat: 1
+ (post) _counter:   6
+ (post) _s_bar:     0.0306133977670908
+ (post) _x_bar:     0.876971855975898
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -984,6 +1320,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.28226819018041
+  (pre) adapt_stat: 0.106294873489163
+  (pre) _counter:   6
+  (pre) _s_bar:     0.0306133977670908
+  (pre) _x_bar:     0.876971855975898
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.940064371331708
+ (post) adapt_stat: 0.106294873489163
+ (post) _counter:   7
+ (post) _s_bar:     0.051971734752017
+ (post) _x_bar:     0.658829632653706
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1055,6 +1412,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.940064371331708
+  (pre) adapt_stat: 0.776592029870547
+  (pre) _counter:   7
+  (pre) _s_bar:     0.051971734752017
+  (pre) _x_bar:     0.658829632653706
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.18341417890577
+ (post) adapt_stat: 0.776592029870547
+ (post) _counter:   8
+ (post) _s_bar:     0.0337181922729857
+ (post) _x_bar:     0.684489619590883
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1100,6 +1478,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.18341417890577
+  (pre) adapt_stat: 0.367870762844173
+  (pre) _counter:   8
+  (pre) _s_bar:     0.0337181922729857
+  (pre) _x_bar:     0.684489619590883
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.42534732973337
+ (post) adapt_stat: 0.367870762844173
+ (post) _counter:   9
+ (post) _s_bar:     0.03889772095103
+ (post) _x_bar:     0.620966830312431
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1146,6 +1545,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.42534732973337
+  (pre) adapt_stat: 0.953936783571862
+  (pre) _counter:   9
+  (pre) _s_bar:     0.03889772095103
+  (pre) _x_bar:     0.620966830312431
+  (pre) _mu:        2.68827878124637
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    5.96942402879311
+ (post) adapt_stat: 0.953936783571862
+ (post) _counter:   10
+ (post) _s_bar:     0.0142559957248854
+ (post) _x_bar:     0.828257947402954
+ (post) _mu:        2.68827878124637
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1263,6 +1683,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.746178003599138
+  (pre) adapt_stat: 0.983795625100279
+  (pre) _counter:   0
+  (pre) _s_bar:     0
+  (pre) _x_bar:     0
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    17.982919770203
+ (post) adapt_stat: 0.983795625100279
+ (post) _counter:   1
+ (post) _s_bar:     -0.0439814204636617
+ (post) _x_bar:     2.8894224057486
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1308,6 +1749,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    17.982919770203
+  (pre) adapt_stat: 0
+  (pre) _counter:   1
+  (pre) _s_bar:     -0.0439814204636617
+  (pre) _x_bar:     2.8894224057486
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    7.18215816913119
+ (post) adapt_stat: 0
+ (post) _counter:   2
+ (post) _s_bar:     0.00135036457497679
+ (post) _x_bar:     2.3436818897078
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1353,6 +1815,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    7.18215816913119
+  (pre) adapt_stat: 0
+  (pre) _counter:   2
+  (pre) _s_bar:     0.00135036457497679
+  (pre) _x_bar:     2.3436818897078
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.885640456932
+ (post) adapt_stat: 0
+ (post) _counter:   3
+ (post) _s_bar:     0.0397080288384401
+ (post) _x_bar:     1.59377661683366
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1424,6 +1907,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.885640456932
+  (pre) adapt_stat: 0.203389713516957
+  (pre) _counter:   3
+  (pre) _s_bar:     0.0397080288384401
+  (pre) _x_bar:     1.59377661683366
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.731591041605558
+ (post) adapt_stat: 0.203389713516957
+ (post) _counter:   4
+ (post) _s_bar:     0.0580581900987689
+ (post) _x_bar:     0.919794173506569
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1496,6 +2000,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.731591041605558
+  (pre) adapt_stat: 0.950523380293004
+  (pre) _counter:   4
+  (pre) _s_bar:     0.0580581900987689
+  (pre) _x_bar:     0.919794173506569
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.53362247482959
+ (post) adapt_stat: 0.950523380293004
+ (post) _counter:   5
+ (post) _s_bar:     0.0241527520726507
+ (post) _x_bar:     0.92274177912643
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1541,6 +2066,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.53362247482959
+  (pre) adapt_stat: 1.31839522679992e-07
+  (pre) _counter:   5
+  (pre) _s_bar:     0.0241527520726507
+  (pre) _x_bar:     0.92274177912643
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.532366743187396
+ (post) adapt_stat: 1.31839522679992e-07
+ (post) _counter:   6
+ (post) _s_bar:     0.0538931968281398
+ (post) _x_bar:     0.517602826728438
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1586,6 +2132,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.532366743187396
+  (pre) adapt_stat: 1
+  (pre) _counter:   6
+  (pre) _s_bar:     0.0538931968281398
+  (pre) _x_bar:     0.517602826728438
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.41598955672461
+ (post) adapt_stat: 1
+ (post) _counter:   7
+ (post) _s_bar:     0.0213112440735434
+ (post) _x_bar:     0.602302416576057
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1631,6 +2198,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.41598955672461
+  (pre) adapt_stat: 1
+  (pre) _counter:   7
+  (pre) _s_bar:     0.0213112440735434
+  (pre) _x_bar:     0.602302416576057
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    11.5025777426356
+ (post) adapt_stat: 1
+ (post) _counter:   8
+ (post) _s_bar:     -0.00765049170832015
+ (post) _x_bar:     0.989171264313372
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1676,6 +2264,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    11.5025777426356
+  (pre) adapt_stat: 0
+  (pre) _counter:   8
+  (pre) _s_bar:     -0.00765049170832015
+  (pre) _x_bar:     0.989171264313372
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.37670882267943
+ (post) adapt_stat: 0
+ (post) _counter:   9
+ (post) _s_bar:     0.0190679552236967
+ (post) _x_bar:     0.965412419072357
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1722,6 +2331,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.37670882267943
+  (pre) adapt_stat: 1
+  (pre) _counter:   9
+  (pre) _s_bar:     0.0190679552236967
+  (pre) _x_bar:     0.965412419072357
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    11.5336358037321
+ (post) adapt_stat: 1
+ (post) _counter:   10
+ (post) _s_bar:     -0.00688544253748814
+ (post) _x_bar:     1.22857202222539
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1767,6 +2397,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    11.5336358037321
+  (pre) adapt_stat: 0
+  (pre) _counter:   10
+  (pre) _s_bar:     -0.00688544253748814
+  (pre) _x_bar:     1.22857202222539
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.37602391352854
+ (post) adapt_stat: 0
+ (post) _counter:   11
+ (post) _s_bar:     0.0172519594881065
+ (post) _x_bar:     1.16844996559827
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1812,6 +2463,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.37602391352854
+  (pre) adapt_stat: 0.50453742810652
+  (pre) _counter:   11
+  (pre) _s_bar:     0.0172519594881065
+  (pre) _x_bar:     1.16844996559827
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.41853493279897
+ (post) adapt_stat: 0.50453742810652
+ (post) _counter:   12
+ (post) _s_bar:     0.0162615327792599
+ (post) _x_bar:     1.12420156445051
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1857,6 +2529,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.41853493279897
+  (pre) adapt_stat: 0.62480563074562
+  (pre) _counter:   12
+  (pre) _s_bar:     0.0162615327792599
+  (pre) _x_bar:     1.12420156445051
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.59462870771157
+ (post) adapt_stat: 0.62480563074562
+ (post) _counter:   13
+ (post) _s_bar:     0.0101281778433955
+ (post) _x_bar:     1.14687637761588
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1902,6 +2595,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.59462870771157
+  (pre) adapt_stat: 0.748746379736122
+  (pre) _counter:   13
+  (pre) _s_bar:     0.0101281778433955
+  (pre) _x_bar:     1.14687637761588
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    7.83854960701029
+ (post) adapt_stat: 0.748746379736122
+ (post) _counter:   14
+ (post) _s_bar:     -0.00065826205575103
+ (post) _x_bar:     1.27290909511276
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1948,6 +2662,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    7.83854960701029
+  (pre) adapt_stat: 0
+  (pre) _counter:   14
+  (pre) _s_bar:     -0.00065826205575103
+  (pre) _x_bar:     1.27290909511276
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.6645417614361
+ (post) adapt_stat: 0
+ (post) _counter:   15
+ (post) _s_bar:     0.019368068426479
+ (post) _x_bar:     1.17275689004576
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -1993,6 +2728,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.6645417614361
+  (pre) adapt_stat: 1
+  (pre) _counter:   15
+  (pre) _s_bar:     0.019368068426479
+  (pre) _x_bar:     1.17275689004576
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    7.83345855042938
+ (post) adapt_stat: 1
+ (post) _counter:   16
+ (post) _s_bar:     -0.000607626513000951
+ (post) _x_bar:     1.28346279347947
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2038,6 +2794,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    7.83345855042938
+  (pre) adapt_stat: 9.50677485720261e-218
+  (pre) _counter:   16
+  (pre) _s_bar:     -0.000607626513000951
+  (pre) _x_bar:     1.28346279347947
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.700578046805
+ (post) adapt_stat: 9.50677485720261e-218
+ (post) _counter:   17
+ (post) _s_bar:     0.0179333966911843
+ (post) _x_bar:     1.19358204487896
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2109,6 +2886,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.700578046805
+  (pre) adapt_stat: 0.897179907451932
+  (pre) _counter:   17
+  (pre) _s_bar:     0.0179333966911843
+  (pre) _x_bar:     1.19358204487896
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    5.73207794814655
+ (post) adapt_stat: 0.897179907451932
+ (post) _counter:   18
+ (post) _s_bar:     0.00310792154321583
+ (post) _x_bar:     1.25680500261668
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2154,6 +2952,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    5.73207794814655
+  (pre) adapt_stat: 0.0252665710312939
+  (pre) _counter:   18
+  (pre) _s_bar:     0.00310792154321583
+  (pre) _x_bar:     1.25680500261668
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.37861682300274
+ (post) adapt_stat: 0.0252665710312939
+ (post) _counter:   19
+ (post) _s_bar:     0.0193708700751293
+ (post) _x_bar:     1.15398379245598
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2200,6 +3019,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.37861682300274
+  (pre) adapt_stat: 1
+  (pre) _counter:   19
+  (pre) _s_bar:     0.0193708700751293
+  (pre) _x_bar:     1.15398379245598
+  (pre) _mu:        2.00979399647536
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    6.20698621770218
+ (post) adapt_stat: 1
+ (post) _counter:   20
+ (post) _s_bar:     0.00205850773929164
+ (post) _x_bar:     1.22500653990988
+ (post) _mu:        2.00979399647536
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2282,6 +3122,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.55174655442555
+  (pre) adapt_stat: 0.0230708473207375
+  (pre) _counter:   0
+  (pre) _s_bar:     0
+  (pre) _x_bar:     0
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    6.51966037525221
+ (post) adapt_stat: 0.0230708473207375
+ (post) _counter:   1
+ (post) _s_bar:     0.0433571956981148
+ (post) _x_bar:     1.8748222848966
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2327,6 +3188,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    6.51966037525221
+  (pre) adapt_stat: 0
+  (pre) _counter:   1
+  (pre) _s_bar:     0.0433571956981148
+  (pre) _x_bar:     1.8748222848966
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.55165500045844
+ (post) adapt_stat: 0
+ (post) _counter:   2
+ (post) _s_bar:     0.0814107627232719
+ (post) _x_bar:     1.02126877026284
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2372,6 +3254,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.55165500045844
+  (pre) adapt_stat: 0.626193699211419
+  (pre) _counter:   2
+  (pre) _s_bar:     0.0814107627232719
+  (pre) _x_bar:     1.02126877026284
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.60804141039222
+ (post) adapt_stat: 0.626193699211419
+ (post) _counter:   3
+ (post) _s_bar:     0.0654411887282957
+ (post) _x_bar:     0.781632816761592
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2417,6 +3320,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.60804141039222
+  (pre) adapt_stat: 0.575093331755982
+  (pre) _counter:   3
+  (pre) _s_bar:     0.0654411887282957
+  (pre) _x_bar:     0.781632816761592
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.69188932977547
+ (post) adapt_stat: 0.575093331755982
+ (post) _counter:   4
+ (post) _s_bar:     0.0554030086937044
+ (post) _x_bar:     0.691198467786161
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2463,6 +3387,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.69188932977547
+  (pre) adapt_stat: 1
+  (pre) _counter:   4
+  (pre) _s_bar:     0.0554030086937044
+  (pre) _x_bar:     0.691198467786161
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    6.82205107001825
+ (post) adapt_stat: 1
+ (post) _counter:   5
+ (post) _s_bar:     0.0183761414474575
+ (post) _x_bar:     1.0587437445144
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2508,6 +3453,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    6.82205107001825
+  (pre) adapt_stat: 0
+  (pre) _counter:   5
+  (pre) _s_bar:     0.0183761414474575
+  (pre) _x_bar:     1.0587437445144
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.44348008306119
+ (post) adapt_stat: 0
+ (post) _counter:   6
+ (post) _s_bar:     0.0484776326069914
+ (post) _x_bar:     0.878319014580583
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2579,6 +3545,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.44348008306119
+  (pre) adapt_stat: 0.987088141962202
+  (pre) _counter:   6
+  (pre) _s_bar:     0.0484776326069914
+  (pre) _x_bar:     0.878319014580583
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    6.32050466738641
+ (post) adapt_stat: 0.987088141962202
+ (post) _counter:   7
+ (post) _s_bar:     0.0169737635146859
+ (post) _x_bar:     1.10266575864425
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2624,6 +3611,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    6.32050466738641
+  (pre) adapt_stat: 0
+  (pre) _counter:   7
+  (pre) _s_bar:     0.0169737635146859
+  (pre) _x_bar:     1.10266575864425
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.30184192352689
+ (post) adapt_stat: 0
+ (post) _counter:   8
+ (post) _s_bar:     0.0438085544305367
+ (post) _x_bar:     0.926311778301549
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2695,6 +3703,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.30184192352689
+  (pre) adapt_stat: 0.984720797955208
+  (pre) _counter:   8
+  (pre) _s_bar:     0.0438085544305367
+  (pre) _x_bar:     0.926311778301549
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    5.94465795266934
+ (post) adapt_stat: 0.984720797955208
+ (post) _counter:   9
+ (post) _s_bar:     0.0159912200944448
+ (post) _x_bar:     1.09108392993229
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2754,6 +3783,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    5.94465795266934
+  (pre) adapt_stat: 0
+  (pre) _counter:   9
+  (pre) _s_bar:     0.0159912200944448
+  (pre) _x_bar:     1.09108392993229
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.22143022240401
+ (post) adapt_stat: 0
+ (post) _counter:   10
+ (post) _s_bar:     0.0401916590897226
+ (post) _x_bar:     0.932628307973076
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2825,6 +3875,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.22143022240401
+  (pre) adapt_stat: 0.735758829478469
+  (pre) _counter:   10
+  (pre) _s_bar:     0.0401916590897226
+  (pre) _x_bar:     0.932628307973076
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.57949918526597
+ (post) adapt_stat: 0.735758829478469
+ (post) _counter:   11
+ (post) _s_bar:     0.0270511596340944
+ (post) _x_bar:     0.935106237909944
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2870,6 +3941,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.57949918526597
+  (pre) adapt_stat: 4.32000641023123e-27
+  (pre) _counter:   11
+  (pre) _s_bar:     0.0270511596340944
+  (pre) _x_bar:     0.935106237909944
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.537086724066504
+ (post) adapt_stat: 4.32000641023123e-27
+ (post) _counter:   12
+ (post) _s_bar:     0.048548834196181
+ (post) _x_bar:     0.693660506616272
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2941,6 +4033,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.537086724066504
+  (pre) adapt_stat: 1
+  (pre) _counter:   12
+  (pre) _s_bar:     0.048548834196181
+  (pre) _x_bar:     0.693660506616272
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.61405924903658
+ (post) adapt_stat: 1
+ (post) _counter:   13
+ (post) _s_bar:     0.0246988848833036
+ (post) _x_bar:     0.732695138003418
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -2986,6 +4099,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.61405924903658
+  (pre) adapt_stat: 0.315650558937061
+  (pre) _counter:   13
+  (pre) _s_bar:     0.0246988848833036
+  (pre) _x_bar:     0.732695138003418
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.4856803692742
+ (post) adapt_stat: 0.315650558937061
+ (post) _counter:   14
+ (post) _s_bar:     0.0313509913907884
+ (post) _x_bar:     0.686157447966863
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3032,6 +4166,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.4856803692742
+  (pre) adapt_stat: 0.324544928591582
+  (pre) _counter:   14
+  (pre) _s_bar:     0.0313509913907884
+  (pre) _x_bar:     0.686157447966863
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.87549896132472
+ (post) adapt_stat: 0.324544928591582
+ (post) _counter:   15
+ (post) _s_bar:     0.0371151545914935
+ (post) _x_bar:     0.57868963047519
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3103,6 +4258,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.87549896132472
+  (pre) adapt_stat: 0.967159069707842
+  (pre) _counter:   15
+  (pre) _s_bar:     0.0371151545914935
+  (pre) _x_bar:     0.57868963047519
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.75980400375976
+ (post) adapt_stat: 0.967159069707842
+ (post) _counter:   16
+ (post) _s_bar:     0.0177199921184422
+ (post) _x_bar:     0.671899280338732
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3148,6 +4324,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.75980400375976
+  (pre) adapt_stat: 4.37058346227884e-34
+  (pre) _counter:   16
+  (pre) _s_bar:     0.0177199921184422
+  (pre) _x_bar:     0.671899280338732
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.825126651375545
+ (post) adapt_stat: 4.37058346227884e-34
+ (post) _counter:   17
+ (post) _s_bar:     0.035582214632574
+ (post) _x_bar:     0.568685854363415
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3193,6 +4390,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.825126651375545
+  (pre) adapt_stat: 1
+  (pre) _counter:   17
+  (pre) _s_bar:     0.035582214632574
+  (pre) _x_bar:     0.568685854363415
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.84115990231367
+ (post) adapt_stat: 1
+ (post) _counter:   18
+ (post) _s_bar:     0.0164542783956963
+ (post) _x_bar:     0.657609266069735
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3238,6 +4456,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.84115990231367
+  (pre) adapt_stat: 1.83782935516621e-42
+  (pre) _counter:   18
+  (pre) _s_bar:     0.0164542783956963
+  (pre) _x_bar:     0.657609266069735
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.864080521576159
+ (post) adapt_stat: 1.83782935516621e-42
+ (post) _counter:   19
+ (post) _s_bar:     0.0331282687958447
+ (post) _x_bar:     0.569295581884228
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3310,6 +4549,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.864080521576159
+  (pre) adapt_stat: 0.932600716942871
+  (pre) _counter:   19
+  (pre) _s_bar:     0.0331282687958447
+  (pre) _x_bar:     0.569295581884228
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.21368842735812
+ (post) adapt_stat: 0.932600716942871
+ (post) _counter:   20
+ (post) _s_bar:     0.0176039692712209
+ (post) _x_bar:     0.632539467181229
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3355,6 +4615,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.21368842735812
+  (pre) adapt_stat: 2.21236821065853e-52
+  (pre) _counter:   20
+  (pre) _s_bar:     0.0176039692712209
+  (pre) _x_bar:     0.632539467181229
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.742547589602785
+ (post) adapt_stat: 2.21236821065853e-52
+ (post) _counter:   21
+ (post) _s_bar:     0.0331651315527944
+ (post) _x_bar:     0.537716072672036
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3426,6 +4707,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.742547589602785
+  (pre) adapt_stat: 0.996967085517075
+  (pre) _counter:   21
+  (pre) _s_bar:     0.0331651315527944
+  (pre) _x_bar:     0.537716072672036
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.27032347065414
+ (post) adapt_stat: 0.996967085517075
+ (post) _counter:   22
+ (post) _s_bar:     0.016598499769361
+ (post) _x_bar:     0.601425435883432
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3471,6 +4773,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.27032347065414
+  (pre) adapt_stat: 1.56808346391898e-32
+  (pre) _counter:   22
+  (pre) _s_bar:     0.016598499769361
+  (pre) _x_bar:     0.601425435883432
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.774805198163293
+ (post) adapt_stat: 1.56808346391898e-32
+ (post) _counter:   23
+ (post) _s_bar:     0.0312470300793804
+ (post) _x_bar:     0.51986744598258
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3542,6 +4865,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.774805198163293
+  (pre) adapt_stat: 0.994270885559685
+  (pre) _counter:   23
+  (pre) _s_bar:     0.0312470300793804
+  (pre) _x_bar:     0.51986744598258
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.30292239885201
+ (post) adapt_stat: 0.994270885559685
+ (post) _counter:   24
+ (post) _s_bar:     0.0157906207958784
+ (post) _x_bar:     0.582112789554995
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3588,6 +4932,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.30292239885201
+  (pre) adapt_stat: 0.703651705501222
+  (pre) _counter:   24
+  (pre) _s_bar:     0.0157906207958784
+  (pre) _x_bar:     0.582112789554995
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    5.98874691693501
+ (post) adapt_stat: 0.703651705501222
+ (post) _counter:   25
+ (post) _s_bar:     0.00952084004453269
+ (post) _x_bar:     0.690138969170614
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3646,6 +5011,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    5.98874691693501
+  (pre) adapt_stat: 0
+  (pre) _counter:   25
+  (pre) _s_bar:     0.00952084004453269
+  (pre) _x_bar:     0.690138969170614
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.46463114613931
+ (post) adapt_stat: 0
+ (post) _counter:   26
+ (post) _s_bar:     0.0231452611544068
+ (post) _x_bar:     0.66334264763087
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3717,6 +5103,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.46463114613931
+  (pre) adapt_stat: 0.653476433091385
+  (pre) _counter:   26
+  (pre) _s_bar:     0.0231452611544068
+  (pre) _x_bar:     0.66334264763087
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.29957181282804
+ (post) adapt_stat: 0.653476433091385
+ (post) _counter:   27
+ (post) _s_bar:     0.0183717018504665
+ (post) _x_bar:     0.677642779687791
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3762,6 +5169,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.29957181282804
+  (pre) adapt_stat: 1
+  (pre) _counter:   27
+  (pre) _s_bar:     0.0183717018504665
+  (pre) _x_bar:     0.677642779687791
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    9.4060578478624
+ (post) adapt_stat: 1
+ (post) _counter:   28
+ (post) _s_bar:     0.0047303412754542
+ (post) _x_bar:     0.806108723077614
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3807,6 +5235,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    9.4060578478624
+  (pre) adapt_stat: 0
+  (pre) _counter:   28
+  (pre) _s_bar:     0.0047303412754542
+  (pre) _x_bar:     0.806108723077614
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.37440001845634
+ (post) adapt_stat: 0
+ (post) _counter:   29
+ (post) _s_bar:     0.0174295632940323
+ (post) _x_bar:     0.810800812414169
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3853,6 +5302,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.37440001845634
+  (pre) adapt_stat: 2.72670878398621e-13
+  (pre) _counter:   29
+  (pre) _s_bar:     0.0174295632940323
+  (pre) _x_bar:     0.810800812414169
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.6132881632058
+ (post) adapt_stat: 2.72670878398621e-13
+ (post) _counter:   30
+ (post) _s_bar:     0.0294938242116747
+ (post) _x_bar:     0.709407513166866
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3924,6 +5394,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.6132881632058
+  (pre) adapt_stat: 0.984588221380301
+  (pre) _counter:   30
+  (pre) _s_bar:     0.0294938242116747
+  (pre) _x_bar:     0.709407513166866
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.34881472952879
+ (post) adapt_stat: 0.984588221380301
+ (post) _counter:   31
+ (post) _s_bar:     0.0169552377338216
+ (post) _x_bar:     0.720406597878291
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -3969,6 +5460,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.34881472952879
+  (pre) adapt_stat: 1.0866012065227e-12
+  (pre) _counter:   31
+  (pre) _s_bar:     0.0169552377338216
+  (pre) _x_bar:     0.720406597878291
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.620334128638344
+ (post) adapt_stat: 1.0866012065227e-12
+ (post) _counter:   32
+ (post) _s_bar:     0.0284563035020381
+ (post) _x_bar:     0.631371878121448
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4014,6 +5526,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.620334128638344
+  (pre) adapt_stat: 1
+  (pre) _counter:   32
+  (pre) _s_bar:     0.0284563035020381
+  (pre) _x_bar:     0.631371878121448
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.42192514583027
+ (post) adapt_stat: 1
+ (post) _counter:   33
+ (post) _s_bar:     0.0161666220252465
+ (post) _x_bar:     0.649761066852012
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4059,6 +5592,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.42192514583027
+  (pre) adapt_stat: 0.824631507433226
+  (pre) _counter:   33
+  (pre) _s_bar:     0.0161666220252465
+  (pre) _x_bar:     0.649761066852012
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    5.81181428599615
+ (post) adapt_stat: 0.824631507433226
+ (post) _counter:   34
+ (post) _s_bar:     0.00842120999209938
+ (post) _x_bar:     0.728604463550292
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4118,6 +5672,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    5.81181428599615
+  (pre) adapt_stat: 0
+  (pre) _counter:   34
+  (pre) _s_bar:     0.00842120999209938
+  (pre) _x_bar:     0.728604463550292
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.57304505390829
+ (post) adapt_stat: 0
+ (post) _counter:   35
+ (post) _s_bar:     0.0193451831033861
+ (post) _x_bar:     0.709452455782453
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4163,6 +5738,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.57304505390829
+  (pre) adapt_stat: 0.627417007264636
+  (pre) _counter:   35
+  (pre) _s_bar:     0.0193451831033861
+  (pre) _x_bar:     0.709452455782453
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.23312536751348
+ (post) adapt_stat: 0.627417007264636
+ (post) _counter:   36
+ (post) _s_bar:     0.0161547007040812
+ (post) _x_bar:     0.715844920367067
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4208,6 +5804,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.23312536751348
+  (pre) adapt_stat: 7.6509470879166e-15
+  (pre) _counter:   36
+  (pre) _s_bar:     0.0161547007040812
+  (pre) _x_bar:     0.715844920367067
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.621432628560793
+ (post) adapt_stat: 7.6509470879166e-15
+ (post) _counter:   37
+ (post) _s_bar:     0.0264492815401644
+ (post) _x_bar:     0.636417720907984
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4253,6 +5870,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.621432628560793
+  (pre) adapt_stat: 0.833701147147017
+  (pre) _counter:   37
+  (pre) _s_bar:     0.0264492815401644
+  (pre) _x_bar:     0.636417720907984
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.50099503728262
+ (post) adapt_stat: 0.833701147147017
+ (post) _counter:   38
+ (post) _s_bar:     0.0189461476091815
+ (post) _x_bar:     0.621371189660813
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4298,6 +5936,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.50099503728262
+  (pre) adapt_stat: 1
+  (pre) _counter:   38
+  (pre) _s_bar:     0.0189461476091815
+  (pre) _x_bar:     0.621371189660813
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    5.46506402200709
+ (post) adapt_stat: 1
+ (post) _counter:   39
+ (post) _s_bar:     0.00835540990287167
+ (post) _x_bar:     0.690382316983383
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4344,6 +6003,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    5.46506402200709
+  (pre) adapt_stat: 0
+  (pre) _counter:   39
+  (pre) _s_bar:     0.00835540990287167
+  (pre) _x_bar:     0.690382316983383
+  (pre) _mu:        2.7419661988589
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.55473916584878
+ (post) adapt_stat: 0
+ (post) _counter:   40
+ (post) _s_bar:     0.0181883017048142
+ (post) _x_bar:     0.674722585308605
+ (post) _mu:        2.7419661988589
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4426,6 +6106,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    6.21895666339513
+  (pre) adapt_stat: 1.2237502219714e-269
+  (pre) _counter:   0
+  (pre) _s_bar:     0
+  (pre) _x_bar:     0
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    25.0555744969101
+ (post) adapt_stat: 1.2237502219714e-269
+ (post) _counter:   1
+ (post) _s_bar:     0.0454545454545455
+ (post) _x_bar:     3.22109633758047
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4471,6 +6172,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    25.0555744969101
+  (pre) adapt_stat: 0
+  (pre) _counter:   1
+  (pre) _s_bar:     0.0454545454545455
+  (pre) _x_bar:     3.22109633758047
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    5.88946194393794
+ (post) adapt_stat: 0
+ (post) _counter:   2
+ (post) _s_bar:     0.0833333333333333
+ (post) _x_bar:     2.36015100079521
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4516,6 +6238,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    5.88946194393794
+  (pre) adapt_stat: 1.18740027168016e-111
+  (pre) _counter:   2
+  (pre) _s_bar:     0.0833333333333333
+  (pre) _x_bar:     2.36015100079521
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.14241783175709
+ (post) adapt_stat: 1.18740027168016e-111
+ (post) _counter:   3
+ (post) _s_bar:     0.115384615384615
+ (post) _x_bar:     1.38318360230079
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4561,6 +6304,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.14241783175709
+  (pre) adapt_stat: 0.95036159017264
+  (pre) _counter:   3
+  (pre) _s_bar:     0.115384615384615
+  (pre) _x_bar:     1.38318360230079
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.09943662607183
+ (post) adapt_stat: 0.95036159017264
+ (post) _counter:   4
+ (post) _s_bar:     0.0749741721305257
+ (post) _x_bar:     1.29410114419324
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4607,6 +6371,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.09943662607183
+  (pre) adapt_stat: 0.346432128297567
+  (pre) _counter:   4
+  (pre) _s_bar:     0.0749741721305257
+  (pre) _x_bar:     1.29410114419324
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.72102354487777
+ (post) adapt_stat: 0.346432128297567
+ (post) _counter:   5
+ (post) _s_bar:     0.0802137521019862
+ (post) _x_bar:     1.06944534266936
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4678,6 +6463,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.72102354487777
+  (pre) adapt_stat: 1
+  (pre) _counter:   5
+  (pre) _s_bar:     0.0802137521019862
+  (pre) _x_bar:     1.06944534266936
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    7.22152774525402
+ (post) adapt_stat: 1
+ (post) _counter:   6
+ (post) _s_bar:     0.0439503925956121
+ (post) _x_bar:     1.30619599670132
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4723,6 +6529,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    7.22152774525402
+  (pre) adapt_stat: 0
+  (pre) _counter:   6
+  (pre) _s_bar:     0.0439503925956121
+  (pre) _x_bar:     1.30619599670132
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    1.46965679016038
+ (post) adapt_stat: 0
+ (post) _counter:   7
+ (post) _s_bar:     0.0707768400899879
+ (post) _x_bar:     1.09214616626558
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4794,6 +6621,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    1.46965679016038
+  (pre) adapt_stat: 0.878594942047418
+  (pre) _counter:   7
+  (pre) _s_bar:     0.0707768400899879
+  (pre) _x_bar:     1.09214616626558
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    4.65845489000369
+ (post) adapt_stat: 0.878594942047418
+ (post) _counter:   8
+ (post) _s_bar:     0.0458117410823542
+ (post) _x_bar:     1.18601914528429
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4852,6 +6700,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    4.65845489000369
+  (pre) adapt_stat: 0
+  (pre) _counter:   8
+  (pre) _s_bar:     0.0458117410823542
+  (pre) _x_bar:     1.18601914528429
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.948573567531819
+ (post) adapt_stat: 0
+ (post) _counter:   9
+ (post) _s_bar:     0.0697163862885461
+ (post) _x_bar:     0.947609072763671
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4898,6 +6767,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.948573567531819
+  (pre) adapt_stat: 1
+  (pre) _counter:   9
+  (pre) _s_bar:     0.0697163862885461
+  (pre) _x_bar:     0.947609072763671
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    4.58384070919077
+ (post) adapt_stat: 1
+ (post) _counter:   10
+ (post) _s_bar:     0.0412305669741188
+ (post) _x_bar:     1.0498473631021
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -4943,6 +6833,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    4.58384070919077
+  (pre) adapt_stat: 2.18996627462881e-50
+  (pre) _counter:   10
+  (pre) _s_bar:     0.0412305669741188
+  (pre) _x_bar:     1.0498473631021
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.947574505322184
+ (post) adapt_stat: 2.18996627462881e-50
+ (post) _counter:   11
+ (post) _s_bar:     0.0630767304515417
+ (post) _x_bar:     0.86711924664555
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5014,6 +6925,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.947574505322184
+  (pre) adapt_stat: 0.865757550429308
+  (pre) _counter:   11
+  (pre) _s_bar:     0.0630767304515417
+  (pre) _x_bar:     0.86711924664555
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.03612162600958
+ (post) adapt_stat: 0.865757550429308
+ (post) _counter:   12
+ (post) _s_bar:     0.0435842631387758
+ (post) _x_bar:     0.904880349350181
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5059,6 +6991,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.03612162600958
+  (pre) adapt_stat: 1
+  (pre) _counter:   12
+  (pre) _s_bar:     0.0435842631387758
+  (pre) _x_bar:     0.904880349350181
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    14.7546812909023
+ (post) adapt_stat: 1
+ (post) _counter:   13
+ (post) _s_bar:     0.0199501647414377
+ (post) _x_bar:     1.16584956243462
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5104,6 +7057,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    14.7546812909023
+  (pre) adapt_stat: 0
+  (pre) _counter:   13
+  (pre) _s_bar:     0.0199501647414377
+  (pre) _x_bar:     1.16584956243462
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.12812967429112
+ (post) adapt_stat: 0
+ (post) _counter:   14
+ (post) _s_bar:     0.0399522412105445
+ (post) _x_bar:     1.1623381498371
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5150,6 +7124,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.12812967429112
+  (pre) adapt_stat: 1.10686805173363e-13
+  (pre) _counter:   14
+  (pre) _s_bar:     0.0399522412105445
+  (pre) _x_bar:     1.1623381498371
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.67712059059836
+ (post) adapt_stat: 1.10686805173363e-13
+ (post) _counter:   15
+ (post) _s_bar:     0.0583541515621183
+ (post) _x_bar:     0.958684799743582
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5195,6 +7190,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.67712059059836
+  (pre) adapt_stat: 0.993723244713232
+  (pre) _counter:   15
+  (pre) _s_bar:     0.0583541515621183
+  (pre) _x_bar:     0.958684799743582
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    3.19170355026026
+ (post) adapt_stat: 0.993723244713232
+ (post) _counter:   16
+ (post) _s_bar:     0.0371204055515279
+ (post) _x_bar:     0.983918550094277
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5240,6 +7256,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    3.19170355026026
+  (pre) adapt_stat: 0.00101778116526135
+  (pre) _counter:   16
+  (pre) _s_bar:     0.0371204055515279
+  (pre) _x_bar:     0.983918550094277
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.710748855447025
+ (post) adapt_stat: 0.00101778116526135
+ (post) _counter:   17
+ (post) _s_bar:     0.0542263986360913
+ (post) _x_bar:     0.825613260031707
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5285,6 +7322,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.710748855447025
+  (pre) adapt_stat: 0.896693748926152
+  (pre) _counter:   17
+  (pre) _s_bar:     0.0542263986360913
+  (pre) _x_bar:     0.825613260031707
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.44836179702545
+ (post) adapt_stat: 0.896693748926152
+ (post) _counter:   18
+ (post) _s_bar:     0.0381221076517254
+ (post) _x_bar:     0.833601252902334
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5330,6 +7388,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    2.44836179702545
+  (pre) adapt_stat: 0.000261834549297312
+  (pre) _counter:   18
+  (pre) _s_bar:     0.0381221076517254
+  (pre) _x_bar:     0.833601252902334
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    0.559393424246117
+ (post) adapt_stat: 0.000261834549297312
+ (post) _counter:   19
+ (post) _s_bar:     0.0540399027482419
+ (post) _x_bar:     0.678169828282984
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
@@ -5454,6 +7533,27 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 
   learn stepsize:
+inside learn_stepsize:
+  (pre) epsilon:    0.559393424246117
+  (pre) adapt_stat: 1
+  (pre) _counter:   19
+  (pre) _s_bar:     0.0540399027482419
+  (pre) _x_bar:     0.678169828282984
+  (pre) _mu:        4.13018724667137
+  (pre) _delta:     0.5
+  (pre) _gamma:     0.05
+  (pre) _kappa:     0.75
+  (pre) _t0:        10
+ (post) epsilon:    2.58193534477965
+ (post) adapt_stat: 1
+ (post) _counter:   20
+ (post) _s_bar:     0.0355719059899672
+ (post) _x_bar:     0.706757914130388
+ (post) _mu:        4.13018724667137
+ (post) _delta:     0.5
+ (post) _gamma:     0.05
+ (post) _kappa:     0.75
+ (post) _t0:        10
 
 ************************************************************
 ************************************************************
