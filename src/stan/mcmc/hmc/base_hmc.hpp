@@ -78,10 +78,14 @@ namespace stan {
             break;
           else if ((direction == -1) && !(delta_H < std::log(0.5)))
             break;
-          else
+          else {
+            std::cout << "changing nom_epsilon from: " << this->_nom_epsilon << std::endl;
             this->_nom_epsilon = ( (direction == 1)
                                    ? 2.0 * this->_nom_epsilon
                                    : 0.5 * this->_nom_epsilon );
+            std::cout << "                       to: " << this->_nom_epsilon << std::endl;
+            std::cout << "       direction: " << direction << std::endl;
+          }
           
           if (this->_nom_epsilon > 1e300)
             throw std::runtime_error("Posterior is improper. Please check your model.");
