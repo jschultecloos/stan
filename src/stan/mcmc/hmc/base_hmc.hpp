@@ -56,9 +56,9 @@ namespace stan {
         double delta_H = H0 - h;
         
         int direction = delta_H > std::log(0.5) ? 1 : -1;
-        
+        int counter = 0;
         while (1) {
-          
+          counter++;
           this->_z.copy_base(z_init);
           
           this->_hamiltonian.sample_p(this->_z, this->_rand_int);
@@ -90,7 +90,7 @@ namespace stan {
         }
         
         this->_z.copy_base(z_init);
-        
+        std::cout << "---------- counter: " << counter << std::endl;
         std::cout << "---------- _nom_epsilon: " << this->_nom_epsilon << std::endl;
         std::cout << "exiting init_stepsize()" << std::endl;
         std::cout << "************************************************************" << std::endl;
