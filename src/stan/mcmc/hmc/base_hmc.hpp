@@ -37,7 +37,7 @@ namespace stan {
       }
       
       void init_stepsize() {
-        std::cout.precision(15);
+        std::cout.precision(6);
         std::cout << "************************************************************" << std::endl;
         std::cout << "inside init_stepsize()" << std::endl;
         std::cout << "---------- initial stepsize: " << this->_nom_epsilon << std::endl;
