@@ -87,7 +87,8 @@ namespace stan {
         }
         
         this->_z.copy_base(z_init);
-        
+        std::cout.precision(15);
+        std::cout << "---------- _nom_epsilon: " << this->_nom_epsilon << std::endl;
       }
       
       P& z() { return _z; }
