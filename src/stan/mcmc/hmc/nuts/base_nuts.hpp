@@ -160,7 +160,7 @@ namespace stan {
                   << "$$$   accept_prob:   " << accept_prob << std::endl;
         std::cout << std::endl
                   << "$$$   _z.q:          " << this->_z.q[0] << std::endl
-                  << "$$$   -V:            " << this->_hamiltonian.V(this_z) << std::endl
+                  << "$$$   -V:            " << this->_hamiltonian.V(this->_z) << std::endl
                   << "$$$   accept_prob:   " << accept_prob << std::endl;
         std::cout << "$$$$$$$$$$$$$$$$$$$$ exiting transition" << std::endl;
 
