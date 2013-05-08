@@ -76,6 +76,12 @@ before warmup s:
   iteration: 0
 Iteration:   1 / 1000 [  0%]  (Warmup)
 $$$$$$$$$$$$$$$$$$$$ inside transition
+$$$ init_sample:
+$$$   q:   1.9987371246756
+$$$   lp:  0
+$$$   acc: 0
+$$$   stepsize(before): 0.1
+$$$   stepsize: 3.2
 inside evolve: epsilon(3.2)
   z: 
 1.99747504677825,1.9987371246756,-1.76390516048551,1.9987371246756
@@ -86,6 +92,12 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 1
 $$$$$$$$$$$$$$$$$$$$ inside transition
+$$$ init_sample:
+$$$   q:   1.9987371246756
+$$$   lp:  -1.99747504677825
+$$$   acc: 1.36676048908102e-105
+$$$   stepsize(before): 3.2
+$$$   stepsize: 12.8924902889323
 inside evolve: epsilon(12.8924902889323)
   z: 
 1.99747504677825,1.9987371246756,-1.0539275858864,1.9987371246756
@@ -96,6 +108,12 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 2
 $$$$$$$$$$$$$$$$$$$$ inside transition
+$$$ init_sample:
+$$$   q:   1.9987371246756
+$$$   lp:  -1.99747504677825
+$$$   acc: 0
+$$$   stepsize(before): 12.8924902889323
+$$$   stepsize: 3.03045659274825
 inside evolve: epsilon(-3.03045659274825)
   z: 
 1.99747504677825,1.9987371246756,-0.435825742658672,1.9987371246756
@@ -106,6 +124,12 @@ $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 3
 $$$$$$$$$$$$$$$$$$$$ inside transition
+$$$ init_sample:
+$$$   q:   1.9987371246756
+$$$   lp:  -1.99747504677825
+$$$   acc: 7.60462605370246e-16
+$$$   stepsize(before): 3.03045659274825
+$$$   stepsize: 0.58783768073838
 inside evolve: epsilon(-0.58783768073838)
   z: 
 1.99747504677825,1.9987371246756,0.929992532713445,1.9987371246756

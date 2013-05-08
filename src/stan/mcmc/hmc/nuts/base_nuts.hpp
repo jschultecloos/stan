@@ -55,8 +55,14 @@ namespace stan {
       sample transition(sample& init_sample)
       {
         std::cout << "$$$$$$$$$$$$$$$$$$$$ inside transition" << std::endl;
+        std::cout << "$$$ init_sample:" << std::endl
+                  << "$$$   q:   " << init_sample.cont_params(0) << std::endl
+                  << "$$$   lp:  " << init_sample.log_prob() << std::endl
+                  << "$$$   acc: " << init_sample.accept_stat() << std::endl;
+        std::cout << "$$$   stepsize(before): " << this->_epsilon << std::endl;
         // Initialize the algorithm
         this->_sample_stepsize();
+        std::cout << "$$$   stepsize: " << this->_epsilon << std::endl;
         
         nuts_util util;
         
@@ -150,7 +156,7 @@ namespace stan {
         
         double accept_prob = util.sum_prob / static_cast<double>(util.n_tree);
 
-      std::cout << "$$$$$$$$$$$$$$$$$$$$ exiting transition" << std::endl;
+        std::cout << "$$$$$$$$$$$$$$$$$$$$ exiting transition" << std::endl;
 
         return sample(this->_z.q, this->_z.r, - this->_hamiltonian.V(this->_z), accept_prob);
                                 
