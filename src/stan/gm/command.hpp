@@ -264,6 +264,8 @@ namespace stan {
                           RNG& base_rng) {
       
       for (size_t m = 0; m < num_iterations; ++m) {
+        std::cout << "^^^^^^^^^^^^^^^^^^^^  running markov chain" << std::endl;
+        std::cout << "  iteration: " << m << std::endl;
       
         print_progress(m, start, finish, refresh, warmup);
       
