@@ -264,11 +264,13 @@ namespace stan {
                           RNG& base_rng) {
       
       for (size_t m = 0; m < num_iterations; ++m) {
+        if (m == 4)
+          exit (-1);
         std::cout << "^^^^^^^^^^^^^^^^^^^^  running markov chain" << std::endl;
         std::cout << "  iteration: " << m << std::endl;
       
         print_progress(m, start, finish, refresh, warmup);
-      
+        
         init_s = sampler.transition(init_s);
           
         if ( save && ( (m % num_thin) == 0) ) {
