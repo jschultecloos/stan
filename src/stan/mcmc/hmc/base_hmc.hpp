@@ -128,10 +128,16 @@ namespace stan {
       double _epsilon;
       double _epsilon_jitter;
       
-      void _sample_stepsize() {
+    void _sample_stepsize() {
+      std::cout << "%%%%% inside sample stepsize" << std::endl
+                << "%%%%%   _nom_epsilon: " << this->_nom_epsilon << std::endl
+                << "%%%%%   _epsilon:     " << this->_epsilon << std::endl
+                << "%%%%%   jitter:       " << this->_epsilon_jitter << std::endl
+                << "%%%%%   jitter(bool): " << bool(this->_epsilon_jitter) << std::endl;
         this->_epsilon = this->_nom_epsilon;
         if(this->_epsilon_jitter)
           this->_epsilon *= ( 1.0 + this->_epsilon_jitter * (2.0 * this->_rand_uniform() - 1.0) );
+        std::cout << "%%%%%%  END: " << this->_epsilon << std::endl;
       }
     
     };

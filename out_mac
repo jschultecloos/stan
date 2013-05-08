@@ -81,6 +81,12 @@ $$$   q:   1.9987371246756
 $$$   lp:  0
 $$$   acc: 0
 $$$   stepsize(before): 0.1
+%%%%% inside sample stepsize
+%%%%%   _nom_epsilon: 3.2
+%%%%%   _epsilon:     0.1
+%%%%%   jitter:       0
+%%%%%   jitter(bool): 0
+%%%%%%  END: 3.2
 $$$   stepsize: 3.2
 inside evolve: epsilon(3.2)
   z: 
@@ -97,6 +103,12 @@ $$$   q:   1.9987371246756
 $$$   lp:  -1.99747504677825
 $$$   acc: 1.36676048908102e-105
 $$$   stepsize(before): 3.2
+%%%%% inside sample stepsize
+%%%%%   _nom_epsilon: 12.8924902889323
+%%%%%   _epsilon:     3.2
+%%%%%   jitter:       0
+%%%%%   jitter(bool): 0
+%%%%%%  END: 12.8924902889323
 $$$   stepsize: 12.8924902889323
 inside evolve: epsilon(12.8924902889323)
   z: 
@@ -113,6 +125,12 @@ $$$   q:   1.9987371246756
 $$$   lp:  -1.99747504677825
 $$$   acc: 0
 $$$   stepsize(before): 12.8924902889323
+%%%%% inside sample stepsize
+%%%%%   _nom_epsilon: 3.03045659274825
+%%%%%   _epsilon:     12.8924902889323
+%%%%%   jitter:       0
+%%%%%   jitter(bool): 0
+%%%%%%  END: 3.03045659274825
 $$$   stepsize: 3.03045659274825
 inside evolve: epsilon(-3.03045659274825)
   z: 
@@ -129,6 +147,12 @@ $$$   q:   1.9987371246756
 $$$   lp:  -1.99747504677825
 $$$   acc: 7.60462605370246e-16
 $$$   stepsize(before): 3.03045659274825
+%%%%% inside sample stepsize
+%%%%%   _nom_epsilon: 0.58783768073838
+%%%%%   _epsilon:     3.03045659274825
+%%%%%   jitter:       0
+%%%%%   jitter(bool): 0
+%%%%%%  END: 0.58783768073838
 $$$   stepsize: 0.58783768073838
 inside evolve: epsilon(-0.58783768073838)
   z: 
