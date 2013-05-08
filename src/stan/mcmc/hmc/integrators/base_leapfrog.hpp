@@ -15,8 +15,7 @@ namespace stan {
     public:
       
       void evolve(P& z, H& hamiltonian, const double epsilon) {
-        std::cout << "************************************************************" << std::endl
-                  << "inside evolve: epsilon(" << epsilon << ")" << std::endl
+        std::cout << "inside evolve: epsilon(" << epsilon << ")" << std::endl
                   << "  z: " << std::endl;
         z.write(std::cout);
         std::cout << std::endl;
@@ -30,7 +29,6 @@ namespace stan {
                   << "  z: " << std::endl;
         z.write(std::cout);
         std::cout << std::endl;
-        std::cout << "************************************************************" << std::endl;
       }
       
       void verbose_evolve(P& z, H& hamiltonian, const double epsilon) {

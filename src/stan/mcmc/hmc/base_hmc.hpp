@@ -37,7 +37,10 @@ namespace stan {
       }
       
       void init_stepsize() {
-  
+        std::cout.precision(15);
+        std::cout << "************************************************************" << std::endl;
+        std::cout << "inside init_stepsize()" << std::endl;
+        
         ps_point z_init(static_cast<ps_point>(this->_z));
   
         this->_hamiltonian.sample_p(this->_z, this->_rand_int);
@@ -87,8 +90,10 @@ namespace stan {
         }
         
         this->_z.copy_base(z_init);
-        std::cout.precision(15);
+        
         std::cout << "---------- _nom_epsilon: " << this->_nom_epsilon << std::endl;
+        std::cout << "exiting init_stepsize()" << std::endl;
+        std::cout << "************************************************************" << std::endl;
       }
       
       P& z() { return _z; }
