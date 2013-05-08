@@ -104,6 +104,7 @@ namespace stan {
       P& z() { return _z; }
 
       virtual void set_nominal_stepsize(const double e) {
+        exit(-1);
         if(e > 0) _nom_epsilon = e;
       }
       
