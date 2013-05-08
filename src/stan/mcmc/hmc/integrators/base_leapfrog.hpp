@@ -25,10 +25,10 @@ namespace stan {
         
       }
       
-      void verbose_evolve(P& z, H& hamiltonian, const double epsilon, std::ostream* error_stream = 0) {
+      void verbose_evolve(P& z, H& hamiltonian, const double epsilon) {
         
-        std::cout.precision(15);
-        int width = 20;
+        std::cout.precision(6);
+        int width = 14;
         int nColumn = 4;
         
         std::cout << "Verbose Hamiltonian Evolution, Step Size = " << epsilon << ":" << std::endl;
@@ -61,7 +61,6 @@ namespace stan {
                   << std::endl;
         
         update_q(z, hamiltonian, epsilon);
-        //hamiltonian.update(z, error_stream);
         hamiltonian.update(z);
         
         double H2 = hamiltonian.H(z);
