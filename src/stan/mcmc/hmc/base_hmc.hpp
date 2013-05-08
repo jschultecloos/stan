@@ -37,10 +37,10 @@ namespace stan {
       }
       
       void init_stepsize() {
-        std::cout.precision(6);
-        std::cout << "************************************************************" << std::endl;
-        std::cout << "inside init_stepsize()" << std::endl;
-        std::cout << "---------- initial stepsize: " << this->_nom_epsilon << std::endl;
+        std::cout.precision(15);
+        // std::cout << "************************************************************" << std::endl;
+        // std::cout << "inside init_stepsize()" << std::endl;
+        // std::cout << "---------- initial stepsize: " << this->_nom_epsilon << std::endl;
         
         ps_point z_init(static_cast<ps_point>(this->_z));
   
@@ -95,10 +95,10 @@ namespace stan {
         }
         
         this->_z.copy_base(z_init);
-        std::cout << "---------- counter: " << counter << std::endl;
-        std::cout << "---------- _nom_epsilon: " << this->_nom_epsilon << std::endl;
-        std::cout << "exiting init_stepsize()" << std::endl;
-        std::cout << "************************************************************" << std::endl;
+        // std::cout << "---------- counter: " << counter << std::endl;
+        // std::cout << "---------- _nom_epsilon: " << this->_nom_epsilon << std::endl;
+        // std::cout << "exiting init_stepsize()" << std::endl;
+        // std::cout << "************************************************************" << std::endl;
       }
       
       P& z() { return _z; }
@@ -133,15 +133,15 @@ namespace stan {
       double _epsilon_jitter;
       
     void _sample_stepsize() {
-      std::cout << "%%%%% inside sample stepsize" << std::endl
-                << "%%%%%   _nom_epsilon: " << this->_nom_epsilon << std::endl
-                << "%%%%%   _epsilon:     " << this->_epsilon << std::endl
-                << "%%%%%   jitter:       " << this->_epsilon_jitter << std::endl
-                << "%%%%%   jitter(bool): " << bool(this->_epsilon_jitter) << std::endl;
+      // std::cout << "%%%%% inside sample stepsize" << std::endl
+      //           << "%%%%%   _nom_epsilon: " << this->_nom_epsilon << std::endl
+      //           << "%%%%%   _epsilon:     " << this->_epsilon << std::endl
+      //           << "%%%%%   jitter:       " << this->_epsilon_jitter << std::endl
+      //           << "%%%%%   jitter(bool): " << bool(this->_epsilon_jitter) << std::endl;
         this->_epsilon = this->_nom_epsilon;
         if(this->_epsilon_jitter)
           this->_epsilon *= ( 1.0 + this->_epsilon_jitter * (2.0 * this->_rand_uniform() - 1.0) );
-        std::cout << "%%%%%%  END: " << this->_epsilon << std::endl;
+        // std::cout << "%%%%%%  END: " << this->_epsilon << std::endl;
       }
     
     };

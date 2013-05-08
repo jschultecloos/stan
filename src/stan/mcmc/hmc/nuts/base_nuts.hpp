@@ -54,15 +54,15 @@ namespace stan {
       
       sample transition(sample& init_sample)
       {
-        std::cout << "$$$$$$$$$$$$$$$$$$$$ inside transition" << std::endl;
-        std::cout << "$$$ init_sample:" << std::endl
-                  << "$$$   q:   " << init_sample.cont_params(0) << std::endl
-                  << "$$$   lp:  " << init_sample.log_prob() << std::endl
-                  << "$$$   acc: " << init_sample.accept_stat() << std::endl;
-        std::cout << "$$$   stepsize(before): " << this->_epsilon << std::endl;
+        // std::cout << "$$$$$$$$$$$$$$$$$$$$ inside transition" << std::endl;
+        // std::cout << "$$$ init_sample:" << std::endl
+        //           << "$$$   q:   " << init_sample.cont_params(0) << std::endl
+        //           << "$$$   lp:  " << init_sample.log_prob() << std::endl
+        //           << "$$$   acc: " << init_sample.accept_stat() << std::endl;
+        // std::cout << "$$$   stepsize(before): " << this->_epsilon << std::endl;
         // Initialize the algorithm
         this->_sample_stepsize();
-        std::cout << "$$$   stepsize: " << this->_epsilon << std::endl;
+        // std::cout << "$$$   stepsize: " << this->_epsilon << std::endl;
         
         nuts_util util;
         
@@ -155,14 +155,14 @@ namespace stan {
         this->_z.copy_base(z_sample);
         
         double accept_prob = util.sum_prob / static_cast<double>(util.n_tree);
-        std::cout << "$$$   util.sum_prob: " << util.sum_prob << std::endl
-                  << "$$$   util.n_tree:   " << util.n_tree << std::endl
-                  << "$$$   accept_prob:   " << accept_prob << std::endl;
-        std::cout << std::endl
-                  << "$$$   _z.q:          " << this->_z.q[0] << std::endl
-                  << "$$$   -V:            " << this->_hamiltonian.V(this->_z) << std::endl
-                  << "$$$   accept_prob:   " << accept_prob << std::endl;
-        std::cout << "$$$$$$$$$$$$$$$$$$$$ exiting transition" << std::endl;
+        // std::cout << "$$$   util.sum_prob: " << util.sum_prob << std::endl
+        //           << "$$$   util.n_tree:   " << util.n_tree << std::endl
+        //           << "$$$   accept_prob:   " << accept_prob << std::endl;
+        // std::cout << std::endl
+        //           << "$$$   _z.q:          " << this->_z.q[0] << std::endl
+        //           << "$$$   -V:            " << this->_hamiltonian.V(this->_z) << std::endl
+        //           << "$$$   accept_prob:   " << accept_prob << std::endl;
+        // std::cout << "$$$$$$$$$$$$$$$$$$$$ exiting transition" << std::endl;
 
         return sample(this->_z.q, this->_z.r, - this->_hamiltonian.V(this->_z), accept_prob);
                                 
@@ -212,16 +212,16 @@ namespace stan {
           if (h != h) h = std::numeric_limits<double>::infinity();
           
           util.criterion = util.log_u + (h - util.H0) < this->_max_delta;
-          std::cout << "-------------------- updating util.sum_prob." << std::endl
-                    << "                  ** pre:     " << util.sum_prob << std::endl
-                    << "                     util.H0: " << util.H0 << std::endl
-                    << "                     h:       " << h << std::endl
-                    << "                     exp(dif):" << std::exp(util.H0-h) << std::endl
-                    << "                     min:     " << stan::math::min(1, std::exp(util.H0 -h)) << std::endl;
+          // std::cout << "-------------------- updating util.sum_prob." << std::endl
+          //           << "                  ** pre:     " << util.sum_prob << std::endl
+          //           << "                     util.H0: " << util.H0 << std::endl
+          //           << "                     h:       " << h << std::endl
+          //           << "                     exp(dif):" << std::exp(util.H0-h) << std::endl
+          //           << "                     min:     " << stan::math::min(1, std::exp(util.H0 -h)) << std::endl;
 
             
           util.sum_prob += stan::math::min(1, std::exp(util.H0 - h));
-          std::cout << "                  ** post:    " << util.sum_prob << std::endl;
+          // std::cout << "                  ** post:    " << util.sum_prob << std::endl;
 
           util.n_tree += 1;
           
