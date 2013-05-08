@@ -155,7 +155,9 @@ namespace stan {
         this->_z.copy_base(z_sample);
         
         double accept_prob = util.sum_prob / static_cast<double>(util.n_tree);
-
+        std::cout << "$$$   util.sum_prob: " << util.sum_prob << std::endl
+                  << "$$$   util.n_tree:   " << util.n_tree << std::endl
+                  << "$$$   accept_prob:   " << accept_prob << std::endl;
         std::cout << "$$$$$$$$$$$$$$$$$$$$ exiting transition" << std::endl;
 
         return sample(this->_z.q, this->_z.r, - this->_hamiltonian.V(this->_z), accept_prob);

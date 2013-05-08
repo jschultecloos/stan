@@ -94,6 +94,9 @@ inside evolve: epsilon(3.2)
 exiting evolve
   z: 
 96.317393574568,-13.8792934672171,17.2449849875809,-13.8792934672171
+$$$   util.sum_prob: 1.36676048908102e-105
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.36676048908102e-105
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 1
@@ -116,6 +119,9 @@ inside evolve: epsilon(12.8924902889323)
 exiting evolve
   z: 
 15788.7097994785,-177.70036465623,1131.56183576419,-177.70036465623
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 2
@@ -138,6 +144,9 @@ inside evolve: epsilon(-3.03045659274825)
 exiting evolve
   z: 
 17.1603088585816,-5.8583801274041,-6.28406603429528,-5.8583801274041
+$$$   util.sum_prob: 7.60462605370246e-16
+$$$   util.n_tree:   1
+$$$   accept_prob:   7.60462605370246e-16
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 3
@@ -160,6 +169,9 @@ inside evolve: epsilon(-0.58783768073838)
 exiting evolve
   z: 
 0.612411842850728,1.10671752751163,1.84274416290342,1.10671752751163
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 4
@@ -207,6 +219,9 @@ inside evolve: epsilon(1.83784381656376)
 exiting evolve
   z: 
 0.280460891346411,0.748947116085523,0.323405054976378,0.748947116085523
+$$$   util.sum_prob: 1.99668129836831
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.998340649184154
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 5
@@ -229,6 +244,9 @@ inside evolve: epsilon(-7.17122642504863)
 exiting evolve
   z: 
 12.5675364322939,-5.01348909090145,-17.2724669484003,-5.01348909090145
+$$$   util.sum_prob: 6.78872916167414e-71
+$$$   util.n_tree:   1
+$$$   accept_prob:   6.78872916167414e-71
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 6
@@ -251,6 +269,9 @@ inside evolve: epsilon(1.49002518249349)
 exiting evolve
   z: 
 0.00181410429147026,0.0602346128313325,-0.0278115898016845,0.0602346128313325
+$$$   util.sum_prob: 0.999329579396438
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.999329579396438
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 7
@@ -273,6 +294,9 @@ inside evolve: epsilon(-6.70035052654802)
 exiting evolve
   z: 
 0.821997748416497,-1.28218387793366,-4.0951902238668,-1.28218387793366
+$$$   util.sum_prob: 0.000100487814812681
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.000100487814812681
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 8
@@ -295,6 +319,9 @@ inside evolve: epsilon(-1.3716757054353)
 exiting evolve
   z: 
 0.452316487148942,-0.951121955533508,0.0849991926274993,-0.951121955533508
+$$$   util.sum_prob: 0.809042030430657
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.809042030430657
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 9
@@ -318,6 +345,9 @@ inside evolve: epsilon(-3.58487470752978)
 exiting evolve
   z: 
 9.15533215668857,4.27909620286541,6.21104368577051,4.27909620286541
+$$$   util.sum_prob: 7.18705769350032e-13
+$$$   util.n_tree:   1
+$$$   accept_prob:   7.18705769350032e-13
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 inside init_stepsize()
@@ -377,6 +407,9 @@ inside evolve: epsilon(-1.47063412930485)
 exiting evolve
   z: 
 1.86956197742278,1.93368145123377,-0.464393645298572,1.93368145123377
+$$$   util.sum_prob: 1.03980452063193
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.519902260315967
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 11
@@ -399,6 +432,9 @@ inside evolve: epsilon(15.2482494925883)
 exiting evolve
   z: 
 11677.2089533393,152.821523047896,-1156.94015575997,152.821523047896
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 12
@@ -421,6 +457,9 @@ inside evolve: epsilon(-4.74303656775976)
 exiting evolve
   z: 
 15.7435160025114,5.61133068042001,12.183686932552,5.61133068042001
+$$$   util.sum_prob: 1.02829382805957e-46
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.02829382805957e-46
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 13
@@ -455,6 +494,9 @@ inside evolve: epsilon(-1.07963028717256)
 exiting evolve
   z: 
 0.0643202491320388,0.358664882953541,-0.865285080653229,0.358664882953541
+$$$   util.sum_prob: 1.96549517529984
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.982747587649919
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 14
@@ -478,6 +520,9 @@ inside evolve: epsilon(-3.55117433317508)
 exiting evolve
   z: 
 1.39015586691199,-1.66742668019436,-2.46227647015192,-1.66742668019436
+$$$   util.sum_prob: 0.00753578776066153
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.00753578776066153
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 15
@@ -500,6 +545,9 @@ inside evolve: epsilon(-0.768912968911519)
 exiting evolve
   z: 
 0.0124665181927486,0.1579019834755,0.434499106055137,0.1579019834755
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 16
@@ -522,6 +570,9 @@ inside evolve: epsilon(3.28226819018041)
 exiting evolve
   z: 
 0.688383592841236,1.17335722850395,-1.67437726324593,1.17335722850395
+$$$   util.sum_prob: 0.106294873489163
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.106294873489163
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 17
@@ -556,6 +607,9 @@ inside evolve: epsilon(-0.940064371331708)
 exiting evolve
   z: 
 0.747923429286157,1.22304818325866,0.826589039504396,1.22304818325866
+$$$   util.sum_prob: 1.55318405974109
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.776592029870547
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 18
@@ -578,6 +632,9 @@ inside evolve: epsilon(-2.18341417890577)
 exiting evolve
   z: 
 0.693915566125028,-1.17806244836598,-0.789170318299713,-1.17806244836598
+$$$   util.sum_prob: 0.367870762844173
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.367870762844173
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 19
@@ -601,6 +658,9 @@ inside evolve: epsilon(-1.42534732973337)
 exiting evolve
   z: 
 0.769321965587346,-1.24042086856627,-0.848484092293674,-1.24042086856627
+$$$   util.sum_prob: 0.953936783571862
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.953936783571862
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 inside init_stepsize()
@@ -672,6 +732,9 @@ inside evolve: epsilon(0.746178003599138)
 exiting evolve
   z: 
 0.258761776544178,-0.719391098838703,1.76825556329787,-0.719391098838703
+$$$   util.sum_prob: 1.96759125020056
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.983795625100279
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 21
@@ -694,6 +757,9 @@ inside evolve: epsilon(-17.982919770203)
 exiting evolve
   z: 
 18142.0578921006,190.483899015642,1697.2395078967,190.483899015642
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 22
@@ -716,6 +782,9 @@ inside evolve: epsilon(7.18215816913119)
 exiting evolve
   z: 
 600.113695802472,34.644298111016,-117.077892786377,34.644298111016
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 23
@@ -750,6 +819,9 @@ inside evolve: epsilon(-1.885640456932)
 exiting evolve
   z: 
 4.31349048653108,2.9371722750057,-1.60234375477506,2.9371722750057
+$$$   util.sum_prob: 0.406779427033914
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.203389713516957
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 24
@@ -785,6 +857,9 @@ inside evolve: epsilon(0.731591041605558)
 exiting evolve
   z: 
 0.799621072148692,-1.26461145981577,2.43823857957639,-1.26461145981577
+$$$   util.sum_prob: 1.90104676058601
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.950523380293004
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 25
@@ -807,6 +882,9 @@ inside evolve: epsilon(2.53362247482959)
 exiting evolve
   z: 
 17.2448396347027,5.87279143758787,-2.69356545204269,5.87279143758787
+$$$   util.sum_prob: 1.31839522679992e-07
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.31839522679992e-07
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 26
@@ -829,6 +907,9 @@ inside evolve: epsilon(-0.532366743187396)
 exiting evolve
   z: 
 1.96294074214677,-1.98138372969335,-1.73196246271908,-1.98138372969335
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 27
@@ -851,6 +932,9 @@ inside evolve: epsilon(2.41598955672461)
 exiting evolve
   z: 
 0.460835944160496,-0.960037441103727,1.77243827529282,-0.960037441103727
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 28
@@ -873,6 +957,9 @@ inside evolve: epsilon(11.5025777426356)
 exiting evolve
   z: 
 637.589838993423,35.7096580491447,-200.755996480733,35.7096580491447
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 29
@@ -896,6 +983,9 @@ inside evolve: epsilon(-2.37670882267943)
 exiting evolve
   z: 
 0.0042143050613763,-0.0918074622389302,-0.638569997633925,-0.0918074622389302
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 30
@@ -918,6 +1008,9 @@ inside evolve: epsilon(11.5336358037321)
 exiting evolve
   z: 
 75.0455845551829,12.2511701118859,-69.0991791664696,12.2511701118859
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 31
@@ -940,6 +1033,9 @@ inside evolve: epsilon(2.37602391352854)
 exiting evolve
   z: 
 0.706751139541894,1.18890801960614,-0.631196763820945,1.18890801960614
+$$$   util.sum_prob: 0.50453742810652
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.50453742810652
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 32
@@ -962,6 +1058,9 @@ inside evolve: epsilon(-2.41853493279897)
 exiting evolve
   z: 
 0.470365181037429,-0.969912553828879,-0.646652186713145,-0.969912553828879
+$$$   util.sum_prob: 0.62480563074562
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.62480563074562
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 33
@@ -984,6 +1083,9 @@ inside evolve: epsilon(-3.59462870771157)
 exiting evolve
   z: 
 0.13404146939829,-0.517767263156508,-0.75884031655858,-0.517767263156508
+$$$   util.sum_prob: 0.748746379736122
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.748746379736122
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 34
@@ -1007,6 +1109,9 @@ inside evolve: epsilon(-7.83854960701029)
 exiting evolve
   z: 
 290.868919541387,24.1192420917983,89.9744488772533,24.1192420917983
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 35
@@ -1029,6 +1134,9 @@ inside evolve: epsilon(1.6645417614361)
 exiting evolve
   z: 
 0.0803356706161397,-0.400838298110696,0.435420659657041,-0.400838298110696
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 36
@@ -1051,6 +1159,9 @@ inside evolve: epsilon(7.83345855042938)
 exiting evolve
   z: 
 47.2926178486851,9.72549411070565,-36.2185082122739,9.72549411070565
+$$$   util.sum_prob: 9.50677485720261e-218
+$$$   util.n_tree:   1
+$$$   accept_prob:   9.50677485720261e-218
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 37
@@ -1085,6 +1196,9 @@ inside evolve: epsilon(-1.700578046805)
 exiting evolve
   z: 
 0.0783906273616546,0.395956127270824,-0.888034882990055,0.395956127270824
+$$$   util.sum_prob: 1.79435981490386
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.897179907451932
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 38
@@ -1107,6 +1221,9 @@ inside evolve: epsilon(-5.73207794814655)
 exiting evolve
   z: 
 1.18892681202357,-1.54202906070124,-3.76685666179991,-1.54202906070124
+$$$   util.sum_prob: 0.0252665710312939
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.0252665710312939
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 39
@@ -1130,6 +1247,9 @@ inside evolve: epsilon(1.37861682300274)
 exiting evolve
   z: 
 0.218068152695184,0.660406166983901,-0.853392014343574,0.660406166983901
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 inside init_stepsize()
@@ -1183,6 +1303,9 @@ inside evolve: epsilon(-1.55174655442555)
 exiting evolve
   z: 
 5.94334788545834,-3.44770877118655,-0.254220358289723,-3.44770877118655
+$$$   util.sum_prob: 0.0230708473207375
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.0230708473207375
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 41
@@ -1205,6 +1328,9 @@ inside evolve: epsilon(-6.51966037525221)
 exiting evolve
   z: 
 297.400696361784,-24.3885504432627,-75.9893929651842,-24.3885504432627
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 42
@@ -1227,6 +1353,9 @@ inside evolve: epsilon(-1.55165500045844)
 exiting evolve
   z: 
 0.929175140177341,-1.36321321896271,0.134898357329507,-1.36321321896271
+$$$   util.sum_prob: 0.626193699211419
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.626193699211419
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 43
@@ -1249,6 +1378,9 @@ inside evolve: epsilon(-1.60804141039222)
 exiting evolve
   z: 
 1.00059005219679,-1.414630730754,0.0425461371337139,-1.414630730754
+$$$   util.sum_prob: 0.575093331755982
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.575093331755982
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 44
@@ -1272,6 +1404,9 @@ inside evolve: epsilon(-1.69188932977547)
 exiting evolve
   z: 
 0.249936290772562,-0.707016676992222,-0.980529922111502,-0.707016676992222
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 45
@@ -1294,6 +1429,9 @@ inside evolve: epsilon(6.82205107001825)
 exiting evolve
   z: 
 421.044716263013,29.0187772403667,-94.9995153485481,29.0187772403667
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 46
@@ -1328,6 +1466,9 @@ inside evolve: epsilon(1.44348008306119)
 exiting evolve
   z: 
 0.29586209440307,-0.769236107320853,-0.270429156283338,-0.769236107320853
+$$$   util.sum_prob: 1.9741762839244
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.987088141962202
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 47
@@ -1350,6 +1491,9 @@ inside evolve: epsilon(-6.32050466738641)
 exiting evolve
   z: 
 209.471468995019,-20.468095612197,-61.6334747174661,-20.468095612197
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 48
@@ -1384,6 +1528,9 @@ inside evolve: epsilon(1.30184192352689)
 exiting evolve
   z: 
 0.166087908542729,0.576346958945268,0.53557426977195,0.576346958945268
+$$$   util.sum_prob: 1.96944159591042
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.984720797955208
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 49
@@ -1413,6 +1560,9 @@ inside evolve: epsilon(-5.94465795266934)
 exiting evolve
   z: 
 162.003593420028,18.000199633339,50.6288947150061,18.000199633339
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 50
@@ -1447,6 +1597,9 @@ inside evolve: epsilon(1.22143022240401)
 exiting evolve
   z: 
 1.00072229771381,-1.41472421179098,-1.23723217415227,-1.41472421179098
+$$$   util.sum_prob: 1.47151765895694
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.735758829478469
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 51
@@ -1469,6 +1622,9 @@ inside evolve: epsilon(-2.57949918526597)
 exiting evolve
   z: 
 33.6024309417704,8.19785715193555,7.42546359537724,8.19785715193555
+$$$   util.sum_prob: 4.32000641023123e-27
+$$$   util.n_tree:   1
+$$$   accept_prob:   4.32000641023123e-27
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 52
@@ -1503,6 +1659,9 @@ inside evolve: epsilon(-0.537086724066504)
 exiting evolve
   z: 
 0.0567704936656005,-0.336958435613654,-0.546532721509531,-0.336958435613654
+$$$   util.sum_prob: 2
+$$$   util.n_tree:   2
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 53
@@ -1525,6 +1684,9 @@ inside evolve: epsilon(-2.61405924903658)
 exiting evolve
   z: 
 0.765091606169664,1.23700574466707,0.99387045725916,1.23700574466707
+$$$   util.sum_prob: 0.315650558937061
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.315650558937061
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 54
@@ -1548,6 +1710,9 @@ inside evolve: epsilon(-1.4856803692742)
 exiting evolve
   z: 
 2.01262888191604,2.00630450426451,-0.0791671061928321,2.00630450426451
+$$$   util.sum_prob: 0.324544928591582
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.324544928591582
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 55
@@ -1582,6 +1747,9 @@ inside evolve: epsilon(0.87549896132472)
 exiting evolve
   z: 
 2.33681472667759,-2.16185787075727,0.19761182927164,-2.16185787075727
+$$$   util.sum_prob: 1.93431813941568
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.967159069707842
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 56
@@ -1604,6 +1772,9 @@ inside evolve: epsilon(-3.75980400375976)
 exiting evolve
   z: 
 19.9911856082098,-6.32316148903534,-10.2316109662871,-6.32316148903534
+$$$   util.sum_prob: 4.37058346227884e-34
+$$$   util.n_tree:   1
+$$$   accept_prob:   4.37058346227884e-34
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 57
@@ -1626,6 +1797,9 @@ inside evolve: epsilon(-0.825126651375545)
 exiting evolve
   z: 
 0.0152540884308252,0.174665900683706,0.413963703626271,0.174665900683706
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 58
@@ -1648,6 +1822,9 @@ inside evolve: epsilon(-3.84115990231367)
 exiting evolve
   z: 
 23.8378642776889,-6.90476129604621,-11.575887625777,-6.90476129604621
+$$$   util.sum_prob: 1.83782935516621e-42
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.83782935516621e-42
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 59
@@ -1683,6 +1860,9 @@ inside evolve: epsilon(0.864080521576159)
 exiting evolve
   z: 
 0.133048700868871,-0.515846296621136,0.828304875996884,-0.515846296621136
+$$$   util.sum_prob: 1.86520143388574
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.932600716942871
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 60
@@ -1705,6 +1885,9 @@ inside evolve: epsilon(3.21368842735812)
 exiting evolve
   z: 
 42.4201226192408,9.21087646418524,-11.9600999764338,9.21087646418524
+$$$   util.sum_prob: 2.21236821065853e-52
+$$$   util.n_tree:   1
+$$$   accept_prob:   2.21236821065853e-52
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 61
@@ -1739,6 +1922,9 @@ inside evolve: epsilon(-0.742547589602785)
 exiting evolve
   z: 
 0.0711080471196944,-0.37711549191115,-0.688302578225968,-0.37711549191115
+$$$   util.sum_prob: 1.99393417103415
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.996967085517075
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 62
@@ -1761,6 +1947,9 @@ inside evolve: epsilon(-3.27032347065414)
 exiting evolve
   z: 
 25.0773763596831,7.08200202763076,9.5285727843326,7.08200202763076
+$$$   util.sum_prob: 1.56808346391898e-32
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.56808346391898e-32
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 63
@@ -1795,6 +1984,9 @@ inside evolve: epsilon(0.774805198163293)
 exiting evolve
   z: 
 0.0776369338466329,0.394048052518047,-0.0888457340248669,0.394048052518047
+$$$   util.sum_prob: 1.98854177111937
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.994270885559685
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 64
@@ -1818,6 +2010,9 @@ inside evolve: epsilon(-3.30292239885201)
 exiting evolve
   z: 
 0.11980366082506,0.48949700882653,0.690230959001056,0.48949700882653
+$$$   util.sum_prob: 0.703651705501222
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.703651705501222
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 65
@@ -1846,6 +2041,9 @@ inside evolve: epsilon(5.98874691693501)
 exiting evolve
   z: 
 54055.5837036599,328.802626825456,-933.004090962835,328.802626825456
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 66
@@ -1880,6 +2078,9 @@ inside evolve: epsilon(-1.46463114613931)
 exiting evolve
   z: 
 0.532367199893392,-1.03185968027963,0.867216146297884,-1.03185968027963
+$$$   util.sum_prob: 1.30695286618277
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.653476433091385
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 67
@@ -1902,6 +2103,9 @@ inside evolve: epsilon(-2.29957181282804)
 exiting evolve
   z: 
 0.085986537163941,-0.414696364015748,-0.117273757965213,-0.414696364015748
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 68
@@ -1924,6 +2128,9 @@ inside evolve: epsilon(9.4060578478624)
 exiting evolve
   z: 
 455.853431119489,30.1944839704039,-139.02992943982,30.1944839704039
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 69
@@ -1947,6 +2154,9 @@ inside evolve: epsilon(2.37440001845634)
 exiting evolve
   z: 
 18.8548990598534,6.14083040961943,-4.7658408871714,6.14083040961943
+$$$   util.sum_prob: 2.72670878398621e-13
+$$$   util.n_tree:   1
+$$$   accept_prob:   2.72670878398621e-13
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 70
@@ -1981,6 +2191,9 @@ inside evolve: epsilon(0.6132881632058)
 exiting evolve
   z: 
 0.138376551315372,-0.526073286368682,0.6004247688652,-0.526073286368682
+$$$   util.sum_prob: 1.9691764427606
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.984588221380301
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 71
@@ -2003,6 +2216,9 @@ inside evolve: epsilon(-2.34881472952879)
 exiting evolve
   z: 
 18.5657502410712,6.09356221615423,4.48141050659073,6.09356221615423
+$$$   util.sum_prob: 1.0866012065227e-12
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.0866012065227e-12
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 72
@@ -2025,6 +2241,9 @@ inside evolve: epsilon(-0.620334128638344)
 exiting evolve
   z: 
 0.00115153733843903,0.0479903602495132,-1.20199982548044,0.0479903602495132
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 73
@@ -2047,6 +2266,9 @@ inside evolve: epsilon(2.42192514583027)
 exiting evolve
   z: 
 0.121383070835367,0.492713041912565,-0.428753706085171,0.492713041912565
+$$$   util.sum_prob: 0.824631507433226
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.824631507433226
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 74
@@ -2076,6 +2298,9 @@ inside evolve: epsilon(5.81181428599615)
 exiting evolve
   z: 
 12469.0099149248,157.917762869949,-433.33540315159,157.917762869949
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 75
@@ -2098,6 +2323,9 @@ inside evolve: epsilon(-1.57304505390829)
 exiting evolve
   z: 
 0.810397696892007,1.27310462797997,0.547695011246884,1.27310462797997
+$$$   util.sum_prob: 0.627417007264636
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.627417007264636
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 76
@@ -2120,6 +2348,9 @@ inside evolve: epsilon(2.23312536751348)
 exiting evolve
   z: 
 24.650091413265,-7.02140889184856,4.44352314497956,-7.02140889184856
+$$$   util.sum_prob: 7.6509470879166e-15
+$$$   util.n_tree:   1
+$$$   accept_prob:   7.6509470879166e-15
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 77
@@ -2142,6 +2373,9 @@ inside evolve: epsilon(-0.621432628560793)
 exiting evolve
   z: 
 2.53301293526245,2.25078339040542,-0.739221238557425,2.25078339040542
+$$$   util.sum_prob: 0.833701147147017
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.833701147147017
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 78
@@ -2164,6 +2398,9 @@ inside evolve: epsilon(-1.50099503728262)
 exiting evolve
   z: 
 0.358889600870214,0.847218508851423,1.49087065250461,0.847218508851423
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 79
@@ -2187,6 +2424,9 @@ inside evolve: epsilon(5.46506402200709)
 exiting evolve
   z: 
 179.422745371597,-18.9432175393515,48.4517064942322,-18.9432175393515
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ************************************************************
 inside init_stepsize()
@@ -2240,6 +2480,9 @@ inside evolve: epsilon(6.21895666339513)
 exiting evolve
   z: 
 92.3647870429986,-13.5915258189063,38.9269373748823,-13.5915258189063
+$$$   util.sum_prob: 1.2237502219714e-269
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.2237502219714e-269
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 81
@@ -2262,6 +2505,9 @@ inside evolve: epsilon(25.0555744969101)
 exiting evolve
   z: 
 17336.0729594654,-186.204580821555,2322.00576589443,-186.204580821555
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 82
@@ -2284,6 +2530,9 @@ inside evolve: epsilon(-5.88946194393794)
 exiting evolve
   z: 
 42.6763720618676,-9.23865488714322,-24.7449727758793,-9.23865488714322
+$$$   util.sum_prob: 1.18740027168016e-111
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.18740027168016e-111
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 83
@@ -2306,6 +2555,9 @@ inside evolve: epsilon(-1.14241783175709)
 exiting evolve
   z: 
 0.58307169954045,-1.07988119674384,1.80666533264943,-1.07988119674384
+$$$   util.sum_prob: 0.95036159017264
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.95036159017264
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 84
@@ -2329,6 +2581,9 @@ inside evolve: epsilon(-3.09943662607183)
 exiting evolve
   z: 
 1.21722273926021,1.56027096317288,1.19418015943281,1.56027096317288
+$$$   util.sum_prob: 0.346432128297567
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.346432128297567
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 85
@@ -2363,6 +2618,9 @@ inside evolve: epsilon(1.72102354487777)
 exiting evolve
   z: 
 0.936858865927094,1.36883809555922,1.20157178013249,1.36883809555922
+$$$   util.sum_prob: 2
+$$$   util.n_tree:   2
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 86
@@ -2385,6 +2643,9 @@ inside evolve: epsilon(-7.22152774525402)
 exiting evolve
   z: 
 427.987618262241,29.2570544745106,99.5655787147122,29.2570544745106
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 87
@@ -2419,6 +2680,9 @@ inside evolve: epsilon(1.46965679016038)
 exiting evolve
   z: 
 0.00537708386550097,-0.103702303402586,-1.74974830953058,-0.103702303402586
+$$$   util.sum_prob: 1.75718988409484
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.878594942047418
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 88
@@ -2447,6 +2711,9 @@ inside evolve: epsilon(4.65845489000369)
 exiting evolve
   z: 
 517.830864674075,32.181698670955,-64.2530673469319,32.181698670955
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 89
@@ -2470,6 +2737,9 @@ inside evolve: epsilon(0.948573567531819)
 exiting evolve
   z: 
 0.309604628405614,0.78689850477125,-0.665409422110609,0.78689850477125
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 90
@@ -2492,6 +2762,9 @@ inside evolve: epsilon(4.58384070919077)
 exiting evolve
   z: 
 31.5836385664317,-7.94778441660715,15.4780132179351,-7.94778441660715
+$$$   util.sum_prob: 2.18996627462881e-50
+$$$   util.n_tree:   1
+$$$   accept_prob:   2.18996627462881e-50
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 91
@@ -2526,6 +2799,9 @@ inside evolve: epsilon(-0.947574505322184)
 exiting evolve
   z: 
 1.10233937025272,1.48481606285272,0.957158328557584,1.48481606285272
+$$$   util.sum_prob: 1.73151510085862
+$$$   util.n_tree:   2
+$$$   accept_prob:   0.865757550429308
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 92
@@ -2548,6 +2824,9 @@ inside evolve: epsilon(-3.03612162600958)
 exiting evolve
   z: 
 0.059118254955902,-0.343855361906433,-0.629061938348299,-0.343855361906433
+$$$   util.sum_prob: 1
+$$$   util.n_tree:   1
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 93
@@ -2570,6 +2849,9 @@ inside evolve: epsilon(-14.7546812909023)
 exiting evolve
   z: 
 107.453932283748,14.6597361697779,106.688936286942,14.6597361697779
+$$$   util.sum_prob: 0
+$$$   util.n_tree:   1
+$$$   accept_prob:   0
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 94
@@ -2593,6 +2875,9 @@ inside evolve: epsilon(3.12812967429112)
 exiting evolve
   z: 
 17.579286726094,5.92946654027056,-6.39284499705784,5.92946654027056
+$$$   util.sum_prob: 1.10686805173363e-13
+$$$   util.n_tree:   1
+$$$   accept_prob:   1.10686805173363e-13
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 95
@@ -2615,6 +2900,9 @@ inside evolve: epsilon(-0.67712059059836)
 exiting evolve
   z: 
 0.138039526442972,-0.525432253374252,0.207373940136414,-0.525432253374252
+$$$   util.sum_prob: 0.993723244713232
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.993723244713232
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 96
@@ -2637,6 +2925,9 @@ inside evolve: epsilon(3.19170355026026)
 exiting evolve
   z: 
 4.02496938717258,2.83724140219777,-3.01416297300255,2.83724140219777
+$$$   util.sum_prob: 0.00101778116526135
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.00101778116526135
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 97
@@ -2659,6 +2950,9 @@ inside evolve: epsilon(-0.710748855447025)
 exiting evolve
   z: 
 1.37849567966892,-1.6604190312502,1.70417034884549,-1.6604190312502
+$$$   util.sum_prob: 0.896693748926152
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.896693748926152
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 98
@@ -2681,6 +2975,9 @@ inside evolve: epsilon(-2.44836179702545)
 exiting evolve
   z: 
 9.2854853776821,4.30940491893767,1.77240923320218,4.30940491893767
+$$$   util.sum_prob: 0.000261834549297312
+$$$   util.n_tree:   1
+$$$   accept_prob:   0.000261834549297312
 $$$$$$$$$$$$$$$$$$$$ exiting transition
 ^^^^^^^^^^^^^^^^^^^^  running markov chain
   iteration: 99
@@ -2740,4 +3037,7 @@ inside evolve: epsilon(0.559393424246117)
 exiting evolve
   z: 
 1.345234318504,1.64026480697722,-0.300614403754383,1.64026480697722
+$$$   util.sum_prob: 4
+$$$   util.n_tree:   4
+$$$   accept_prob:   1
 $$$$$$$$$$$$$$$$$$$$ exiting transition
