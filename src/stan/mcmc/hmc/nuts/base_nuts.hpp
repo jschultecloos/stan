@@ -208,8 +208,17 @@ namespace stan {
           if (h != h) h = std::numeric_limits<double>::infinity();
           
           util.criterion = util.log_u + (h - util.H0) < this->_max_delta;
+          std::cout << "-------------------- updating util.sum_prob." << std::endl
+                    << "                  ** pre:     " << util.sum_prob << std::endl
+                    << "                     util.H0: " << util.H0 << std::endl
+                    << "                     h:       " << h << std::endl
+                    << "                     exp(dif):" << std::exp(util.H0-h) << std::endl
+                    << "                     min:     " << stan::math::min(1, std::exp(util.H0 -h)) << std::endl;
 
+            
           util.sum_prob += stan::math::min(1, std::exp(util.H0 - h));
+          std::cout << "                  ** post:    " << util.sum_prob << std::endl;
+
           util.n_tree += 1;
           
           return (util.log_u + (h - util.H0) < 0);
