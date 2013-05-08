@@ -29,8 +29,17 @@ namespace stan {
         sample s = diag_e_nuts<M, BaseRNG>::transition(init_sample);
         
         if (this->_adapt_flag) {
-        
+          std::cout << "************************************************************" << std::endl
+                    << "************************************************************" << std::endl
+                    << "************************************************************" << std::endl;
+          std::cout << std::endl
+                    << "  learn stepsize:" << std::endl;
           this->_stepsize_adaptation.learn_stepsize(this->_nom_epsilon, s.accept_stat());
+          
+          std::cout << std::endl;
+          std::cout << "************************************************************" << std::endl
+                    << "************************************************************" << std::endl
+                    << "************************************************************" << std::endl;
           
           bool update = this->_var_adaptation.learn_variance(this->_z.mInv, this->_z.q);
           
