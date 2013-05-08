@@ -75,6 +75,14 @@ namespace stan {
           
           double delta_H = H0 - h;
           
+          std::cout << "&&&&&&&&&&&&&&&&&&&&" << std::endl
+                    << "counter:       " << counter << std::endl
+                    << "direction:     " << direction << std::endl
+                    << "delta_H:       " << delta_H << std::endl
+                    << "std::log(0.5): " << std::log(0.5) << std::endl
+                    << "H0:            " << H0 << std::endl
+                    << "h:             " << h << std::endl
+                    << "&&&&&&&&&&&&&&&&&&&&" << std::endl;
           if ((direction == 1) && !(delta_H > std::log(0.5)))
             break;
           else if ((direction == -1) && !(delta_H < std::log(0.5)))
