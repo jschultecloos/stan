@@ -40,6 +40,7 @@ namespace stan {
         std::cout.precision(15);
         std::cout << "************************************************************" << std::endl;
         std::cout << "inside init_stepsize()" << std::endl;
+        std::cout << "---------- initial stepsize: " << this->_nom_epsilon << std::endl;
         
         ps_point z_init(static_cast<ps_point>(this->_z));
   
