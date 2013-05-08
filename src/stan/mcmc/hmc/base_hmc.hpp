@@ -75,7 +75,7 @@ namespace stan {
           std::cout << "H0:   " << H0 << std::endl;
           
           this->_integrator.evolve(this->_z, this->_hamiltonian, this->_nom_epsilon);
-
+          std::cout << "epsilon:       " << this->_nom_epsilon << std::endl;
           std::cout << "post evolve z: " << std::endl
                     << "   q: " << this->_z.q[0] << std::endl
                     << "   p: " << this->_z.p(0) << std::endl
