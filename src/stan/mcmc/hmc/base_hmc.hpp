@@ -65,21 +65,21 @@ namespace stan {
           
           this->_hamiltonian.sample_p(this->_z, this->_rand_int);
           this->_hamiltonian.init(this->_z);
+          double H0 = this->_hamiltonian.H(this->_z);
+
           std::cout << "((((((((((((((((((((" << std::endl
                     << "z: " << std::endl
+                    << "   V: " << this->_z.V << std::endl
                     << "   q: " << this->_z.q[0] << std::endl
                     << "   p: " << this->_z.p(0) << std::endl
-                    << "   V: " << this->_z.V << std::endl
                     << "   g: " << this->_z.g(0) << std::endl;
-          double H0 = this->_hamiltonian.H(this->_z);
           std::cout << "H0:   " << H0 << std::endl;
-          
           this->_integrator.evolve(this->_z, this->_hamiltonian, this->_nom_epsilon);
           std::cout << "epsilon:       " << this->_nom_epsilon << std::endl;
           std::cout << "post evolve z: " << std::endl
+                    << "   V: " << this->_z.V << std::endl
                     << "   q: " << this->_z.q[0] << std::endl
                     << "   p: " << this->_z.p(0) << std::endl
-                    << "   V: " << this->_z.V << std::endl
                     << "   g: " << this->_z.g(0) << std::endl;          
 
           double h = this->_hamiltonian.H(this->_z);
