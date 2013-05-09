@@ -17732,8 +17732,8 @@ Iteration: 995 / 1000 [ 99%]  (Sampling)
   iteration: 499
 Iteration: 1000 / 1000 [100%]  (Sampling)
 
-Elapsed Time: 0.078 seconds (Warm Up)
+Elapsed Time: 0.109 seconds (Warm Up)
               0.015 seconds (Sampling)
-              0.093 seconds (Total)
+              0.124 seconds (Total)
 
 
