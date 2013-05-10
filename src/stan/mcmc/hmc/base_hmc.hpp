@@ -9,7 +9,6 @@
 
 #include <stan/mcmc/base_mcmc.hpp>
 #include <stan/mcmc/hmc/hamiltonians/ps_point.hpp>
-#include <stan/mcmc/hmc/hamiltonians/diag_e_point.hpp>
 
 namespace stan {
 
@@ -75,7 +74,7 @@ namespace stan {
                     << "   p: " << this->_z.p(0) << std::endl
           << "   g: " << this->_z.g(0) << std::endl;
 this->_z.write_metric(std::cout);
-//<< "   mInv: " << this->_z.mInv << std::endl;
+
           std::cout << "H0:   " << H0 << std::endl;
           this->_integrator.evolve(this->_z, this->_hamiltonian, this->_nom_epsilon);
           std::cout << "epsilon:       " << this->_nom_epsilon << std::endl;
@@ -84,7 +83,7 @@ this->_z.write_metric(std::cout);
                     << "   q: " << this->_z.q[0] << std::endl
                     << "   p: " << this->_z.p(0) << std::endl
           << "   g: " << this->_z.g(0) << std::endl;
-//<< "   mInv: " << static_cast<stan::mcmc::diag_e_point>(this->_z).mInv << std::endl;          
+this->_z.write_metric(std::cout);
 
           double h = this->_hamiltonian.H(this->_z);
           std::cout << "h:    " << h << std::endl;
