@@ -9,6 +9,7 @@
 
 #include <stan/mcmc/base_mcmc.hpp>
 #include <stan/mcmc/hmc/hamiltonians/ps_point.hpp>
+#include <stan/mcmc/hmc/hamiltonians/diag_e_point.hpp>
 
 namespace stan {
 
