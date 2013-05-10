@@ -26139,8 +26139,8 @@ exiting evolve
   z: 
 1.33989821540582,1.63700837835719,-0.466411453480458,1.63700837835719
 
-Elapsed Time: 0.099397 seconds (Warm Up)
-              0.050647 seconds (Sampling)
-              0.150044 seconds (Total)
+Elapsed Time: 0.097266 seconds (Warm Up)
+              0.048349 seconds (Sampling)
+              0.145615 seconds (Total)
 
 
