@@ -83,7 +83,7 @@ namespace stan {
                     << "   q: " << this->_z.q[0] << std::endl
                     << "   p: " << this->_z.p(0) << std::endl
                     << "   g: " << this->_z.g(0) << std::endl
-                    << "   mInv: " << static_cast<stan::mcmc::diag_e_point>(this->_z.mInv) << std::endl;          
+                    << "   mInv: " << static_cast<stan::mcmc::diag_e_point>(this->_z).mInv << std::endl;          
 
           double h = this->_hamiltonian.H(this->_z);
           std::cout << "h:    " << h << std::endl;
