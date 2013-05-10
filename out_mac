@@ -30,6 +30,8 @@ z:
    q: 1.9987371246756
    p: 2.0659143535508
    g: 1.9987371246756
+# Diagonal elements of inverse mass matrix:
+# 1
 H0:   4.13147610488185
 inside evolve: epsilon(0.1)
   z: 
@@ -61,6 +63,8 @@ z:
    q: 1.9987371246756
    p: -0.342050534618096
    g: 1.9987371246756
+# Diagonal elements of inverse mass matrix:
+# 1
 H0:   2.05597433089451
 inside evolve: epsilon(0.2)
   z: 
@@ -92,6 +96,8 @@ z:
    q: 1.9987371246756
    p: -0.252297762923465
    g: 1.9987371246756
+# Diagonal elements of inverse mass matrix:
+# 1
 H0:   2.02930212736634
 inside evolve: epsilon(0.4)
   z: 
@@ -123,6 +129,8 @@ z:
    q: 1.9987371246756
    p: -0.878839769360929
    g: 1.9987371246756
+# Diagonal elements of inverse mass matrix:
+# 1
 H0:   2.38365471688343
 inside evolve: epsilon(0.8)
   z: 
@@ -154,6 +162,8 @@ z:
    q: 1.9987371246756
    p: 0.166472881075969
    g: 1.9987371246756
+# Diagonal elements of inverse mass matrix:
+# 1
 H0:   2.01133165684511
 inside evolve: epsilon(1.6)
   z: 
@@ -185,6 +195,8 @@ z:
    q: 1.9987371246756
    p: -0.0435736889897278
    g: 1.9987371246756
+# Diagonal elements of inverse mass matrix:
+# 1
 H0:   1.99842437996433
 inside evolve: epsilon(3.2)
   z: 
@@ -631,6 +643,8 @@ z:
    q: -0.951121955533508
    p: 0.614783022703874
    g: -0.951121955533508
+# Diagonal elements of inverse mass matrix:
+# 1.23130202804217
 H0:   0.685006814691764
 inside evolve: epsilon(0.735317064652427)
   z: 
@@ -662,6 +676,8 @@ z:
    q: -0.951121955533508
    p: 0.830436306918079
    g: -0.951121955533508
+# Diagonal elements of inverse mass matrix:
+# 1.23130202804217
 H0:   0.876884485147944
 inside evolve: epsilon(1.47063412930485)
   z: 
@@ -1114,6 +1130,8 @@ z:
    q: -1.24042086856627
    p: -1.27238744488635
    g: -1.24042086856627
+# Diagonal elements of inverse mass matrix:
+# 0.68994946364156
 H0:   1.32782564158506
 inside evolve: epsilon(5.96942402879311)
   z: 
@@ -1145,6 +1163,8 @@ z:
    q: -1.24042086856627
    p: 2.21293144367733
    g: -1.24042086856627
+# Diagonal elements of inverse mass matrix:
+# 0.68994946364156
 H0:   2.45868584883022
 inside evolve: epsilon(2.98471201439655)
   z: 
@@ -1176,6 +1196,8 @@ z:
    q: -1.24042086856627
    p: -2.16529013871615
    g: -1.24042086856627
+# Diagonal elements of inverse mass matrix:
+# 0.68994946364156
 H0:   2.38672957396282
 inside evolve: epsilon(1.49235600719828)
   z: 
@@ -1207,6 +1229,8 @@ z:
    q: -1.24042086856627
    p: -0.752772162004297
    g: -1.24042086856627
+# Diagonal elements of inverse mass matrix:
+# 0.68994946364156
 H0:   0.964807392092697
 inside evolve: epsilon(0.746178003599138)
   z: 
@@ -2053,6 +2077,8 @@ z:
    q: 0.660406166983901
    p: 0.913798038349958
    g: 0.660406166983901
+# Diagonal elements of inverse mass matrix:
+# 1.09362696627516
 H0:   0.674672095732225
 inside evolve: epsilon(6.20698621770218)
   z: 
@@ -2084,6 +2110,8 @@ z:
    q: 0.660406166983901
    p: -0.52949824772421
    g: 0.660406166983901
+# Diagonal elements of inverse mass matrix:
+# 1.09362696627516
 H0:   0.371377370967575
 inside evolve: epsilon(3.10349310885109)
   z: 
@@ -2115,6 +2143,8 @@ z:
    q: 0.660406166983901
    p: -0.385657106295258
    g: 0.660406166983901
+# Diagonal elements of inverse mass matrix:
+# 1.09362696627516
 H0:   0.299396489569344
 inside evolve: epsilon(1.55174655442555)
   z: 
@@ -3815,6 +3845,8 @@ z:
    q: 0.847218508851423
    p: -1.0641567236816
    g: 0.847218508851423
+# Diagonal elements of inverse mass matrix:
+# 0.696042297908377
 H0:   0.75299902790027
 inside evolve: epsilon(1.55473916584878)
   z: 
@@ -3846,6 +3878,8 @@ z:
    q: 0.847218508851423
    p: 0.565914611740983
    g: 0.847218508851423
+# Diagonal elements of inverse mass matrix:
+# 0.696042297908377
 H0:   0.470346627048607
 inside evolve: epsilon(3.10947833169756)
   z: 
@@ -3877,6 +3911,8 @@ z:
    q: 0.847218508851423
    p: -0.206935640687461
    g: 0.847218508851423
+# Diagonal elements of inverse mass matrix:
+# 0.696042297908377
 H0:   0.373792687584913
 inside evolve: epsilon(6.21895666339513)
   z: 
@@ -7273,6 +7309,8 @@ z:
    q: 1.27097196280777
    p: -0.159996782671291
    g: 1.27097196280777
+# Diagonal elements of inverse mass matrix:
+# 0.733184698671436
 H0:   0.817069251845121
 inside evolve: epsilon(2.40769920051673)
   z: 
@@ -7304,6 +7342,8 @@ z:
    q: 1.27097196280777
    p: -0.477556744561382
    g: 1.27097196280777
+# Diagonal elements of inverse mass matrix:
+# 0.733184698671436
 H0:   0.891290079179431
 inside evolve: epsilon(1.20384960025837)
   z: 
@@ -19094,6 +19134,8 @@ z:
    q: -0.388070564993839
    p: 0.0526860742786279
    g: -0.388070564993839
+# Diagonal elements of inverse mass matrix:
+# 0.85989347363506
 H0:   0.0764928375000265
 inside evolve: epsilon(5.6124376940895)
   z: 
@@ -19125,6 +19167,8 @@ z:
    q: -0.388070564993839
    p: -0.337121488806884
    g: -0.388070564993839
+# Diagonal elements of inverse mass matrix:
+# 0.85989347363506
 H0:   0.124163214531398
 inside evolve: epsilon(2.80621884704475)
   z: 
@@ -26139,8 +26183,8 @@ exiting evolve
   z: 
 1.33989821540582,1.63700837835719,-0.466411453480458,1.63700837835719
 
-Elapsed Time: 0.097834 seconds (Warm Up)
-              0.049062 seconds (Sampling)
-              0.146896 seconds (Total)
+Elapsed Time: 0.100114 seconds (Warm Up)
+              0.049772 seconds (Sampling)
+              0.149886 seconds (Total)
 
 

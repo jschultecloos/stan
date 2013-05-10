@@ -73,8 +73,9 @@ namespace stan {
                     << "   V: " << this->_z.V << std::endl
                     << "   q: " << this->_z.q[0] << std::endl
                     << "   p: " << this->_z.p(0) << std::endl
-                    << "   g: " << this->_z.g(0) << std::endl
-                    << "   mInv: " << this->_z.mInv << std::endl;
+          << "   g: " << this->_z.g(0) << std::endl;
+this->_z.write_metric(std::cout);
+//<< "   mInv: " << this->_z.mInv << std::endl;
           std::cout << "H0:   " << H0 << std::endl;
           this->_integrator.evolve(this->_z, this->_hamiltonian, this->_nom_epsilon);
           std::cout << "epsilon:       " << this->_nom_epsilon << std::endl;
@@ -82,8 +83,8 @@ namespace stan {
                     << "   V: " << this->_z.V << std::endl
                     << "   q: " << this->_z.q[0] << std::endl
                     << "   p: " << this->_z.p(0) << std::endl
-                    << "   g: " << this->_z.g(0) << std::endl
-                    << "   mInv: " << static_cast<stan::mcmc::diag_e_point>(this->_z).mInv << std::endl;          
+          << "   g: " << this->_z.g(0) << std::endl;
+//<< "   mInv: " << static_cast<stan::mcmc::diag_e_point>(this->_z).mInv << std::endl;          
 
           double h = this->_hamiltonian.H(this->_z);
           std::cout << "h:    " << h << std::endl;
