@@ -20,6 +20,7 @@ namespace stan {
         std::cout << "inside evolve: epsilon(" << epsilon << ")" << std::endl
                   << "  z: " << std::endl;
         z.write(std::cout);
+        std::cout << std::endl;
         z.write_metric(std::cout);
         std::cout << std::endl;
         begin_update_p(z, hamiltonian, 0.5 * epsilon);
@@ -31,6 +32,7 @@ namespace stan {
         std::cout << "exiting evolve" << std::endl
                   << "  z: " << std::endl;
         z.write(std::cout);
+        std::cout << std::endl;
         z.write_metric(std::cout);
         std::cout << std::endl;
       }
